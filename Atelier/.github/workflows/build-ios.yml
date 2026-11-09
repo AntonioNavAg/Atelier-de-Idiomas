@@ -1,0 +1,39 @@
+name: Compilar iOS
+
+on:
+  workflow_dispatch: # Te permite lanzarlo manualmente con un botón en GitHub
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependencias y sincronizar Capacitor
+        run: |
+          npm install
+          npx cap sync ios
+
+      - name: Compilar proyecto iOS (sin firma de Apple)
+        run: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace -scheme App -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO -derivedDataPath build
+
+      - name: Empaquetar como .ipa
+        run: |
+          mkdir -p Payload
+          cp -r ios/App/build/Build/Products/Release-iphoneos/App.app Payload/
+          zip -r AprenderFrances.ipa Payload
+
+      - name: Subir archivo .ipa para descargar
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-ios-ipa
+          path: AprenderFrances.ipa
