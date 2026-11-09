@@ -1,0 +1,42 @@
+/* Ejercicios guiados: la traducción y la indicación fijan el sentido buscado. */
+(() => {
+const source=`à|Lugar y movimiento|A1|a, en|Con ciudades se usa à. Con le/les se contrae en au/aux.|J’habite _____ Paris.|Vivo en París.|Elle va _____ Lyon.|Ella va a Lyon.|en,dans,de
+de|Lugar y movimiento|A1|de, desde|Indica procedencia. Ante vocal: d’. Con le/les: du/des.|Je viens _____ Madrid.|Vengo de Madrid.|Il revient _____ Berlin.|Vuelve de Berlín.|à,en,chez
+en|Lugar y movimiento|A1|en, a|Con países femeninos: en France. También con países masculinos que empiezan por vocal: en Iran.|Elle habite _____ France.|Ella vive en Francia.|Nous allons _____ Italie.|Vamos a Italia.|à,au,aux
+chez|Lugar y movimiento|A1|en casa de, a casa de|Se usa con personas o profesionales: chez Léa, chez le médecin.|Je dors _____ Léa.|Duermo en casa de Léa.|Il va _____ le dentiste.|Va al dentista.|dans,sur,entre
+dans|Lugar y movimiento|A1|dentro de|Sitúa algo en el interior de un espacio delimitado.|La clé est _____ la boîte.|La llave está dentro de la caja.|Le lait est _____ le réfrigérateur.|La leche está dentro de la nevera.|sur,sous,derrière
+sur|Lugar y movimiento|A1|sobre, encima de|En estos ejemplos hay contacto con una superficie.|Le livre est _____ la table.|El libro está sobre la mesa.|Le chat dort _____ le canapé.|El gato duerme encima del sofá.|sous,derrière,entre
+sous|Lugar y movimiento|A1|debajo de|Indica una posición inferior.|Le chat se cache _____ le lit.|El gato se esconde debajo de la cama.|Mes chaussures sont _____ la chaise.|Mis zapatos están debajo de la silla.|sur,devant,dans
+devant|Lugar y movimiento|A1|delante de|Posición delante de un punto de referencia; no significa antes en el tiempo.|Paul attend _____ la porte.|Paul espera delante de la puerta.|Le taxi est _____ la maison.|El taxi está delante de la casa.|derrière,sous,dans
+derrière|Lugar y movimiento|A1|detrás de|Es la relación espacial opuesta a devant.|Le jardin est _____ la maison.|El jardín está detrás de la casa.|Léa est _____ Paul.|Léa está detrás de Paul.|devant,sur,entre
+entre|Lugar y movimiento|A1|entre|Relaciona la posición con dos referencias unidas por et.|La banque est _____ la gare et la poste.|El banco está entre la estación y correos.|Je suis assis _____ Léa et Paul.|Estoy sentado entre Léa y Paul.|parmi,sous,chez
+parmi|Lugar y movimiento|A2|entre, en medio de un conjunto|Se usa con un conjunto plural, sin delimitar dos extremos.|Il cherche Léa _____ les invités.|Busca a Léa entre los invitados.|Elle se trouve _____ les spectateurs.|Ella se encuentra entre los espectadores.|entre,sur,chez
+près de|Lugar y movimiento|A1|cerca de|De se mantiene ante la; se contrae con le/les y se elide ante vocal.|J’habite _____ la gare.|Vivo cerca de la estación.|Le café est _____ la plage.|La cafetería está cerca de la playa.|loin de,en face de,derrière
+loin de|Lugar y movimiento|A1|lejos de|Es lo contrario de près de. Recuerda las contracciones con de.|Il habite _____ la mer.|Vive lejos del mar.|Nous sommes _____ la frontière.|Estamos lejos de la frontera.|près de,devant,chez
+à côté de|Lugar y movimiento|A1|al lado de|Locución de proximidad lateral; à côté du cinéma con le.|Je suis _____ la fenêtre.|Estoy al lado de la ventana.|La pharmacie est _____ la banque.|La farmacia está al lado del banco.|loin de,sous,dans
+en face de|Lugar y movimiento|A2|enfrente de|Indica posición frente a otra cosa.|Le café est _____ la gare.|La cafetería está enfrente de la estación.|La poste est _____ la mairie.|Correos está enfrente del ayuntamiento.|derrière,dans,loin de
+vers|Lugar y movimiento|A2|hacia|Indica dirección aproximada. Con una hora también puede significar hacia.|Nous marchons _____ la gare.|Caminamos hacia la estación.|Elle se dirige _____ la sortie.|Ella se dirige hacia la salida.|depuis,sans,sous
+jusqu’à|Lugar y movimiento|A2|hasta|Marca el límite del recorrido. Jusqu’au / jusqu’aux con le/les.|Nous marchons _____ la plage.|Caminamos hasta la playa.|Il court _____ la gare.|Corre hasta la estación.|depuis,sans,derrière
+à travers|Lugar y movimiento|B1|a través de|Indica que se atraviesa un espacio. No añade de ante el sustantivo.|Nous marchons _____ la forêt.|Caminamos a través del bosque.|La lumière passe _____ la vitre.|La luz pasa a través del cristal.|autour de,sans,chez
+avant|Tiempo|A1|antes de|Ante un sustantivo: avant le repas. Ante infinitivo: avant de partir.|Lave-toi les mains _____ le repas.|Lávate las manos antes de la comida.|Elle arrive _____ midi.|Ella llega antes del mediodía.|après,depuis,pendant
+après|Tiempo|A1|después de|Ante un sustantivo no se añade de: après le cours.|On se voit _____ le cours.|Nos vemos después de la clase.|Il part _____ le déjeuner.|Se va después del almuerzo.|avant,pendant,depuis
+depuis|Tiempo|A2|desde, desde hace|Expresa un punto inicial o una duración que continúa en el momento de referencia.|J’habite ici _____ 2020.|Vivo aquí desde 2020.|Elle travaille ici _____ trois ans.|Trabaja aquí desde hace tres años.|pendant,dans,pour
+pendant|Tiempo|A2|durante|Duración de una actividad delimitada. Durant también es válido en estos ejemplos.|Hier, j’ai étudié _____ deux heures.|Ayer estudié durante dos horas.|Il a dormi _____ huit heures cette nuit.|Ha dormido durante ocho horas esta noche.|depuis,dans,vers
+dans (tiempo)|Tiempo|A2|dentro de|Dans + duración indica cuánto falta para que ocurra algo.|Le train partira _____ dix minutes.|El tren saldrá dentro de diez minutos.|Je reviendrai _____ deux jours.|Volveré dentro de dos días.|depuis,pendant,en
+en (duración)|Tiempo|A2|en, en el plazo de|En + duración expresa el tiempo necesario para completar una tarea.|Elle a terminé ce travail _____ deux heures.|Terminó este trabajo en dos horas.|Il a lu tout le livre _____ trois jours.|Leyó todo el libro en tres días.|depuis,dans,vers
+avec|Otras relaciones|A1|con|Expresa compañía o instrumento.|Je voyage _____ ma sœur.|Viajo con mi hermana.|Il coupe le pain _____ un couteau.|Corta el pan con un cuchillo.|sans,chez,contre
+sans|Otras relaciones|A1|sin|Expresa ausencia. Ante infinitivo no se añade de.|Je bois mon café _____ sucre.|Tomo el café sin azúcar.|Elle part _____ son sac.|Se va sin su bolso.|avec,pour,chez
+pour|Otras relaciones|A1|para|Indica destinatario o finalidad. Pour + infinitivo: pour apprendre.|Ce cadeau est _____ toi.|Este regalo es para ti.|Je lis _____ apprendre.|Leo para aprender.|sans,chez,depuis
+par|Otras relaciones|A2|por|Puede señalar al agente en la voz pasiva o un canal de comunicación.|Ce livre a été écrit _____ Léa.|Este libro fue escrito por Léa.|Envoie le document _____ courriel.|Envía el documento por correo electrónico.|pour,chez,sans
+contre|Otras relaciones|A2|contra|Expresa oposición o contacto apoyado en algo.|Je suis _____ cette décision.|Estoy en contra de esta decisión.|L’échelle est appuyée _____ le mur.|La escalera está apoyada contra la pared.|pour,sans,chez
+selon|Otras relaciones|B1|según|Introduce la fuente o el punto de vista. D’après también es posible en estos ejemplos.|_____ Paul, ce film est excellent.|Según Paul, esta película es excelente.|_____ la météo, il pleuvra demain.|Según la previsión del tiempo, lloverá mañana.|Malgré,Sans,Contre
+malgré|Otras relaciones|B1|a pesar de|Introduce un obstáculo que no impide la acción; aquí va ante un nombre.|Elle sort _____ la pluie.|Sale a pesar de la lluvia.|Il sourit _____ la fatigue.|Sonríe a pesar del cansancio.|grâce à,sans,selon
+grâce à|Otras relaciones|A2|gracias a|Señala una causa presentada como favorable. Avec le: grâce au.|J’ai réussi _____ ton aide.|Lo he conseguido gracias a tu ayuda.|Nous avons gagné _____ Léa.|Hemos ganado gracias a Léa.|malgré,sans,contre
+à cause de|Otras relaciones|A2|a causa de, por culpa de|Señala una causa, frecuentemente desfavorable. Avec le: à cause du.|Le match est annulé _____ la pluie.|El partido está cancelado a causa de la lluvia.|Il est en retard _____ la neige.|Llega tarde a causa de la nieve.|malgré,sans,pour`;
+window.PREPOSITIONS=source.split('\n').map((line,i)=>{
+ const [title,group,level,meaning,note,s1,e1,s2,e2,wrong]=line.split('|');
+ const answer=title.replace(/ \(.+\)/,'');
+ const id='prep-'+i;
+ return {id,title,group,level,formula:answer+' → '+meaning,explanation:meaning,note,exercises:[ [s1,e1],[s2,e2] ].map(([stem,es],j)=>({id:id+'-'+j,rule:id,stem,es,answer,cue:'Completa con la preposición que expresa el sentido de la traducción española.',distractors:wrong.split(','),alternatives:answer==='pendant'?['durant']:answer==='selon'?["d’après"]:[]}))};
+});
+})();

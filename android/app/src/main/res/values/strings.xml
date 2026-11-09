@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Taller de Idiomas</string>
+    <string name="title_activity_main">Taller de Idiomas</string>
+    <string name="package_name">com.tallerdeidiomas.app</string>
+    <string name="custom_url_scheme">com.tallerdeidiomas.app</string>
+</resources>
