@@ -288,3 +288,21 @@ Los cuatro casos están subrayados en la guía general y en el acceso de declina
 Explicaciones y ejemplos redactados para esta aplicación, contrastados con [Lingolia: uso de los casos](https://deutsch.lingolia.com/de/grammatik/deklination) y [declinación de nombres y artículos](https://deutsch.lingolia.com/de/grammatik/nomen/deklination).
 
 Verificación: regresión anterior, todas las respuestas de los temas ampliados, sesión completa de 60 casos, guías y retorno de foco, números en tres modos, conjugación y traducción inversa. Revisión visual y audio real pendientes. Los identificadores y datos de progreso anteriores se conservan.
+
+
+## Zonas seguras en móvil y tablet
+
+Se añade viewport-fit=cover y zona-segura.css, cargado después de los estilos existentes. El contenido respeta safe-area-inset en los cuatro bordes, conservando sus márgenes habituales. Los diálogos tienen límites propios porque se muestran en la capa superior. Se adapta a la orientación y usa altura dinámica con alternativa vh. No se desactiva el zoom.
+
+En navegadores sin insets, el espacio adicional es cero. En una app empaquetada, el contenedor nativo debe exponer correctamente estas zonas al WebView; si ya añade márgenes nativos, conviene verificar que no se dupliquen. Pendiente validación en dispositivos reales, incluida la apertura del teclado.
+
+## Formas no personales de cada verbo
+
+Las fichas de francés incluyen infinitivo, participio pasado (base), participio presente y gerundio. Se contemplan étant, ayant y sachant; los impersonales llevan una indicación de uso en lugar de proponer gerundios poco útiles. Alemán incluye infinitivo, Partizip I y Partizip II, con explicación de por qué no equivale automáticamente a un gerundio español. Las formas aparecen al seleccionar el verbo y se mantienen al cambiar el tiempo de la tabla.
+
+Referencias: https://aprenentatge.recursos.uoc.edu/continguts/PID_00221043/def39.html y https://deutsch.lingolia.com/de/grammatik/verben/partizipien . Participios pasados tomados de los datos existentes. Comprobados los 573 verbos y las excepciones de formación; revisión visual pendiente.
+
+
+## Actualización: recordatorios nativos activados
+
+La sección de recordatorios ya no es una maqueta en la aplicación Capacitor. Incluye permiso, programación local, prueba, desactivación y apertura del ejemplo recibido. Consulta NOTIFICACIONES.md para límites, renovación y pasos de prueba. En el navegador los botones de envío permanecen desactivados.

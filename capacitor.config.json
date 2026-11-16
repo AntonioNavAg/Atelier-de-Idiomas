@@ -1,5 +1,16 @@
 {
   "appId": "com.tallerdeidiomas.app",
   "appName": "Taller de Idiomas",
-  "webDir": "Atelier"
+  "webDir": "Atelier",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_atelier",
+      "iconColor": "#173f38",
+      "presentationOptions": [
+        "sound",
+        "banner",
+        "list"
+      ]
+    }
+  }
 }

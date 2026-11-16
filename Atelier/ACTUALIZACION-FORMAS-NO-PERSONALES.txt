@@ -1,0 +1,9 @@
+ACTUALIZACIÓN: FORMAS NO PERSONALES
+Copia index.html y practica-conjugaciones.js a tu carpeta Atelier.
+En Configurar conjugaciones aparece Formas no personales:
+- Francés: participio pasado (masculino singular), participio presente y gerundio con en.
+- Alemán: Partizip I y Partizip II; no se presenta un gerundio alemán inexistente como equivalente directo.
+Se pueden practicar solas (sin seleccionar personas) o mezcladas con tiempos conjugados. Se mantienen nivel, búsqueda, duración, explicación y Enter. Las formas no personales no se repiten por cada persona seleccionada.
+Las formas sin uso habitual que el catálogo no propone se excluyen.
+Pruebas automáticas completadas; pendiente revisión en dispositivo.
+Después de copiar: npx cap sync android y compilar desde Android Studio.

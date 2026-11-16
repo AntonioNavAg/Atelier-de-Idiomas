@@ -1,0 +1,16 @@
+#cp-dialog{box-sizing:border-box;width:min(900px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;padding:clamp(18px,4vw,36px);padding-bottom:max(24px,env(safe-area-inset-bottom));background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:16px}#cp-dialog::backdrop{background:#071e19b8}#cp-dialog [hidden]{display:none!important}.cp-heading{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.cp-heading h2{margin-top:0}.cp-heading button{flex-shrink:0}.cp-checks,.cp-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}#cp-dialog fieldset{border:1px solid var(--line);border-radius:10px;margin:18px 0;padding:16px}.cp-checks label{display:flex;gap:10px;align-items:center;min-height:44px}.cp-checks input{width:20px;height:20px;flex-shrink:0}#cp-dialog button{min-height:44px}#cp-dialog .actions{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}.cp-fields input,.cp-fields select,#cp-answer{box-sizing:border-box;width:100%;min-height:44px;display:block;background:var(--white);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit}#cp-form{max-width:550px}#cp-check{margin-top:12px}#cp-feedback,#cp-explanation{line-height:1.65}
+
+#cp-page{width:min(1120px,calc(100% - 40px));margin:0 auto;padding:32px 0 max(32px,env(safe-area-inset-bottom));color:var(--ink)}#cp-page[hidden],#cp-page [hidden]{display:none!important}#cp-page button{min-height:44px}#cp-page .actions{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}#cp-game{max-width:850px}#cp-question{font-size:clamp(24px,4vw,34px)}@media(max-width:600px){#cp-page{width:calc(100% - 32px)}#cp-page .cp-heading{flex-wrap:wrap}}
+
+/* Reutiliza la tarjeta, las acciones y la respuesta de las demás prácticas. */
+#cp-page #cp-game{max-width:none}
+#cp-game .game-top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+#cp-game #cp-form{max-width:650px;margin:24px auto 0}
+#cp-game #cp-answer{width:100%;flex:1;min-width:0;margin:0}
+#cp-game #cp-check{margin:0;flex-shrink:0}
+#cp-game #cp-instruction{max-width:780px;margin:0 auto 20px}
+#cp-game #cp-explanation{max-width:780px;margin:12px auto 24px}
+#cp-game #cp-explanation:empty{display:none}
+#cp-game #cp-stats{margin:18px 0 0;font-size:12px}
+#cp-game .game-bottom{margin-top:22px}
+@media(max-width:700px){#cp-game .write-line{align-items:stretch}#cp-game #cp-check{width:100%}#cp-game .game-top{gap:12px}#cp-game .game-bottom{flex-wrap:wrap}}

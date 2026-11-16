@@ -87,7 +87,7 @@
   function shuffle(items){
     const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;
   }
-  function openSetup(){ $('dw-study').hidden=true;window.PracticeModal.open('dw-setup');for(const field of ['theme','level','mode'])$('dw-setup-'+field).value=$('dw-'+field).value;applyFilters(false);$('dw-setup-theme').focus();}
+  function openSetup(){ $('dw-study').hidden=true;window.PracticeModal.open('dw-setup');for(const field of ['theme','level','type','mode'])$('dw-setup-'+field).value=$('dw-'+field).value;applyFilters(false);$('dw-setup-theme').focus();}
   function startSession(){
     if(!filtered.length)return;
     window.PracticeModal.close('dw-setup');
@@ -163,9 +163,9 @@
   $('dw-clear').addEventListener('click',()=>{for(const id of ['dw-theme','dw-level','dw-type'])$(id).value='all';$('dw-search').value='';$('dw-favorites').checked=false;$('dw-pending').checked=false;applyFilters();});
   $('dw-prev-page').addEventListener('click',()=>{if(page>0){page--;renderList();}});
   $('dw-next-page').addEventListener('click',()=>{if((page+1)*pageSize<filtered.length){page++;renderList();}});
-  $('dw-whole-theme').addEventListener('click',()=>{$('dw-setup-level').value='all';for(const id of ['dw-level','dw-type'])$(id).value='all';$('dw-search').value='';$('dw-favorites').checked=false;$('dw-pending').checked=false;applyFilters();});
+  $('dw-whole-theme').addEventListener('click',()=>{$('dw-setup-level').value='all';$('dw-setup-type').value='all';for(const id of ['dw-level','dw-type'])$(id).value='all';$('dw-search').value='';$('dw-favorites').checked=false;$('dw-pending').checked=false;applyFilters();});
   $('dw-length').addEventListener('change',renderList);
-  $('dw-start').addEventListener('click',openSetup);$('dw-go').addEventListener('click',startSession);$('dw-setup-back').addEventListener('click',backToList);for(const field of ['theme','level','mode'])$('dw-setup-'+field).addEventListener('change',()=>{$('dw-'+field).value=$('dw-setup-'+field).value;applyFilters();});$('dw-back').addEventListener('click',backToList);
+  $('dw-start').addEventListener('click',openSetup);$('dw-go').addEventListener('click',startSession);$('dw-setup-back').addEventListener('click',backToList);for(const field of ['theme','level','type','mode'])$('dw-setup-'+field).addEventListener('change',()=>{$('dw-'+field).value=$('dw-setup-'+field).value;applyFilters();});$('dw-back').addEventListener('click',backToList);
   $('dw-mode').addEventListener('change',()=>{
     // Cambiar de juego continúa con una nueva tarjeta: no permite puntuar dos veces la misma.
     if(answered){index++;if(index>=session.length){backToList();return;}}

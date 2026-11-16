@@ -1,0 +1,15 @@
+ACTUALIZACIÓN: AJUSTES DE NAVEGACIÓN
+
+Copia estos archivos a Aprender Frances\Atelier:
+- index.html
+- distribucion.js
+- afijos-app.js
+- afijos.css
+- inicio-organizado.css
+
+Prefijos y sufijos ahora ocupa una página normal con retorno a Vocabulario; ya no abre un diálogo. Cambiar de idioma también sale de esta página.
+Comenzar queda centrado en ambas bienvenidas.
+La entrada a Verbos muestra las cuatro tarjetas sin las pestañas superiores. Se conserva el botón para volver al inicio.
+Pruebas automáticas de navegación, ejercicios y conservación del progreso completadas. Aspecto visual pendiente de comprobar en dispositivo.
+
+Puedes copiar todo el contenido de esta carpeta si prefieres. Después ejecuta npx cap sync android desde la raíz del proyecto y compila en Android Studio.

@@ -116,6 +116,7 @@
     }
   }
   function renderDetail() {
+    if(selected)window.VerbNonFinite.render('fr-nonfinite',window.VerbNonFinite.french(selected),'fr');
     $('verb-title').textContent=selected.fr;$('verb-meaning').textContent=`${selected.level} · ${selected.es} · ${VerbGuide.label(selected)}`;renderStar($('detail-star'),selected);
     const tense=$('tense').value;
     $('tense-help').textContent=Conjugador.tenses[tense][1];

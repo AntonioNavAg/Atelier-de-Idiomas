@@ -16,15 +16,15 @@
  function showArea(name){
   const area=areas[name];if(!area)return;previousArea=name;
   $('study-home').hidden=true;$('study-navigation').hidden=false;
-  $('study-area-title').textContent=area.title;
+  $('french-sections').hidden=false;$('study-area-title').textContent=area.title;$('fr-open-affixes').hidden=name!=='words';
   for(const tab of tabs)tab.hidden=!area.views.includes(tab.dataset.view);
  }
  for(const tab of tabs)tab.addEventListener('click',()=>{
-  const name=Object.keys(areas).find(k=>areas[k].views.includes(tab.dataset.view));showArea(name);stop();if(tab.dataset.view==='basics')window.FoundationMenu.home();
+  const name=Object.keys(areas).find(k=>areas[k].views.includes(tab.dataset.view));showArea(name);$('french-sections').hidden=['verbs-menu','catalog'].includes(tab.dataset.view);stop();if(tab.dataset.view==='basics')window.FoundationMenu.home();
  });
  for(const card of cards)card.addEventListener('click',()=>{
   const name=card.dataset.area;showArea(name);
-  const tab=tabs.find(t=>t.dataset.view===areas[name].views[0]);tab.click();tab.focus();window.scrollTo?.({top:0,behavior:'instant'});
+  const tab=tabs.find(t=>t.dataset.view===areas[name].views[0]);tab.click();if(name==='verbs')$('study-area-title').focus();else tab.focus();window.scrollTo?.({top:0,behavior:'instant'});
  });
  $('study-back').addEventListener('click',home);
  window.StudyNavigation={home};

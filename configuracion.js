@@ -19,11 +19,4 @@
    $('settings-'+section).setAttribute('aria-pressed',String(section===name));
   }
  });
- // Demostración visual: no permisos, temporizadores, envíos ni almacenamiento.
- $('reminder-language').addEventListener('change',()=>{
-  const german=$('reminder-language').value==='de';
-  $('reminder-word').textContent=german?'das Fenster · la ventana':'la fenêtre · la ventana';
-  $('reminder-sentence').textContent=german?'Ich öffne das Fenster.':'J’ouvre la fenêtre.';
-  $('reminder-sentence').lang=german?'de':'fr';
- });
 })();

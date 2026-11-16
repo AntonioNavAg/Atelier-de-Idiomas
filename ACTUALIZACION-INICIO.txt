@@ -1,0 +1,20 @@
+ACTUALIZACIÓN: BIENVENIDA Y MENÚ POR ÁREAS
+
+Copia a Aprender Frances\Atelier estos archivos:
+- index.html
+- distribucion.js
+- inicio-organizado.js (nuevo)
+- inicio-organizado.css (nuevo)
+
+Si no has copiado las actualizaciones anteriores, copia todo el contenido de esta carpeta.
+Ejecuta npx cap sync android desde la raíz del proyecto y compila con Android Studio.
+
+Ambos idiomas tienen dos pantallas:
+1. Introducción, consejos, explicación de funciones y botón Comenzar.
+2. Menú de áreas con tarjetas en cuadrícula: Empieza aquí destacado, Verbos, Vocabulario y las áreas de práctica. En alemán se conservan Declinaciones y las áreas aún próximas claramente señaladas.
+En móvil las tarjetas principales se apilan en una columna, sin carrusel.
+Los modales se encuentran dentro de Verbos. Prefijos y sufijos está en la navegación de Vocabulario.
+Volver desde una sección lleva al menú de áreas. Presentación de Atelier regresa a la bienvenida.
+No se modifican datos de aprendizaje ni almacenamiento.
+
+Pruebas automáticas: navegación en los dos idiomas, ventanas de modales/afijos, conservación de progreso, IDs y referencias, y regresión de ejercicios anteriores. La comprobación visual en navegador no pudo completarse en este entorno; revisar en el móvil tras copiar.

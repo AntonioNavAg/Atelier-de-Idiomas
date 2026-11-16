@@ -1,0 +1,9 @@
+ACTUALIZACIÓN: CONJUGACIONES EN PÁGINA
+
+Copia index.html, practica-conjugaciones.js y practica-conjugaciones.css a Aprender Frances\Atelier.
+La configuración sigue en ventana emergente. Empezar cierra la ventana y abre la práctica en una página normal.
+Enter comprueba la respuesta desde el campo; después el foco pasa a Siguiente, donde Enter avanza. En la última pregunta muestra el resultado.
+Editar práctica permite abrir los ajustes; cancelar conserva el ejercicio actual. Empezar aplica los ajustes y comienza una sesión nueva.
+Volver regresa a las tarjetas de Verbos. Cambiar idioma sale de la página.
+Pruebas automáticas completadas; comprobar teclado y presentación en el móvil.
+Después de copiar: npx cap sync android y compilar con Android Studio.

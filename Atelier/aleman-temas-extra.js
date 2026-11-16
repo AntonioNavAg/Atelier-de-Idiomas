@@ -66,3 +66,41 @@ trotz|___ des Lärms kann ich schlafen.|A pesar del ruido, puedo dormir.
 während|___ der Pause trinken wir Kaffee.|Durante la pausa, tomamos café.`};
 for(const [key,raw] of Object.entries(more))raw.split('\n').forEach((r,i)=>{const [de,sentence,translation]=r.split('|'),base=D[key].find(w=>w.de===de);D[key].push({...base,id:key+'-extra-'+i,sentence,translation,note:de==='welche'?'Aquí: welche Tasche, femenino nominativo. Welch- cambia según género, número y caso.':de==='welches'?'Aquí: welches Kleid, neutro nominativo; el vestido es el sujeto de gefallen.':base.note});});
 })();
+(() => {
+const D=window.DeVocabularyTopics;
+const pairs=`trocken|seco|nass|mojado
+sauber|limpio|schmutzig|sucio
+sparsam|ahorrador|verschwenderisch|derrochador
+höflich|educado|unhöflich|maleducado
+aufmerksam|atento|unaufmerksam|distraído
+zuverlässig|fiable|unzuverlässig|poco fiable
+sichtbar|visible|unsichtbar|invisible
+wahrscheinlich|probable|unwahrscheinlich|improbable
+notwendig|necesario|unnötig|innecesario
+oberhalb|por encima de|unterhalb|por debajo de`;
+pairs.split('\n').forEach((r,i)=>{const [de,es,answer,meaning]=r.split('|');if(!D.opposites.some(w=>w.de===de))D.opposites.push({id:'opposite-v30-'+i,de,es,answer,meaning,level:i<2?'A1':'B1',note:'Relaciona los dos significados opuestos.'});});
+const more={questions:`wer|___ öffnet das Fenster? — Der Lehrer.|¿Quién abre la ventana? El profesor.
+wen|___ ruft Anna an? — Ihren Bruder.|¿A quién llama Anna? A su hermano.
+wem|___ hilft der Arzt? — Dem Kind.|¿A quién ayuda el médico? Al niño.
+wessen|___ Mantel ist das? — Der Mantel meiner Mutter.|¿De quién es ese abrigo? De mi madre.
+was|___ fehlt in der Suppe? — Salz.|¿Qué falta en la sopa? Sal.
+wann|___ beginnt der Film? — Um acht Uhr.|¿Cuándo empieza la película? A las ocho.
+wo|___ liegt Hamburg? — In Norddeutschland.|¿Dónde está Hamburgo? En el norte de Alemania.
+wohin|___ fährt dieser Zug? — Nach München.|¿Adónde va este tren? A Múnich.
+woher|___ kommen die Gäste? — Aus Österreich.|¿De dónde vienen los invitados? De Austria.
+wie|___ geht es dir? — Sehr gut.|¿Cómo estás? Muy bien.
+warum|___ trägst du eine Jacke? — Weil es kalt ist.|¿Por qué llevas chaqueta? Porque hace frío.
+wie viel|___ kostet die Zeitung? — Zwei Euro.|¿Cuánto cuesta el periódico? Dos euros.`,prepositions:`mit|Ich schreibe ___ einem Bleistift.|Escribo con un lápiz.
+für|Das Geschenk ist ___ meine Schwester.|El regalo es para mi hermana.
+ohne|Er trinkt Kaffee ___ Zucker.|Bebe café sin azúcar.
+aus|Dieser Tisch ist ___ Holz.|Esta mesa es de madera. Indica el material.
+bei|Am Wochenende bin ich ___ meinen Eltern.|El fin de semana estoy en casa de mis padres.
+zu|Ich gehe ___ meiner Ärztin.|Voy a mi médica.
+nach|Wir fliegen ___ Spanien.|Volamos a España.
+seit|Sie wohnt ___ einem Jahr hier.|Vive aquí desde hace un año.
+durch|Wir gehen ___ den Tunnel.|Caminamos a través del túnel.
+gegen|Das Auto fährt ___ einen Baum.|El coche choca contra un árbol.
+trotz|___ des Regens gehen wir spazieren.|A pesar de la lluvia, salimos a pasear.
+während|___ des Unterrichts bleiben die Handys aus.|Durante la clase, los móviles permanecen apagados.`};
+for(const [key,raw] of Object.entries(more))raw.split('\n').forEach((r,i)=>{const [de,sentence,translation]=r.split('|'),base=D[key].find(w=>w.de===de);if(!base)throw Error('Falta '+de);D[key].push({...base,id:key+'-v30-'+i,sentence,translation});});
+})();

@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@capacitor/android": "^8.6.0",
-    "@capacitor/ios": "^8.6.0"
+    "@capacitor/ios": "^8.6.0",
+    "@capacitor/local-notifications": "^8.3.1"
   },
   "allowScripts": {
     "sharp@0.30.7": true

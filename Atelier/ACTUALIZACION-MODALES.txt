@@ -1,0 +1,12 @@
+ACTUALIZACIÓN: VERBOS MODALES
+
+Archivos nuevos: modales-datos.js, modales-app.js, modales.css.
+Archivo actualizado: index.html.
+Copia esos cuatro archivos a Aprender Frances\Atelier. Si no tienes las actualizaciones anteriores, copia todo el contenido de esta carpeta.
+En la raíz de tu proyecto ejecuta: npx cap sync android
+Después compila e instala desde Android Studio.
+
+Una tarjeta en cada inicio abre estudio y práctica. Cada idioma incluye 12 fichas y 24 frases, filtros por intención/nivel/búsqueda, test y escritura, audio de frases e historial separado.
+Se explican capacidad, permiso, obligación, consejo, deseo, hipótesis y negación. Las referencias inglesas son orientativas; no hay traducciones automáticas palabra por palabra. Los niveles son orientativos y las respuestas están preparadas.
+
+Pruebas automáticas: las 48 frases en ambos modos, filtros vacíos, sesiones sin repetir, corrección, revelado, puntuación única e historial independiente. Presentación y sonido pendientes de comprobar en un dispositivo real.

@@ -1,0 +1,16 @@
+PRÁCTICA DE CONJUGACIONES
+
+Copia estos archivos a Aprender Frances\Atelier:
+- index.html (actualizado)
+- practica-conjugaciones.js (nuevo)
+- practica-conjugaciones.css (nuevo)
+
+Requiere las actualizaciones anteriores. Si no las tienes, copia todo el contenido de esta carpeta.
+Ejecuta desde la raíz de tu proyecto: npx cap sync android
+Después compila e instala con Android Studio.
+
+Acceso: Francés o Alemán > Verbos > Practicar conjugaciones.
+La ventana permite seleccionar varios tiempos y varias personas, nivel A1/A2/B1/B2 o todos, búsqueda por infinitivo/traducción, auxiliar en los verbos que admiten dos y sesiones de 10/20/40 o toda la selección.
+La práctica es escrita y utiliza los nueve tiempos/construcciones franceses y los seis alemanes del catálogo. Muestra corrección y explicación; permite editar la configuración. No repite una combinación de verbo/tiempo/persona dentro de la sesión. La puntuación es de la sesión actual; la configuración de cada idioma se conserva mientras la página siga abierta.
+Los niveles son orientativos. Se practican las formas modelo del catálogo, no todos los usos o variantes regionales. El imperativo y los impersonales solo generan las personas disponibles. La elección de auxiliar implica un uso concreto del verbo. Los modales alemanes en tiempos compuestos se presentan en su uso independiente, sin otro infinitivo.
+Pruebas automáticas completadas. Pendiente comprobación visual y de teclado en un dispositivo real.

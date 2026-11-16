@@ -1,0 +1,15 @@
+ACTUALIZACIÓN: PREFIJOS Y SUFIJOS
+
+Copia estos cuatro archivos desde esta carpeta a la subcarpeta Atelier de tu proyecto:
+- index.html (reemplazar)
+- afijos-datos.js (nuevo)
+- afijos-app.js (nuevo)
+- afijos.css (nuevo)
+
+Si no copiaste la actualización de los 350 verbos, copia todo el contenido de esta carpeta para mantener todas las dependencias.
+Desde la raíz del proyecto ejecuta: npx cap sync android
+Después compila y ejecuta la app desde Android Studio.
+
+Contenido: una tarjeta en la portada de cada idioma; 12 fichas y 24 ejemplos por idioma; filtros por tipo, nivel y búsqueda; test de afijos y escritura de palabras; sesiones de hasta 10 o toda la selección; audio mediante las voces del dispositivo; historial independiente por idioma.
+Los ejemplos son cerrados y los niveles orientativos. No se generan combinaciones arbitrarias ni se evalúa texto libre.
+Verificación: pruebas automáticas de filtros, 96 respuestas, puntuación y navegación del diálogo. Falta comprobar la presentación y el audio en un móvil real.

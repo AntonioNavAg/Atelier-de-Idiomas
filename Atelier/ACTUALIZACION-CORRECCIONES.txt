@@ -1,0 +1,12 @@
+ACTUALIZACIÓN: CORRECCIONES VISIBLES
+
+Todas las prácticas comparten un aviso grande con texto, símbolo y color:
+- Correcto: verde.
+- Incorrecto: rojo.
+- Solución consultada: ámbar.
+- Correcto con ayuda: verde, con indicación de la ayuda.
+Las explicaciones originales se mantienen debajo. Los avisos de respuesta vacía no se presentan como errores puntuados. El aviso se limpia al cambiar de pregunta.
+
+Copia todo el contenido de esta carpeta a Atelier. Archivos modificados: index.html, afijos-app.js, modales-app.js, practica-conjugaciones.js, inicio-app.js y aleman-vocabulario-temas.js. Archivos nuevos: respuestas-practica.js y respuestas-practica.css.
+Después: npx cap sync android y compilar en Android Studio.
+Verificado: regresión de ejercicios, 17 zonas de corrección, clasificación de mensajes, limpieza, texto accesible y conservación de explicaciones. Pendiente revisión visual en dispositivo.
