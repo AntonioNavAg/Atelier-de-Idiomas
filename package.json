@@ -1,10 +1,13 @@
 {
-  "name": "aprender-frances",
+  "name": "atelier",
   "version": "1.0.0",
+  "main": "electron-main.js",
   "description": "",
-  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist-win": "electron-builder --win portable",
+    "start": "electron .",
+    "dist-setup": "electron-builder --win nsis"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +16,9 @@
   "devDependencies": {
     "@capacitor/assets": "^1.0.14",
     "@capacitor/cli": "^8.6.0",
-    "@capacitor/core": "^8.6.0"
+    "@capacitor/core": "^8.6.0",
+    "electron": "^45.3.3",
+    "electron-builder": "^26.18.0"
   },
   "dependencies": {
     "@capacitor/android": "^8.6.0",
@@ -21,6 +26,28 @@
     "@capacitor/local-notifications": "^8.3.1"
   },
   "allowScripts": {
-    "sharp@0.30.7": true
+    "sharp@0.30.7": true,
+    "electron-winstaller@5.4.0": true
+  },
+  "build": {
+    "appId": "com.aprenderfrances.app",
+    "productName": "Atelier",
+    "files": [
+      "electron-main.js",
+      "icon.ico",
+      "Atelier/**/*"
+    ],
+    "win": {
+      "icon": "icon.ico"
+    },
+    "artifactName": "Atelier-${version}-${arch}.${ext}",
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Atelier",
+      "artifactName": "Atelier-Setup-${version}.${ext}"
+    }
   }
 }

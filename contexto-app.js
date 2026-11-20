@@ -36,7 +36,7 @@
   for(const item of practiced){const row=document.createElement('p');const p=learning.get(item.key);row.textContent=`${item.fr} · ${learning.status(item.key)} · ${p.attempts-p.errors}/${p.attempts} aciertos`; $('c-progress').append(row);}
   if(!learning.persistent())$('c-storage').textContent='Almacenamiento no disponible: la evidencia de aprendizaje dura esta sesión.';
  }
- function start(){
+ function start(){window.SessionReview?.begin('c-feedback');
   config=settings();initial=engine.eligible(config,savedSelection());if(!initial.length){refresh();return;}
   available=[...initial];goal=config.length==='free'?Infinity:Math.min(Number(config.length),initial.length);done=0;correct=0;round=1;usedTargets=new Map();
   $('c-settings').hidden=true;$('c-summary').hidden=true;$('c-session').hidden=false;next();
@@ -86,7 +86,7 @@
   if(exercise.format==='order')renderOrder();
   $('c-reveal').hidden=true;$('c-next').hidden=false;$('c-audio').hidden=false;$('c-skill').textContent=learning.status(exercise.targetKey);renderProgress();$('c-next').focus();
  }
- function summary(){
+ function summary(){window.SessionReview?.finish('c-feedback','c-result');
   exercise=null;$('c-session').hidden=true;$('c-summary').hidden=false;$('c-result').textContent=`${correct} de ${done} ejercicios resueltos correctamente. Las soluciones consultadas cuentan como repaso. Puedes elegir otra combinación cuando quieras.`;$('c-return').focus();renderProgress();
  }
  function returnSettings(){$('c-summary').hidden=true;$('c-settings').hidden=false;refresh();$('c-start').focus();}

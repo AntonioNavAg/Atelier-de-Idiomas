@@ -29,7 +29,7 @@
   if(!filtered.length){const p=document.createElement('p');p.className='empty';p.textContent='No hay preposiciones con estos filtros. Prueba otra búsqueda o limpia los filtros.';$('p-cards').append(p);}
   const pages=Math.max(1,Math.ceil(filtered.length/8));$('p-page').textContent=`Página ${page+1} de ${pages}`;$('p-prev-page').disabled=page===0;$('p-next-page').disabled=page>=pages-1;
  }
- function start(items){
+ function start(items){window.SessionReview?.begin('p-feedback');
   if(!items.length)return;base=[...items];deck=shuffle(base);config={mode:$('p-mode').value,help:$('p-help').checked,strict:$('p-strict').checked};goal=$('p-length').value==='free'?Infinity:Math.min(Number($('p-length').value),base.length);done=0;correct=0;previous='';
   $('p-library').hidden=true;$('p-summary').hidden=true;$('p-game').hidden=false;next();
  }
@@ -37,7 +37,7 @@
   if(done>=goal){summary();return;}if(!deck.length){deck=shuffle(base);if(deck.length>1&&deck[0].id===previous)[deck[0],deck[1]]=[deck[1],deck[0]];}
   current=deck.shift();previous=current.id;answered=false;const r=byId.get(current.rule);
   $('p-position').textContent=`${done+1}${goal===Infinity?' · PRÁCTICA LIBRE':' / '+goal}`;$('p-instruction').textContent=current.cue;$('p-question').textContent=current.stem;$('p-spanish').textContent=current.es;
-  $('p-hint').hidden=!config.help;$('p-hint').textContent=`${r.formula}. ${r.explanation}`;
+  $('p-hint').hidden=!config.help;$('p-hint').textContent=`Sentido buscado: ${r.explanation}.`;
   $('p-options').hidden=config.mode!=='quiz';$('p-write').hidden=config.mode!=='write';$('p-input').value='';$('p-input').disabled=false;$('p-check').disabled=false;
   $('p-feedback').textContent='';$('p-feedback').className='v-feedback';for(const id of ['p-answer','p-explanation','p-audio','p-next'])$(id).hidden=true;$('p-reveal').hidden=false;$('p-next').textContent=done+1>=goal?'Ver resultado →':'Siguiente →';
   $('p-options').replaceChildren();if(config.mode==='quiz')for(const option of shuffle([current.answer,...current.distractors])){const b=document.createElement('button');b.textContent=option;b.lang='fr';b.addEventListener('click',()=>{if(answered)return;const ok=match(current,option,true);if(!ok)b.classList.add('wrong');finish(ok);});$('p-options').append(b);}
@@ -50,7 +50,7 @@
   $('p-input').disabled=true;$('p-check').disabled=true;for(const b of $('p-options').children){b.disabled=true;if(match(current,b.textContent,true))b.classList.add('correct');}
   $('p-reveal').hidden=true;$('p-next').hidden=false;$('p-audio').hidden=false;$('p-next').focus();
  }
- function summary(){current=null;$('p-game').hidden=true;$('p-summary').hidden=false;$('p-result').textContent=`${correct} / ${done} aciertos. Puedes repasar una regla concreta o cambiar de tema.`;$('p-return').focus();}
+ function summary(){window.SessionReview?.finish('p-feedback','p-result');current=null;$('p-game').hidden=true;$('p-summary').hidden=false;$('p-result').textContent=`${correct} / ${done} aciertos. Puedes repasar una regla concreta o cambiar de tema.`;$('p-return').focus();}
  for(const group of [...new Set(rules.map(r=>r.group))]){const o=document.createElement('option');o.value=group;o.textContent=group;$('p-group').append(o);}
  $('p-search').addEventListener('input',apply);$('p-group').addEventListener('change',apply);$('p-level').addEventListener('change',apply);
  $('p-clear').addEventListener('click',()=>{$('p-search').value='';$('p-group').value='all';$('p-level').value='all';apply();});

@@ -1,0 +1,6 @@
+INTRO Y SONIDOS
+Copia index.html, configuracion.js, sonido-intro.js y sonido-intro.css a Atelier (o todo el contenido de esta carpeta).
+Intro de un segundo con el tema guardado; si no hay tema se utiliza el original. La marca provisional es texto Atelier animado; puede sustituirse por la imagen definitiva cuando esté disponible. Se omite el movimiento si el dispositivo pide reducir animaciones. La intro es silenciosa: los sonidos empiezan con las pulsaciones del usuario.
+Configuración > Sonido: activar/desactivar, volumen y prueba. El sonido se genera localmente y no necesita archivos ni conexión. La preferencia se guarda en este dispositivo; no cambia el audio de pronunciación.
+Pruebas de lógica y regresión realizadas. Queda comprobar el sonido real y la animación en el dispositivo.
+Después de copiar, genera de nuevo el APK o el ejecutable con el comando correspondiente.

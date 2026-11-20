@@ -1,0 +1,8 @@
+CONECTORES Y PREPOSICIONES
+
+Copia todo el contenido de esta carpeta a Atelier para incluir todos los cambios.
+Vocabulario > Conectores, en francés y alemán: 12 fichas y 24 frases por idioma, filtros por función y nivel, test, escritura, audio de frases y resumen de sesión. Es una página normal con retorno a Vocabulario. La práctica no muestra el nombre del conector correcto en el enunciado.
+En francés, puis y ensuite se aceptan como alternativas en los ejercicios de secuencia. Los niveles son orientativos.
+Preposiciones: la antigua pista mostraba la fórmula con la respuesta. Ahora está desactivada inicialmente y solo muestra el significado si se activa. La regla completa aparece después de responder. En alemán se retiran las indicaciones explícitas «Usa ...» de la pista.
+Pruebas automáticas de 96 respuestas de conectores, filtros, sesiones, navegación y regresión realizadas. Presentación y audio pendientes de revisión en dispositivo.
+Después de copiar, vuelve a generar el APK o el instalador.

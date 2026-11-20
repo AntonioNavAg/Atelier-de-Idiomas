@@ -88,7 +88,7 @@
     const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;
   }
   function openSetup(){ $('v-study').hidden=true;window.PracticeModal.open('v-setup');for(const field of ['theme','level','type','mode'])$('v-setup-'+field).value=$('v-'+field).value;applyFilters(false);$('v-setup-theme').focus();}
-  function startSession(){
+  function startSession(){window.SessionReview?.begin('v-feedback');
     if(!filtered.length)return;
     window.PracticeModal.close('v-setup');
     session=shuffle(filtered).slice(0,$('v-length').value==='all'?filtered.length:20);index=0;sessionCorrect=0;
@@ -169,7 +169,7 @@
   $('v-start').addEventListener('click',openSetup);$('v-go').addEventListener('click',startSession);$('v-setup-back').addEventListener('click',backToList);for(const field of ['theme','level','type','mode'])$('v-setup-'+field).addEventListener('change',()=>{$('v-'+field).value=$('v-setup-'+field).value;applyFilters();});$('v-back').addEventListener('click',backToList);
   $('v-mode').addEventListener('change',()=>{
     // Cambiar de juego continúa con una nueva tarjeta: no permite puntuar dos veces la misma.
-    if(answered){index++;if(index>=session.length){backToList();return;}}
+    if(answered){index++;if(index>=session.length){window.SessionReview?.finish('v-feedback','v-count');backToList();return;}}
     if(current)showQuestion();
   });
   $('v-reveal').addEventListener('click',()=>{$('v-reveal').hidden=true;$('v-revealed').hidden=false;$('v-listen').hidden=false;});

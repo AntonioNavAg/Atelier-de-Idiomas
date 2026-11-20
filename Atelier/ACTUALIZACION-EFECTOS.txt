@@ -1,0 +1,6 @@
+SONIDOS DIFERENCIADOS
+Copia index.html, sonido-intro.js y respuestas-practica.js a Atelier, o copia todo el contenido de esta carpeta.
+Efectos: cursor (suave), clic, volver (descendente), acierto (ascendente), error (grave). Los resultados interrumpen el clic; consultar una solución no suena como error.
+El interruptor y volumen de Configuración > Sonido controlan todos los efectos. Hover solo con ratón, después de una pulsación que active audio, sin repetirse entre los elementos internos del botón.
+Pruebas de lógica, regresión de ejercicios y estados de corrección completadas. Falta escuchar los sonidos en el dispositivo real.
+Vuelve a generar el APK o instalador después de copiar los archivos.

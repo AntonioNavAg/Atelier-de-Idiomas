@@ -47,7 +47,7 @@
   const full=item.stem.replace('_____',item.answer);
   return {id:item.id,prompt:'Completa la pregunta con la palabra o expresión interrogativa que corresponde al español.',question:item.stem,meaning:item.es,reply:`Réponse : ${item.reply}`,answers:[item.answer],solution:full,explanation:`${d.fr}: ${d.note}`,options:shuffle([item.answer,...shuffle(unique).slice(0,3)]),speak:full};
  }
- function start(){
+ function start(){window.SessionReview?.begin('q-feedback');
   base=pool();if(!base.length)return;settings={mode:$('q-mode').value,strict:$('q-strict').checked,direction:$('q-direction').value};
   if(kind==='questions'&&settings.mode==='cards')settings.mode='quiz';
   deck=shuffle(base);goal=$('q-length').value==='free'?Infinity:Math.min(Number($('q-length').value),base.length);done=0;correct=0;previous='';
@@ -77,7 +77,7 @@
   for(const b of $('q-options').children){b.disabled=true;if(matches(b.textContent))b.classList.add('correct');}
   $('q-solution').hidden=true;$('q-flip').hidden=true;$('q-next').hidden=false;$('q-audio').hidden=false;$('q-next').focus();
  }
- function summary(){exercise=null;$('q-game').hidden=true;$('q-summary').hidden=false;$('q-result').textContent=`${correct} / ${done} aciertos. Puedes cambiar de modo o practicar otra selección.`;$('q-again').focus();}
+ function summary(){window.SessionReview?.finish('q-feedback','q-result');exercise=null;$('q-game').hidden=true;$('q-summary').hidden=false;$('q-result').textContent=`${correct} / ${done} aciertos. Puedes cambiar de modo o practicar otra selección.`;$('q-again').focus();}
  $('q-opposites-tab').addEventListener('click',()=>setKind('opposites'));$('q-questions-tab').addEventListener('click',()=>setKind('questions'));
  $('q-search').addEventListener('input',renderPairs);$('q-type').addEventListener('change',renderPairs);$('q-question-filter').addEventListener('change',renderDefinitions);
  $('q-start').addEventListener('click',start);$('q-back').addEventListener('click',summary);$('q-again').addEventListener('click',()=>setKind(kind));$('q-next').addEventListener('click',()=>{if(answered)next();});

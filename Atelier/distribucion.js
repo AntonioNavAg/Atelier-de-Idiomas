@@ -16,7 +16,7 @@
  function showArea(name){
   const area=areas[name];if(!area)return;previousArea=name;
   $('study-home').hidden=true;$('study-navigation').hidden=false;
-  $('french-sections').hidden=false;$('study-area-title').textContent=area.title;$('fr-open-affixes').hidden=name!=='words';
+  $('french-sections').hidden=false;$('study-area-title').textContent=area.title;$('fr-open-affixes').hidden=name!=='words';$('fr-open-connectors').hidden=name!=='words';
   for(const tab of tabs)tab.hidden=!area.views.includes(tab.dataset.view);
  }
  for(const tab of tabs)tab.addEventListener('click',()=>{

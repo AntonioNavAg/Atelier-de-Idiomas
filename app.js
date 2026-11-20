@@ -30,10 +30,10 @@
     const choice=$('pool').value;
     return verbs.filter(v => choice==='all' || (choice==='core' ? v.core : choice==='favorites' ? favorites.has(v.fr) : v.level===choice));
   }
-  function start() { deck=shuffle(pool()); deckIndex=0; round=1; nextQuestion(); }
+  function start() {window.SessionReview?.begin('feedback'); deck=shuffle(pool()); deckIndex=0; round=1; nextQuestion(); }
   function nextQuestion() {
     if (!deck.length || !pool().length) { $('game').hidden=true; $('empty').hidden=false; current=null; return; }
-    if (deckIndex >= deck.length) {
+    if (deckIndex >= deck.length) {window.SessionReview?.finish('feedback','fr-session-end');
       deck=shuffle(pool()); deckIndex=0; round++;
       if (deck.length>1 && deck[0].fr===previous) [deck[0],deck[1]]=[deck[1],deck[0]];
     }
@@ -127,7 +127,7 @@
     forms.forEach((form,i)=>{
       if(tense==='Y' && !form) return;
       const tr=document.createElement('tr'),person=document.createElement('td'),value=document.createElement('td');
-      person.textContent=Conjugador.person(i,form,tense,selected);person.lang='fr';value.textContent=form||'—';value.lang='fr';
+      person.textContent=Conjugador.person(i,form,tense,selected);person.lang='fr';value.textContent=selected.fr==='pouvoir'&&tense==='P'&&i===0?'peux (puis)':form||'—';value.lang='fr';
       tr.append(person,value);$('forms').append(tr);
     });
     if(!forms.some(Boolean)) {
@@ -154,7 +154,7 @@
   $('mode').addEventListener('change',start);$('pool').addEventListener('change',start);
   $('reveal').addEventListener('click',()=>{ $('reveal').hidden=true;$('card-answer').hidden=false;$('listen').hidden=false;$('remembered').disabled=false;$('forgot').disabled=false; });
   $('remembered').addEventListener('click',()=>finish(true));$('forgot').addEventListener('click',()=>finish(false));
-  $('next').addEventListener('click',nextQuestion);$('star').addEventListener('click',()=>{if(current)toggleFavorite(current);});
+  $('fr-session-end').addEventListener('click',()=>{window.SessionReview?.finish('feedback','fr-session-end');$('game').hidden=true;});$('next').addEventListener('click',nextQuestion);$('star').addEventListener('click',()=>{if(current)toggleFavorite(current);});
   $('listen').addEventListener('click',()=>{if(current)speak(current.fr);});
   $('write-area').addEventListener('submit',event=>{
     event.preventDefault();if(answered || !current) return;

@@ -29,7 +29,7 @@
   if(!filtered.length){const p=document.createElement('p');p.className='empty';p.textContent='No hay estructuras con estos filtros. Prueba otra búsqueda o limpia los filtros.';$('g-cards').append(p);}
   const pages=Math.max(1,Math.ceil(filtered.length/8));$('g-page').textContent=`Página ${page+1} de ${pages}`;$('g-prev-page').disabled=page===0;$('g-next-page').disabled=page>=pages-1;
  }
- function start(items){
+ function start(items){window.SessionReview?.begin('g-feedback');
   if(!items.length)return;base=[...items];deck=shuffle(base);config={mode:$('g-mode').value,help:$('g-help').checked,strict:$('g-strict').checked};goal=$('g-length').value==='free'?Infinity:Math.min(Number($('g-length').value),base.length);done=0;correct=0;previous='';
   $('g-library').hidden=true;$('g-summary').hidden=true;$('g-game').hidden=false;next();
  }
@@ -50,7 +50,7 @@
   $('g-input').disabled=true;$('g-check').disabled=true;for(const b of $('g-options').children){b.disabled=true;if(match(current,b.textContent,true))b.classList.add('correct');}
   $('g-reveal').hidden=true;$('g-next').hidden=false;$('g-audio').hidden=false;$('g-next').focus();
  }
- function summary(){current=null;$('g-game').hidden=true;$('g-summary').hidden=false;$('g-result').textContent=`${correct} / ${done} aciertos. Puedes repasar una regla concreta o cambiar de tema.`;$('g-return').focus();}
+ function summary(){window.SessionReview?.finish('g-feedback','g-result');current=null;$('g-game').hidden=true;$('g-summary').hidden=false;$('g-result').textContent=`${correct} / ${done} aciertos. Puedes repasar una regla concreta o cambiar de tema.`;$('g-return').focus();}
  for(const group of [...new Set(rules.map(r=>r.group))]){const o=document.createElement('option');o.value=group;o.textContent=group;$('g-group').append(o);}
  $('g-search').addEventListener('input',apply);$('g-group').addEventListener('change',apply);$('g-level').addEventListener('change',apply);
  $('g-clear').addEventListener('click',()=>{$('g-search').value='';$('g-group').value='all';$('g-level').value='all';apply();});

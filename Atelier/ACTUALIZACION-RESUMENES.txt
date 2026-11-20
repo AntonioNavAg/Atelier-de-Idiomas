@@ -1,0 +1,8 @@
+RESUMEN DE SESIONES
+
+Al terminar una sesión se muestra un listado de preguntas, respuesta del usuario y corrección. Los aciertos se señalan con un tick verde y los errores con una cruz roja. Se distinguen las soluciones consultadas y los aciertos con ayuda. Las tarjetas se evalúan según lo que marca el usuario.
+La práctica libre de verbos franceses tiene Terminar y ver resumen y Volver a practicar. Los resúmenes quedan en memoria durante la visita; no constituyen un historial permanente. Se reinician al comenzar una nueva sesión de la misma práctica.
+
+Esta actualización modifica varios módulos. Copia TODO el contenido de esta carpeta a Aprender Frances\Atelier, sin borrar tus archivos propios del proyecto. La carpeta de salida no contiene package.json ni electron-main.js: no sustituye tu configuración del instalador.
+Después genera de nuevo el APK o instalador con tu procedimiento habitual.
+Pruebas: regresión de ejercicios, 17 resúmenes, estados de corrección, datos de respuesta, reinicio y sintaxis. Presentación visual pendiente de revisión en dispositivo real.

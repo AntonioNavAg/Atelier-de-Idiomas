@@ -5,8 +5,9 @@ const labels={correct:'✓ Correcto',assisted:'✓ Correcto con ayuda',incorrect
 window.PracticeFeedback={classify};
 for(const el of document.querySelectorAll('[id="feedback"], [id$="-feedback"]')){
  el.setAttribute('role','status');el.setAttribute('aria-live','polite');el.setAttribute('aria-atomic','true');
+ let previousState='';
  const observer=new MutationObserver(update);
- function update(){observer.disconnect();const text=el.textContent.trim(),state=classify(text);el.dataset.feedbackState=state;if(state){const heading=document.createElement('strong'),detail=document.createElement('span');heading.className='practice-feedback-heading';heading.textContent=labels[state];detail.className='practice-feedback-detail';detail.textContent=text;el.replaceChildren(heading,detail);}observer.observe(el,{childList:true,subtree:true,characterData:true});}
+ function update(){observer.disconnect();const text=el.textContent.trim(),state=classify(text);el.dataset.feedbackState=state;if(state!==previousState){if(state)window.SessionReview?.record(el.id,state,text);if(state==='correct'||state==='assisted')window.AtelierSounds?.play('correct');else if(state==='incorrect')window.AtelierSounds?.play('incorrect');}previousState=state;if(state){const heading=document.createElement('strong'),detail=document.createElement('span');heading.className='practice-feedback-heading';heading.textContent=labels[state];detail.className='practice-feedback-detail';detail.textContent=text;el.replaceChildren(heading,detail);}observer.observe(el,{childList:true,subtree:true,characterData:true});}
  update();
 }
 })();

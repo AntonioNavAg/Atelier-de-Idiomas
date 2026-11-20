@@ -316,7 +316,7 @@ window.VERBOS = [
     "core": true,
     "forms": {
       "P": [
-        "puis",
+        "peux",
         "peux",
         "peut",
         "pouvons",

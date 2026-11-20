@@ -13,8 +13,8 @@
  $('close-settings').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('close',()=>$('open-settings').focus());
  dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();});
- for(const name of ['appearance','notifications'])$('settings-'+name).addEventListener('click',()=>{
-  for(const section of ['appearance','notifications']){
+ for(const name of ['appearance','notifications','sound'])$('settings-'+name).addEventListener('click',()=>{
+  for(const section of ['appearance','notifications','sound']){
    $('settings-'+section+'-panel').hidden=section!==name;
    $('settings-'+section).setAttribute('aria-pressed',String(section===name));
   }
