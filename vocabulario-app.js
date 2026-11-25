@@ -10,7 +10,11 @@
   const senses=word=>word.es.split(/\s*[;/]\s*/).map(normalize);
   const equivalent=(a,b)=>senses(a).some(sense=>senses(b).includes(sense));
   const description=word=>[labels[word.type],word.type==='noun'&&word.feminine?'masculino / femenino':genders[word.gender],word.level].filter(Boolean).join(' · ');
-  const display=word=>word.feminine && word.feminine!==word.fr ? `${word.fr} / ${word.feminine}` : word.fr;
+  const aspirated=new Set(['haricot','hanche','handicap','honte','haine','hall','haute','haut-parleur','hashtag','haie','hibou','hérisson','harcèlement','hasard','hauteur','handball','hors-jeu']);
+  function nounForm(form,gender){if(gender==='mp'||gender==='fp')return 'les '+form;const elide=/^[aàâäeéèêëiîïoôöuùûüœæ]/i.test(form)||(/^h/i.test(form)&&!aspirated.has(form.toLowerCase().split(' ')[0]));return elide?'l’'+form:(gender==='f'?'la ':'le ')+form;}
+  function forms(word){if(word.type!=='noun')return [word.fr,word.feminine].filter(Boolean);const base=word.gender==='mf'?[nounForm(word.fr,'m'),nounForm(word.fr,'f')]:[nounForm(word.fr,word.gender)];if(word.feminine&&word.feminine!==word.fr)base.push(nounForm(word.feminine,'f'));return [...new Set(base)];}
+  const display=word=>forms(word).join(' / ');
+  window.FrWordArticles={display,forms};
   const storageKey='atelier-vocabulaire-v1';
   let saved={};
   try{saved=JSON.parse(localStorage.getItem(storageKey)||'{}')||{};}catch{}
@@ -74,7 +78,7 @@
       const theme=document.createElement('p');theme.className='word-theme';theme.textContent=word.theme;
       const actions=document.createElement('div');actions.className='word-actions';
       const star=button('',()=>toggleFavorite(word));starState(star,word);
-      const audio=button('♫',()=>speak(word.fr));audio.setAttribute('aria-label',`Escuchar ${word.fr}`);
+      const audio=button('♫',()=>speak(display(word)));audio.setAttribute('aria-label',`Escuchar ${word.fr}`);
       const known=button(learned.has(word.id)?'✓ Aprendida':'Marcar aprendida',()=>{
         if(learned.has(word.id))learned.delete(word.id);else learned.add(word.id);persist();applyFilters(false);
       });known.setAttribute('aria-pressed',String(learned.has(word.id)));known.setAttribute('aria-label',`${learned.has(word.id)?'Marcar por aprender':'Marcar aprendida'}: ${word.fr}`);known.classList.toggle('selected',learned.has(word.id));
@@ -131,7 +135,7 @@
     answered=true;if($('v-mode').value!=='cards')window.Apprentissage?.record('word:'+current.id,$('v-mode').value==='write'?'recalled':'recognized',ok);attempts++;
     if(ok){correct++;sessionCorrect++;learned.add(current.id);}else learned.delete(current.id);
     persist();$('v-feedback').className=`v-feedback ${ok?'good':'bad'}`;
-    $('v-feedback').textContent=(ok?'¡Bien hecho! ': 'Para repasar: ')+display(current)+'.'+(extra?' '+extra:'');
+    $('v-feedback').textContent=(ok?'¡Bien hecho! ': 'Para repasar: ')+display(current)+'. '+description(current)+'.'+(extra?' '+extra:'');
     $('v-input').disabled=true;$('v-check').disabled=true;$('v-known').disabled=true;$('v-again').disabled=true;
     $('v-listen').hidden=false;$('v-next').hidden=false;$('v-next').focus();
   }
@@ -145,8 +149,10 @@
     const clean=$('v-strict').checked?strictText:normalize;
     const answers=words.filter(w=>w.id===current.id||equivalent(w,current));
     const match=answers.find(word=>{
-      const typed=word.type==='noun'?clean(input).replace(/^(?:l'|le |la |les |un |une |des )/,''):clean(input);
-      return [word.fr,word.feminine].filter(Boolean).some(form=>clean(form)===typed);
+      const typed=clean(input);if(forms(word).some(form=>clean(form)===typed))return true;
+      const alternatives=[word.fr,word.feminine].filter(Boolean);
+      if(word.type==='noun'){for(const form of [word.fr,word.feminine].filter(Boolean)){const gender=form===word.feminine?'f':word.gender;if(gender==='mf')alternatives.push('un '+form,'une '+form);else alternatives.push((gender.endsWith('p')?'des ':gender==='f'?'une ':'un ')+form);}}
+      return alternatives.some(form=>clean(form)===typed);
     });
     let extra=match&&match.id!==current.id?`También es válido: ${display(match)}.`:'';
     if(match&&!$('v-strict').checked)extra+=` Ortografía: ${display(match)}.`;
@@ -175,7 +181,7 @@
   $('v-reveal').addEventListener('click',()=>{$('v-reveal').hidden=true;$('v-revealed').hidden=false;$('v-listen').hidden=false;});
   $('v-known').addEventListener('click',()=>finish(true));$('v-again').addEventListener('click',()=>finish(false));
   $('v-star').addEventListener('click',()=>{if(current)toggleFavorite(current);});
-  $('v-listen').addEventListener('click',()=>{if(current)speak(current.fr);});
+  $('v-listen').addEventListener('click',()=>{if(current)speak(display(current));});
   $('v-next').addEventListener('click',()=>{
     if(!answered)return;
     index++;

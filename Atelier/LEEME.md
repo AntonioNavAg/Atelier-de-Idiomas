@@ -306,3 +306,21 @@ Referencias: https://aprenentatge.recursos.uoc.edu/continguts/PID_00221043/def39
 ## Actualización: recordatorios nativos activados
 
 La sección de recordatorios ya no es una maqueta en la aplicación Capacitor. Incluye permiso, programación local, prueba, desactivación y apertura del ejemplo recibido. Consulta NOTIFICACIONES.md para límites, renovación y pasos de prueba. En el navegador los botones de envío permanecen desactivados.
+
+## Navegación y vocabulario — 20 de noviembre de 2026
+
+Se añade un botón común Volver que deshace los cambios de pantalla de la navegación realizada durante la sesión. Vocabulario presenta seis tarjetas en ambos idiomas. Los 25 temas franceses y 27 alemanes se muestran directamente; elegir un tema muestra la lista y sus filtros debajo. También se puede abrir todo el catálogo.
+
+Archivos de esta actualización: index.html, navegacion-vocabulario.js y navegacion-vocabulario.css. Copiar los tres juntos, o copiar el contenido completo de esta carpeta sobre los archivos web del proyecto y de Atelier. No incluye ni modifica los archivos de configuración de Electron.
+
+Validación: suite de regresión y simulación de navegación de ida/vuelta en ambos idiomas. Pendiente la revisión visual en navegador y dispositivo real.
+
+## Ampliación a 500 verbos por idioma — 25 de noviembre de 2026
+
+Se añaden 150 verbos franceses y 150 alemanes a los 350 existentes en cada catálogo. Los nuevos datos son una ampliación editorial de modelos regulares: no se atribuyen a Lefff ni a las fuentes del catálogo original. Los niveles son orientativos.
+
+Francés: verbos.js contiene los 500 registros y sus formas explícitas, incluidos ajustes en -ger, -cer y cambios de acento. Alemán: aleman-verbos-500.js se carga después de aleman-verbos-extra.js y antes del conjugador. Se conservan los identificadores e historiales existentes.
+
+Archivos de esta ampliación: index.html, verbos.js y aleman-verbos-500.js. Copiar también el nuevo archivo alemán; copiar solo index.html no actualiza los datos. La carpeta completa y el ZIP incluyen todos los archivos necesarios.
+
+Validación: 500 infinitivos únicos por idioma, filtros, prácticas, paradigmas y casos representativos de ortografía. No se ha generado una APK ni un instalador de Windows.

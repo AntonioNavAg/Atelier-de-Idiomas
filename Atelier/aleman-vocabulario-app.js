@@ -131,7 +131,7 @@
     answered=true;attempts++;
     if(ok){correct++;sessionCorrect++;learned.add(current.id);}else learned.delete(current.id);
     persist();$('dw-feedback').className=`v-feedback ${ok?'good':'bad'}`;
-    $('dw-feedback').textContent=(ok?'¡Bien hecho! ': 'Para repasar: ')+display(current)+'.'+(extra?' '+extra:'');
+    $('dw-feedback').textContent=(ok?'¡Bien hecho! ': 'Para repasar: ')+display(current)+'. '+description(current)+'.'+(extra?' '+extra:'');
     $('dw-input').disabled=true;$('dw-check').disabled=true;$('dw-known').disabled=true;$('dw-again').disabled=true;
     $('dw-listen').hidden=false;$('dw-next').hidden=false;$('dw-next').focus();
   }

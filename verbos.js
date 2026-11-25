@@ -1,4 +1,4 @@
-// 350 verbos. Formas de Lefff; niveles editoriales orientativos. Véase FUENTES.md.
+// 500 verbos: catálogo original y ampliación editorial de modelos regulares. Niveles orientativos.
 window.VERBOS = [
   {
     "fr": "être",
@@ -21697,6 +21697,9306 @@ window.VERBOS = [
         "transmis",
         "transmise",
         "transmises"
+      ]
+    }
+  },
+  {
+    "fr": "aborder",
+    "es": "abordar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "aborde",
+        "abordes",
+        "aborde",
+        "abordons",
+        "abordez",
+        "abordent"
+      ],
+      "I": [
+        "abordais",
+        "abordais",
+        "abordait",
+        "abordions",
+        "abordiez",
+        "abordaient"
+      ],
+      "F": [
+        "aborderai",
+        "aborderas",
+        "abordera",
+        "aborderons",
+        "aborderez",
+        "aborderont"
+      ],
+      "C": [
+        "aborderais",
+        "aborderais",
+        "aborderait",
+        "aborderions",
+        "aborderiez",
+        "aborderaient"
+      ],
+      "S": [
+        "aborde",
+        "abordes",
+        "aborde",
+        "abordions",
+        "abordiez",
+        "abordent"
+      ],
+      "Y": [
+        "NA",
+        "aborde",
+        "NA",
+        "abordons",
+        "abordez",
+        "NA"
+      ],
+      "K": [
+        "abordé",
+        "abordés",
+        "abordée",
+        "abordées"
+      ]
+    }
+  },
+  {
+    "fr": "abriter",
+    "es": "resguardar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "abrite",
+        "abrites",
+        "abrite",
+        "abritons",
+        "abritez",
+        "abritent"
+      ],
+      "I": [
+        "abritais",
+        "abritais",
+        "abritait",
+        "abritions",
+        "abritiez",
+        "abritaient"
+      ],
+      "F": [
+        "abriterai",
+        "abriteras",
+        "abritera",
+        "abriterons",
+        "abriterez",
+        "abriteront"
+      ],
+      "C": [
+        "abriterais",
+        "abriterais",
+        "abriterait",
+        "abriterions",
+        "abriteriez",
+        "abriteraient"
+      ],
+      "S": [
+        "abrite",
+        "abrites",
+        "abrite",
+        "abritions",
+        "abritiez",
+        "abritent"
+      ],
+      "Y": [
+        "NA",
+        "abrite",
+        "NA",
+        "abritons",
+        "abritez",
+        "NA"
+      ],
+      "K": [
+        "abrité",
+        "abrités",
+        "abritée",
+        "abritées"
+      ]
+    }
+  },
+  {
+    "fr": "absorber",
+    "es": "absorber",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "absorbe",
+        "absorbes",
+        "absorbe",
+        "absorbons",
+        "absorbez",
+        "absorbent"
+      ],
+      "I": [
+        "absorbais",
+        "absorbais",
+        "absorbait",
+        "absorbions",
+        "absorbiez",
+        "absorbaient"
+      ],
+      "F": [
+        "absorberai",
+        "absorberas",
+        "absorbera",
+        "absorberons",
+        "absorberez",
+        "absorberont"
+      ],
+      "C": [
+        "absorberais",
+        "absorberais",
+        "absorberait",
+        "absorberions",
+        "absorberiez",
+        "absorberaient"
+      ],
+      "S": [
+        "absorbe",
+        "absorbes",
+        "absorbe",
+        "absorbions",
+        "absorbiez",
+        "absorbent"
+      ],
+      "Y": [
+        "NA",
+        "absorbe",
+        "NA",
+        "absorbons",
+        "absorbez",
+        "NA"
+      ],
+      "K": [
+        "absorbé",
+        "absorbés",
+        "absorbée",
+        "absorbées"
+      ]
+    }
+  },
+  {
+    "fr": "accorder",
+    "es": "conceder / acordar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "accorde",
+        "accordes",
+        "accorde",
+        "accordons",
+        "accordez",
+        "accordent"
+      ],
+      "I": [
+        "accordais",
+        "accordais",
+        "accordait",
+        "accordions",
+        "accordiez",
+        "accordaient"
+      ],
+      "F": [
+        "accorderai",
+        "accorderas",
+        "accordera",
+        "accorderons",
+        "accorderez",
+        "accorderont"
+      ],
+      "C": [
+        "accorderais",
+        "accorderais",
+        "accorderait",
+        "accorderions",
+        "accorderiez",
+        "accorderaient"
+      ],
+      "S": [
+        "accorde",
+        "accordes",
+        "accorde",
+        "accordions",
+        "accordiez",
+        "accordent"
+      ],
+      "Y": [
+        "NA",
+        "accorde",
+        "NA",
+        "accordons",
+        "accordez",
+        "NA"
+      ],
+      "K": [
+        "accordé",
+        "accordés",
+        "accordée",
+        "accordées"
+      ]
+    }
+  },
+  {
+    "fr": "accrocher",
+    "es": "colgar / enganchar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "accroche",
+        "accroches",
+        "accroche",
+        "accrochons",
+        "accrochez",
+        "accrochent"
+      ],
+      "I": [
+        "accrochais",
+        "accrochais",
+        "accrochait",
+        "accrochions",
+        "accrochiez",
+        "accrochaient"
+      ],
+      "F": [
+        "accrocherai",
+        "accrocheras",
+        "accrochera",
+        "accrocherons",
+        "accrocherez",
+        "accrocheront"
+      ],
+      "C": [
+        "accrocherais",
+        "accrocherais",
+        "accrocherait",
+        "accrocherions",
+        "accrocheriez",
+        "accrocheraient"
+      ],
+      "S": [
+        "accroche",
+        "accroches",
+        "accroche",
+        "accrochions",
+        "accrochiez",
+        "accrochent"
+      ],
+      "Y": [
+        "NA",
+        "accroche",
+        "NA",
+        "accrochons",
+        "accrochez",
+        "NA"
+      ],
+      "K": [
+        "accroché",
+        "accrochés",
+        "accrochée",
+        "accrochées"
+      ]
+    }
+  },
+  {
+    "fr": "accumuler",
+    "es": "acumular",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "accumule",
+        "accumules",
+        "accumule",
+        "accumulons",
+        "accumulez",
+        "accumulent"
+      ],
+      "I": [
+        "accumulais",
+        "accumulais",
+        "accumulait",
+        "accumulions",
+        "accumuliez",
+        "accumulaient"
+      ],
+      "F": [
+        "accumulerai",
+        "accumuleras",
+        "accumulera",
+        "accumulerons",
+        "accumulerez",
+        "accumuleront"
+      ],
+      "C": [
+        "accumulerais",
+        "accumulerais",
+        "accumulerait",
+        "accumulerions",
+        "accumuleriez",
+        "accumuleraient"
+      ],
+      "S": [
+        "accumule",
+        "accumules",
+        "accumule",
+        "accumulions",
+        "accumuliez",
+        "accumulent"
+      ],
+      "Y": [
+        "NA",
+        "accumule",
+        "NA",
+        "accumulons",
+        "accumulez",
+        "NA"
+      ],
+      "K": [
+        "accumulé",
+        "accumulés",
+        "accumulée",
+        "accumulées"
+      ]
+    }
+  },
+  {
+    "fr": "accuser",
+    "es": "acusar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "accuse",
+        "accuses",
+        "accuse",
+        "accusons",
+        "accusez",
+        "accusent"
+      ],
+      "I": [
+        "accusais",
+        "accusais",
+        "accusait",
+        "accusions",
+        "accusiez",
+        "accusaient"
+      ],
+      "F": [
+        "accuserai",
+        "accuseras",
+        "accusera",
+        "accuserons",
+        "accuserez",
+        "accuseront"
+      ],
+      "C": [
+        "accuserais",
+        "accuserais",
+        "accuserait",
+        "accuserions",
+        "accuseriez",
+        "accuseraient"
+      ],
+      "S": [
+        "accuse",
+        "accuses",
+        "accuse",
+        "accusions",
+        "accusiez",
+        "accusent"
+      ],
+      "Y": [
+        "NA",
+        "accuse",
+        "NA",
+        "accusons",
+        "accusez",
+        "NA"
+      ],
+      "K": [
+        "accusé",
+        "accusés",
+        "accusée",
+        "accusées"
+      ]
+    }
+  },
+  {
+    "fr": "achever",
+    "es": "terminar / concluir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "achève",
+        "achèves",
+        "achève",
+        "achevons",
+        "achevez",
+        "achèvent"
+      ],
+      "I": [
+        "achevais",
+        "achevais",
+        "achevait",
+        "achevions",
+        "acheviez",
+        "achevaient"
+      ],
+      "F": [
+        "achèverai",
+        "achèveras",
+        "achèvera",
+        "achèverons",
+        "achèverez",
+        "achèveront"
+      ],
+      "C": [
+        "achèverais",
+        "achèverais",
+        "achèverait",
+        "achèverions",
+        "achèveriez",
+        "achèveraient"
+      ],
+      "S": [
+        "achève",
+        "achèves",
+        "achève",
+        "achevions",
+        "acheviez",
+        "achèvent"
+      ],
+      "Y": [
+        "NA",
+        "achève",
+        "NA",
+        "achevons",
+        "achevez",
+        "NA"
+      ],
+      "K": [
+        "achevé",
+        "achevés",
+        "achevée",
+        "achevées"
+      ]
+    }
+  },
+  {
+    "fr": "actualiser",
+    "es": "actualizar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "actualise",
+        "actualises",
+        "actualise",
+        "actualisons",
+        "actualisez",
+        "actualisent"
+      ],
+      "I": [
+        "actualisais",
+        "actualisais",
+        "actualisait",
+        "actualisions",
+        "actualisiez",
+        "actualisaient"
+      ],
+      "F": [
+        "actualiserai",
+        "actualiseras",
+        "actualisera",
+        "actualiserons",
+        "actualiserez",
+        "actualiseront"
+      ],
+      "C": [
+        "actualiserais",
+        "actualiserais",
+        "actualiserait",
+        "actualiserions",
+        "actualiseriez",
+        "actualiseraient"
+      ],
+      "S": [
+        "actualise",
+        "actualises",
+        "actualise",
+        "actualisions",
+        "actualisiez",
+        "actualisent"
+      ],
+      "Y": [
+        "NA",
+        "actualise",
+        "NA",
+        "actualisons",
+        "actualisez",
+        "NA"
+      ],
+      "K": [
+        "actualisé",
+        "actualisés",
+        "actualisée",
+        "actualisées"
+      ]
+    }
+  },
+  {
+    "fr": "administrer",
+    "es": "administrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "administre",
+        "administres",
+        "administre",
+        "administrons",
+        "administrez",
+        "administrent"
+      ],
+      "I": [
+        "administrais",
+        "administrais",
+        "administrait",
+        "administrions",
+        "administriez",
+        "administraient"
+      ],
+      "F": [
+        "administrerai",
+        "administreras",
+        "administrera",
+        "administrerons",
+        "administrerez",
+        "administreront"
+      ],
+      "C": [
+        "administrerais",
+        "administrerais",
+        "administrerait",
+        "administrerions",
+        "administreriez",
+        "administreraient"
+      ],
+      "S": [
+        "administre",
+        "administres",
+        "administre",
+        "administrions",
+        "administriez",
+        "administrent"
+      ],
+      "Y": [
+        "NA",
+        "administre",
+        "NA",
+        "administrons",
+        "administrez",
+        "NA"
+      ],
+      "K": [
+        "administré",
+        "administrés",
+        "administrée",
+        "administrées"
+      ]
+    }
+  },
+  {
+    "fr": "afficher",
+    "es": "mostrar / publicar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "affiche",
+        "affiches",
+        "affiche",
+        "affichons",
+        "affichez",
+        "affichent"
+      ],
+      "I": [
+        "affichais",
+        "affichais",
+        "affichait",
+        "affichions",
+        "affichiez",
+        "affichaient"
+      ],
+      "F": [
+        "afficherai",
+        "afficheras",
+        "affichera",
+        "afficherons",
+        "afficherez",
+        "afficheront"
+      ],
+      "C": [
+        "afficherais",
+        "afficherais",
+        "afficherait",
+        "afficherions",
+        "afficheriez",
+        "afficheraient"
+      ],
+      "S": [
+        "affiche",
+        "affiches",
+        "affiche",
+        "affichions",
+        "affichiez",
+        "affichent"
+      ],
+      "Y": [
+        "NA",
+        "affiche",
+        "NA",
+        "affichons",
+        "affichez",
+        "NA"
+      ],
+      "K": [
+        "affiché",
+        "affichés",
+        "affichée",
+        "affichées"
+      ]
+    }
+  },
+  {
+    "fr": "affronter",
+    "es": "afrontar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "affronte",
+        "affrontes",
+        "affronte",
+        "affrontons",
+        "affrontez",
+        "affrontent"
+      ],
+      "I": [
+        "affrontais",
+        "affrontais",
+        "affrontait",
+        "affrontions",
+        "affrontiez",
+        "affrontaient"
+      ],
+      "F": [
+        "affronterai",
+        "affronteras",
+        "affrontera",
+        "affronterons",
+        "affronterez",
+        "affronteront"
+      ],
+      "C": [
+        "affronterais",
+        "affronterais",
+        "affronterait",
+        "affronterions",
+        "affronteriez",
+        "affronteraient"
+      ],
+      "S": [
+        "affronte",
+        "affrontes",
+        "affronte",
+        "affrontions",
+        "affrontiez",
+        "affrontent"
+      ],
+      "Y": [
+        "NA",
+        "affronte",
+        "NA",
+        "affrontons",
+        "affrontez",
+        "NA"
+      ],
+      "K": [
+        "affronté",
+        "affrontés",
+        "affrontée",
+        "affrontées"
+      ]
+    }
+  },
+  {
+    "fr": "agiter",
+    "es": "agitar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "agite",
+        "agites",
+        "agite",
+        "agitons",
+        "agitez",
+        "agitent"
+      ],
+      "I": [
+        "agitais",
+        "agitais",
+        "agitait",
+        "agitions",
+        "agitiez",
+        "agitaient"
+      ],
+      "F": [
+        "agiterai",
+        "agiteras",
+        "agitera",
+        "agiterons",
+        "agiterez",
+        "agiteront"
+      ],
+      "C": [
+        "agiterais",
+        "agiterais",
+        "agiterait",
+        "agiterions",
+        "agiteriez",
+        "agiteraient"
+      ],
+      "S": [
+        "agite",
+        "agites",
+        "agite",
+        "agitions",
+        "agitiez",
+        "agitent"
+      ],
+      "Y": [
+        "NA",
+        "agite",
+        "NA",
+        "agitons",
+        "agitez",
+        "NA"
+      ],
+      "K": [
+        "agité",
+        "agités",
+        "agitée",
+        "agitées"
+      ]
+    }
+  },
+  {
+    "fr": "alarmer",
+    "es": "alarmar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "alarme",
+        "alarmes",
+        "alarme",
+        "alarmons",
+        "alarmez",
+        "alarment"
+      ],
+      "I": [
+        "alarmais",
+        "alarmais",
+        "alarmait",
+        "alarmions",
+        "alarmiez",
+        "alarmaient"
+      ],
+      "F": [
+        "alarmerai",
+        "alarmeras",
+        "alarmera",
+        "alarmerons",
+        "alarmerez",
+        "alarmeront"
+      ],
+      "C": [
+        "alarmerais",
+        "alarmerais",
+        "alarmerait",
+        "alarmerions",
+        "alarmeriez",
+        "alarmeraient"
+      ],
+      "S": [
+        "alarme",
+        "alarmes",
+        "alarme",
+        "alarmions",
+        "alarmiez",
+        "alarment"
+      ],
+      "Y": [
+        "NA",
+        "alarme",
+        "NA",
+        "alarmons",
+        "alarmez",
+        "NA"
+      ],
+      "K": [
+        "alarmé",
+        "alarmés",
+        "alarmée",
+        "alarmées"
+      ]
+    }
+  },
+  {
+    "fr": "alimenter",
+    "es": "alimentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "alimente",
+        "alimentes",
+        "alimente",
+        "alimentons",
+        "alimentez",
+        "alimentent"
+      ],
+      "I": [
+        "alimentais",
+        "alimentais",
+        "alimentait",
+        "alimentions",
+        "alimentiez",
+        "alimentaient"
+      ],
+      "F": [
+        "alimenterai",
+        "alimenteras",
+        "alimentera",
+        "alimenterons",
+        "alimenterez",
+        "alimenteront"
+      ],
+      "C": [
+        "alimenterais",
+        "alimenterais",
+        "alimenterait",
+        "alimenterions",
+        "alimenteriez",
+        "alimenteraient"
+      ],
+      "S": [
+        "alimente",
+        "alimentes",
+        "alimente",
+        "alimentions",
+        "alimentiez",
+        "alimentent"
+      ],
+      "Y": [
+        "NA",
+        "alimente",
+        "NA",
+        "alimentons",
+        "alimentez",
+        "NA"
+      ],
+      "K": [
+        "alimenté",
+        "alimentés",
+        "alimentée",
+        "alimentées"
+      ]
+    }
+  },
+  {
+    "fr": "animer",
+    "es": "animar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "anime",
+        "animes",
+        "anime",
+        "animons",
+        "animez",
+        "animent"
+      ],
+      "I": [
+        "animais",
+        "animais",
+        "animait",
+        "animions",
+        "animiez",
+        "animaient"
+      ],
+      "F": [
+        "animerai",
+        "animeras",
+        "animera",
+        "animerons",
+        "animerez",
+        "animeront"
+      ],
+      "C": [
+        "animerais",
+        "animerais",
+        "animerait",
+        "animerions",
+        "animeriez",
+        "animeraient"
+      ],
+      "S": [
+        "anime",
+        "animes",
+        "anime",
+        "animions",
+        "animiez",
+        "animent"
+      ],
+      "Y": [
+        "NA",
+        "anime",
+        "NA",
+        "animons",
+        "animez",
+        "NA"
+      ],
+      "K": [
+        "animé",
+        "animés",
+        "animée",
+        "animées"
+      ]
+    }
+  },
+  {
+    "fr": "anticiper",
+    "es": "anticipar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "anticipe",
+        "anticipes",
+        "anticipe",
+        "anticipons",
+        "anticipez",
+        "anticipent"
+      ],
+      "I": [
+        "anticipais",
+        "anticipais",
+        "anticipait",
+        "anticipions",
+        "anticipiez",
+        "anticipaient"
+      ],
+      "F": [
+        "anticiperai",
+        "anticiperas",
+        "anticipera",
+        "anticiperons",
+        "anticiperez",
+        "anticiperont"
+      ],
+      "C": [
+        "anticiperais",
+        "anticiperais",
+        "anticiperait",
+        "anticiperions",
+        "anticiperiez",
+        "anticiperaient"
+      ],
+      "S": [
+        "anticipe",
+        "anticipes",
+        "anticipe",
+        "anticipions",
+        "anticipiez",
+        "anticipent"
+      ],
+      "Y": [
+        "NA",
+        "anticipe",
+        "NA",
+        "anticipons",
+        "anticipez",
+        "NA"
+      ],
+      "K": [
+        "anticipé",
+        "anticipés",
+        "anticipée",
+        "anticipées"
+      ]
+    }
+  },
+  {
+    "fr": "annuler",
+    "es": "cancelar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "annule",
+        "annules",
+        "annule",
+        "annulons",
+        "annulez",
+        "annulent"
+      ],
+      "I": [
+        "annulais",
+        "annulais",
+        "annulait",
+        "annulions",
+        "annuliez",
+        "annulaient"
+      ],
+      "F": [
+        "annulerai",
+        "annuleras",
+        "annulera",
+        "annulerons",
+        "annulerez",
+        "annuleront"
+      ],
+      "C": [
+        "annulerais",
+        "annulerais",
+        "annulerait",
+        "annulerions",
+        "annuleriez",
+        "annuleraient"
+      ],
+      "S": [
+        "annule",
+        "annules",
+        "annule",
+        "annulions",
+        "annuliez",
+        "annulent"
+      ],
+      "Y": [
+        "NA",
+        "annule",
+        "NA",
+        "annulons",
+        "annulez",
+        "NA"
+      ],
+      "K": [
+        "annulé",
+        "annulés",
+        "annulée",
+        "annulées"
+      ]
+    }
+  },
+  {
+    "fr": "appliquer",
+    "es": "aplicar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "applique",
+        "appliques",
+        "applique",
+        "appliquons",
+        "appliquez",
+        "appliquent"
+      ],
+      "I": [
+        "appliquais",
+        "appliquais",
+        "appliquait",
+        "appliquions",
+        "appliquiez",
+        "appliquaient"
+      ],
+      "F": [
+        "appliquerai",
+        "appliqueras",
+        "appliquera",
+        "appliquerons",
+        "appliquerez",
+        "appliqueront"
+      ],
+      "C": [
+        "appliquerais",
+        "appliquerais",
+        "appliquerait",
+        "appliquerions",
+        "appliqueriez",
+        "appliqueraient"
+      ],
+      "S": [
+        "applique",
+        "appliques",
+        "applique",
+        "appliquions",
+        "appliquiez",
+        "appliquent"
+      ],
+      "Y": [
+        "NA",
+        "applique",
+        "NA",
+        "appliquons",
+        "appliquez",
+        "NA"
+      ],
+      "K": [
+        "appliqué",
+        "appliqués",
+        "appliquée",
+        "appliquées"
+      ]
+    }
+  },
+  {
+    "fr": "argumenter",
+    "es": "argumentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "argumente",
+        "argumentes",
+        "argumente",
+        "argumentons",
+        "argumentez",
+        "argumentent"
+      ],
+      "I": [
+        "argumentais",
+        "argumentais",
+        "argumentait",
+        "argumentions",
+        "argumentiez",
+        "argumentaient"
+      ],
+      "F": [
+        "argumenterai",
+        "argumenteras",
+        "argumentera",
+        "argumenterons",
+        "argumenterez",
+        "argumenteront"
+      ],
+      "C": [
+        "argumenterais",
+        "argumenterais",
+        "argumenterait",
+        "argumenterions",
+        "argumenteriez",
+        "argumenteraient"
+      ],
+      "S": [
+        "argumente",
+        "argumentes",
+        "argumente",
+        "argumentions",
+        "argumentiez",
+        "argumentent"
+      ],
+      "Y": [
+        "NA",
+        "argumente",
+        "NA",
+        "argumentons",
+        "argumentez",
+        "NA"
+      ],
+      "K": [
+        "argumenté",
+        "argumentés",
+        "argumentée",
+        "argumentées"
+      ]
+    }
+  },
+  {
+    "fr": "articuler",
+    "es": "articular",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "articule",
+        "articules",
+        "articule",
+        "articulons",
+        "articulez",
+        "articulent"
+      ],
+      "I": [
+        "articulais",
+        "articulais",
+        "articulait",
+        "articulions",
+        "articuliez",
+        "articulaient"
+      ],
+      "F": [
+        "articulerai",
+        "articuleras",
+        "articulera",
+        "articulerons",
+        "articulerez",
+        "articuleront"
+      ],
+      "C": [
+        "articulerais",
+        "articulerais",
+        "articulerait",
+        "articulerions",
+        "articuleriez",
+        "articuleraient"
+      ],
+      "S": [
+        "articule",
+        "articules",
+        "articule",
+        "articulions",
+        "articuliez",
+        "articulent"
+      ],
+      "Y": [
+        "NA",
+        "articule",
+        "NA",
+        "articulons",
+        "articulez",
+        "NA"
+      ],
+      "K": [
+        "articulé",
+        "articulés",
+        "articulée",
+        "articulées"
+      ]
+    }
+  },
+  {
+    "fr": "associer",
+    "es": "asociar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "associe",
+        "associes",
+        "associe",
+        "associons",
+        "associez",
+        "associent"
+      ],
+      "I": [
+        "associais",
+        "associais",
+        "associait",
+        "associions",
+        "associiez",
+        "associaient"
+      ],
+      "F": [
+        "associerai",
+        "associeras",
+        "associera",
+        "associerons",
+        "associerez",
+        "associeront"
+      ],
+      "C": [
+        "associerais",
+        "associerais",
+        "associerait",
+        "associerions",
+        "associeriez",
+        "associeraient"
+      ],
+      "S": [
+        "associe",
+        "associes",
+        "associe",
+        "associions",
+        "associiez",
+        "associent"
+      ],
+      "Y": [
+        "NA",
+        "associe",
+        "NA",
+        "associons",
+        "associez",
+        "NA"
+      ],
+      "K": [
+        "associé",
+        "associés",
+        "associée",
+        "associées"
+      ]
+    }
+  },
+  {
+    "fr": "attacher",
+    "es": "atar / adjuntar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "attache",
+        "attaches",
+        "attache",
+        "attachons",
+        "attachez",
+        "attachent"
+      ],
+      "I": [
+        "attachais",
+        "attachais",
+        "attachait",
+        "attachions",
+        "attachiez",
+        "attachaient"
+      ],
+      "F": [
+        "attacherai",
+        "attacheras",
+        "attachera",
+        "attacherons",
+        "attacherez",
+        "attacheront"
+      ],
+      "C": [
+        "attacherais",
+        "attacherais",
+        "attacherait",
+        "attacherions",
+        "attacheriez",
+        "attacheraient"
+      ],
+      "S": [
+        "attache",
+        "attaches",
+        "attache",
+        "attachions",
+        "attachiez",
+        "attachent"
+      ],
+      "Y": [
+        "NA",
+        "attache",
+        "NA",
+        "attachons",
+        "attachez",
+        "NA"
+      ],
+      "K": [
+        "attaché",
+        "attachés",
+        "attachée",
+        "attachées"
+      ]
+    }
+  },
+  {
+    "fr": "attaquer",
+    "es": "atacar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "attaque",
+        "attaques",
+        "attaque",
+        "attaquons",
+        "attaquez",
+        "attaquent"
+      ],
+      "I": [
+        "attaquais",
+        "attaquais",
+        "attaquait",
+        "attaquions",
+        "attaquiez",
+        "attaquaient"
+      ],
+      "F": [
+        "attaquerai",
+        "attaqueras",
+        "attaquera",
+        "attaquerons",
+        "attaquerez",
+        "attaqueront"
+      ],
+      "C": [
+        "attaquerais",
+        "attaquerais",
+        "attaquerait",
+        "attaquerions",
+        "attaqueriez",
+        "attaqueraient"
+      ],
+      "S": [
+        "attaque",
+        "attaques",
+        "attaque",
+        "attaquions",
+        "attaquiez",
+        "attaquent"
+      ],
+      "Y": [
+        "NA",
+        "attaque",
+        "NA",
+        "attaquons",
+        "attaquez",
+        "NA"
+      ],
+      "K": [
+        "attaqué",
+        "attaqués",
+        "attaquée",
+        "attaquées"
+      ]
+    }
+  },
+  {
+    "fr": "attirer",
+    "es": "atraer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "attire",
+        "attires",
+        "attire",
+        "attirons",
+        "attirez",
+        "attirent"
+      ],
+      "I": [
+        "attirais",
+        "attirais",
+        "attirait",
+        "attirions",
+        "attiriez",
+        "attiraient"
+      ],
+      "F": [
+        "attirerai",
+        "attireras",
+        "attirera",
+        "attirerons",
+        "attirerez",
+        "attireront"
+      ],
+      "C": [
+        "attirerais",
+        "attirerais",
+        "attirerait",
+        "attirerions",
+        "attireriez",
+        "attireraient"
+      ],
+      "S": [
+        "attire",
+        "attires",
+        "attire",
+        "attirions",
+        "attiriez",
+        "attirent"
+      ],
+      "Y": [
+        "NA",
+        "attire",
+        "NA",
+        "attirons",
+        "attirez",
+        "NA"
+      ],
+      "K": [
+        "attiré",
+        "attirés",
+        "attirée",
+        "attirées"
+      ]
+    }
+  },
+  {
+    "fr": "attribuer",
+    "es": "atribuir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "attribue",
+        "attribues",
+        "attribue",
+        "attribuons",
+        "attribuez",
+        "attribuent"
+      ],
+      "I": [
+        "attribuais",
+        "attribuais",
+        "attribuait",
+        "attribuions",
+        "attribuiez",
+        "attribuaient"
+      ],
+      "F": [
+        "attribuerai",
+        "attribueras",
+        "attribuera",
+        "attribuerons",
+        "attribuerez",
+        "attribueront"
+      ],
+      "C": [
+        "attribuerais",
+        "attribuerais",
+        "attribuerait",
+        "attribuerions",
+        "attribueriez",
+        "attribueraient"
+      ],
+      "S": [
+        "attribue",
+        "attribues",
+        "attribue",
+        "attribuions",
+        "attribuiez",
+        "attribuent"
+      ],
+      "Y": [
+        "NA",
+        "attribue",
+        "NA",
+        "attribuons",
+        "attribuez",
+        "NA"
+      ],
+      "K": [
+        "attribué",
+        "attribués",
+        "attribuée",
+        "attribuées"
+      ]
+    }
+  },
+  {
+    "fr": "avaler",
+    "es": "tragar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "avale",
+        "avales",
+        "avale",
+        "avalons",
+        "avalez",
+        "avalent"
+      ],
+      "I": [
+        "avalais",
+        "avalais",
+        "avalait",
+        "avalions",
+        "avaliez",
+        "avalaient"
+      ],
+      "F": [
+        "avalerai",
+        "avaleras",
+        "avalera",
+        "avalerons",
+        "avalerez",
+        "avaleront"
+      ],
+      "C": [
+        "avalerais",
+        "avalerais",
+        "avalerait",
+        "avalerions",
+        "avaleriez",
+        "avaleraient"
+      ],
+      "S": [
+        "avale",
+        "avales",
+        "avale",
+        "avalions",
+        "avaliez",
+        "avalent"
+      ],
+      "Y": [
+        "NA",
+        "avale",
+        "NA",
+        "avalons",
+        "avalez",
+        "NA"
+      ],
+      "K": [
+        "avalé",
+        "avalés",
+        "avalée",
+        "avalées"
+      ]
+    }
+  },
+  {
+    "fr": "baisser",
+    "es": "bajar (algo)",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "baisse",
+        "baisses",
+        "baisse",
+        "baissons",
+        "baissez",
+        "baissent"
+      ],
+      "I": [
+        "baissais",
+        "baissais",
+        "baissait",
+        "baissions",
+        "baissiez",
+        "baissaient"
+      ],
+      "F": [
+        "baisserai",
+        "baisseras",
+        "baissera",
+        "baisserons",
+        "baisserez",
+        "baisseront"
+      ],
+      "C": [
+        "baisserais",
+        "baisserais",
+        "baisserait",
+        "baisserions",
+        "baisseriez",
+        "baisseraient"
+      ],
+      "S": [
+        "baisse",
+        "baisses",
+        "baisse",
+        "baissions",
+        "baissiez",
+        "baissent"
+      ],
+      "Y": [
+        "NA",
+        "baisse",
+        "NA",
+        "baissons",
+        "baissez",
+        "NA"
+      ],
+      "K": [
+        "baissé",
+        "baissés",
+        "baissée",
+        "baissées"
+      ]
+    }
+  },
+  {
+    "fr": "bloquer",
+    "es": "bloquear",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "bloque",
+        "bloques",
+        "bloque",
+        "bloquons",
+        "bloquez",
+        "bloquent"
+      ],
+      "I": [
+        "bloquais",
+        "bloquais",
+        "bloquait",
+        "bloquions",
+        "bloquiez",
+        "bloquaient"
+      ],
+      "F": [
+        "bloquerai",
+        "bloqueras",
+        "bloquera",
+        "bloquerons",
+        "bloquerez",
+        "bloqueront"
+      ],
+      "C": [
+        "bloquerais",
+        "bloquerais",
+        "bloquerait",
+        "bloquerions",
+        "bloqueriez",
+        "bloqueraient"
+      ],
+      "S": [
+        "bloque",
+        "bloques",
+        "bloque",
+        "bloquions",
+        "bloquiez",
+        "bloquent"
+      ],
+      "Y": [
+        "NA",
+        "bloque",
+        "NA",
+        "bloquons",
+        "bloquez",
+        "NA"
+      ],
+      "K": [
+        "bloqué",
+        "bloqués",
+        "bloquée",
+        "bloquées"
+      ]
+    }
+  },
+  {
+    "fr": "boucler",
+    "es": "abrochar / cerrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "boucle",
+        "boucles",
+        "boucle",
+        "bouclons",
+        "bouclez",
+        "bouclent"
+      ],
+      "I": [
+        "bouclais",
+        "bouclais",
+        "bouclait",
+        "bouclions",
+        "boucliez",
+        "bouclaient"
+      ],
+      "F": [
+        "bouclerai",
+        "boucleras",
+        "bouclera",
+        "bouclerons",
+        "bouclerez",
+        "boucleront"
+      ],
+      "C": [
+        "bouclerais",
+        "bouclerais",
+        "bouclerait",
+        "bouclerions",
+        "boucleriez",
+        "boucleraient"
+      ],
+      "S": [
+        "boucle",
+        "boucles",
+        "boucle",
+        "bouclions",
+        "boucliez",
+        "bouclent"
+      ],
+      "Y": [
+        "NA",
+        "boucle",
+        "NA",
+        "bouclons",
+        "bouclez",
+        "NA"
+      ],
+      "K": [
+        "bouclé",
+        "bouclés",
+        "bouclée",
+        "bouclées"
+      ]
+    }
+  },
+  {
+    "fr": "bouger",
+    "es": "mover",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "bouge",
+        "bouges",
+        "bouge",
+        "bougeons",
+        "bougez",
+        "bougent"
+      ],
+      "I": [
+        "bougeais",
+        "bougeais",
+        "bougeait",
+        "bougions",
+        "bougiez",
+        "bougeaient"
+      ],
+      "F": [
+        "bougerai",
+        "bougeras",
+        "bougera",
+        "bougerons",
+        "bougerez",
+        "bougeront"
+      ],
+      "C": [
+        "bougerais",
+        "bougerais",
+        "bougerait",
+        "bougerions",
+        "bougeriez",
+        "bougeraient"
+      ],
+      "S": [
+        "bouge",
+        "bouges",
+        "bouge",
+        "bougions",
+        "bougiez",
+        "bougent"
+      ],
+      "Y": [
+        "NA",
+        "bouge",
+        "NA",
+        "bougeons",
+        "bougez",
+        "NA"
+      ],
+      "K": [
+        "bougé",
+        "bougés",
+        "bougée",
+        "bougées"
+      ]
+    }
+  },
+  {
+    "fr": "bousculer",
+    "es": "empujar / alterar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "bouscule",
+        "bouscules",
+        "bouscule",
+        "bousculons",
+        "bousculez",
+        "bousculent"
+      ],
+      "I": [
+        "bousculais",
+        "bousculais",
+        "bousculait",
+        "bousculions",
+        "bousculiez",
+        "bousculaient"
+      ],
+      "F": [
+        "bousculerai",
+        "bousculeras",
+        "bousculera",
+        "bousculerons",
+        "bousculerez",
+        "bousculeront"
+      ],
+      "C": [
+        "bousculerais",
+        "bousculerais",
+        "bousculerait",
+        "bousculerions",
+        "bousculeriez",
+        "bousculeraient"
+      ],
+      "S": [
+        "bouscule",
+        "bouscules",
+        "bouscule",
+        "bousculions",
+        "bousculiez",
+        "bousculent"
+      ],
+      "Y": [
+        "NA",
+        "bouscule",
+        "NA",
+        "bousculons",
+        "bousculez",
+        "NA"
+      ],
+      "K": [
+        "bousculé",
+        "bousculés",
+        "bousculée",
+        "bousculées"
+      ]
+    }
+  },
+  {
+    "fr": "brosser",
+    "es": "cepillar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "brosse",
+        "brosses",
+        "brosse",
+        "brossons",
+        "brossez",
+        "brossent"
+      ],
+      "I": [
+        "brossais",
+        "brossais",
+        "brossait",
+        "brossions",
+        "brossiez",
+        "brossaient"
+      ],
+      "F": [
+        "brosserai",
+        "brosseras",
+        "brossera",
+        "brosserons",
+        "brosserez",
+        "brosseront"
+      ],
+      "C": [
+        "brosserais",
+        "brosserais",
+        "brosserait",
+        "brosserions",
+        "brosseriez",
+        "brosseraient"
+      ],
+      "S": [
+        "brosse",
+        "brosses",
+        "brosse",
+        "brossions",
+        "brossiez",
+        "brossent"
+      ],
+      "Y": [
+        "NA",
+        "brosse",
+        "NA",
+        "brossons",
+        "brossez",
+        "NA"
+      ],
+      "K": [
+        "brossé",
+        "brossés",
+        "brossée",
+        "brossées"
+      ]
+    }
+  },
+  {
+    "fr": "cadrer",
+    "es": "encuadrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "cadre",
+        "cadres",
+        "cadre",
+        "cadrons",
+        "cadrez",
+        "cadrent"
+      ],
+      "I": [
+        "cadrais",
+        "cadrais",
+        "cadrait",
+        "cadrions",
+        "cadriez",
+        "cadraient"
+      ],
+      "F": [
+        "cadrerai",
+        "cadreras",
+        "cadrera",
+        "cadrerons",
+        "cadrerez",
+        "cadreront"
+      ],
+      "C": [
+        "cadrerais",
+        "cadrerais",
+        "cadrerait",
+        "cadrerions",
+        "cadreriez",
+        "cadreraient"
+      ],
+      "S": [
+        "cadre",
+        "cadres",
+        "cadre",
+        "cadrions",
+        "cadriez",
+        "cadrent"
+      ],
+      "Y": [
+        "NA",
+        "cadre",
+        "NA",
+        "cadrons",
+        "cadrez",
+        "NA"
+      ],
+      "K": [
+        "cadré",
+        "cadrés",
+        "cadrée",
+        "cadrées"
+      ]
+    }
+  },
+  {
+    "fr": "camper",
+    "es": "acampar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "campe",
+        "campes",
+        "campe",
+        "campons",
+        "campez",
+        "campent"
+      ],
+      "I": [
+        "campais",
+        "campais",
+        "campait",
+        "campions",
+        "campiez",
+        "campaient"
+      ],
+      "F": [
+        "camperai",
+        "camperas",
+        "campera",
+        "camperons",
+        "camperez",
+        "camperont"
+      ],
+      "C": [
+        "camperais",
+        "camperais",
+        "camperait",
+        "camperions",
+        "camperiez",
+        "camperaient"
+      ],
+      "S": [
+        "campe",
+        "campes",
+        "campe",
+        "campions",
+        "campiez",
+        "campent"
+      ],
+      "Y": [
+        "NA",
+        "campe",
+        "NA",
+        "campons",
+        "campez",
+        "NA"
+      ],
+      "K": [
+        "campé",
+        "campés",
+        "campée",
+        "campées"
+      ]
+    }
+  },
+  {
+    "fr": "capturer",
+    "es": "capturar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "capture",
+        "captures",
+        "capture",
+        "capturons",
+        "capturez",
+        "capturent"
+      ],
+      "I": [
+        "capturais",
+        "capturais",
+        "capturait",
+        "capturions",
+        "capturiez",
+        "capturaient"
+      ],
+      "F": [
+        "capturerai",
+        "captureras",
+        "capturera",
+        "capturerons",
+        "capturerez",
+        "captureront"
+      ],
+      "C": [
+        "capturerais",
+        "capturerais",
+        "capturerait",
+        "capturerions",
+        "captureriez",
+        "captureraient"
+      ],
+      "S": [
+        "capture",
+        "captures",
+        "capture",
+        "capturions",
+        "capturiez",
+        "capturent"
+      ],
+      "Y": [
+        "NA",
+        "capture",
+        "NA",
+        "capturons",
+        "capturez",
+        "NA"
+      ],
+      "K": [
+        "capturé",
+        "capturés",
+        "capturée",
+        "capturées"
+      ]
+    }
+  },
+  {
+    "fr": "caresser",
+    "es": "acariciar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "caresse",
+        "caresses",
+        "caresse",
+        "caressons",
+        "caressez",
+        "caressent"
+      ],
+      "I": [
+        "caressais",
+        "caressais",
+        "caressait",
+        "caressions",
+        "caressiez",
+        "caressaient"
+      ],
+      "F": [
+        "caresserai",
+        "caresseras",
+        "caressera",
+        "caresserons",
+        "caresserez",
+        "caresseront"
+      ],
+      "C": [
+        "caresserais",
+        "caresserais",
+        "caresserait",
+        "caresserions",
+        "caresseriez",
+        "caresseraient"
+      ],
+      "S": [
+        "caresse",
+        "caresses",
+        "caresse",
+        "caressions",
+        "caressiez",
+        "caressent"
+      ],
+      "Y": [
+        "NA",
+        "caresse",
+        "NA",
+        "caressons",
+        "caressez",
+        "NA"
+      ],
+      "K": [
+        "caressé",
+        "caressés",
+        "caressée",
+        "caressées"
+      ]
+    }
+  },
+  {
+    "fr": "causer",
+    "es": "causar / charlar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "cause",
+        "causes",
+        "cause",
+        "causons",
+        "causez",
+        "causent"
+      ],
+      "I": [
+        "causais",
+        "causais",
+        "causait",
+        "causions",
+        "causiez",
+        "causaient"
+      ],
+      "F": [
+        "causerai",
+        "causeras",
+        "causera",
+        "causerons",
+        "causerez",
+        "causeront"
+      ],
+      "C": [
+        "causerais",
+        "causerais",
+        "causerait",
+        "causerions",
+        "causeriez",
+        "causeraient"
+      ],
+      "S": [
+        "cause",
+        "causes",
+        "cause",
+        "causions",
+        "causiez",
+        "causent"
+      ],
+      "Y": [
+        "NA",
+        "cause",
+        "NA",
+        "causons",
+        "causez",
+        "NA"
+      ],
+      "K": [
+        "causé",
+        "causés",
+        "causée",
+        "causées"
+      ]
+    }
+  },
+  {
+    "fr": "célébrer",
+    "es": "celebrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "célèbre",
+        "célèbres",
+        "célèbre",
+        "célébrons",
+        "célébrez",
+        "célèbrent"
+      ],
+      "I": [
+        "célébrais",
+        "célébrais",
+        "célébrait",
+        "célébrions",
+        "célébriez",
+        "célébraient"
+      ],
+      "F": [
+        "célébrerai",
+        "célébreras",
+        "célébrera",
+        "célébrerons",
+        "célébrerez",
+        "célébreront"
+      ],
+      "C": [
+        "célébrerais",
+        "célébrerais",
+        "célébrerait",
+        "célébrerions",
+        "célébreriez",
+        "célébreraient"
+      ],
+      "S": [
+        "célèbre",
+        "célèbres",
+        "célèbre",
+        "célébrions",
+        "célébriez",
+        "célèbrent"
+      ],
+      "Y": [
+        "NA",
+        "célèbre",
+        "NA",
+        "célébrons",
+        "célébrez",
+        "NA"
+      ],
+      "K": [
+        "célébré",
+        "célébrés",
+        "célébrée",
+        "célébrées"
+      ]
+    }
+  },
+  {
+    "fr": "charger",
+    "es": "cargar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "charge",
+        "charges",
+        "charge",
+        "chargeons",
+        "chargez",
+        "chargent"
+      ],
+      "I": [
+        "chargeais",
+        "chargeais",
+        "chargeait",
+        "chargions",
+        "chargiez",
+        "chargeaient"
+      ],
+      "F": [
+        "chargerai",
+        "chargeras",
+        "chargera",
+        "chargerons",
+        "chargerez",
+        "chargeront"
+      ],
+      "C": [
+        "chargerais",
+        "chargerais",
+        "chargerait",
+        "chargerions",
+        "chargeriez",
+        "chargeraient"
+      ],
+      "S": [
+        "charge",
+        "charges",
+        "charge",
+        "chargions",
+        "chargiez",
+        "chargent"
+      ],
+      "Y": [
+        "NA",
+        "charge",
+        "NA",
+        "chargeons",
+        "chargez",
+        "NA"
+      ],
+      "K": [
+        "chargé",
+        "chargés",
+        "chargée",
+        "chargées"
+      ]
+    }
+  },
+  {
+    "fr": "chasser",
+    "es": "cazar / ahuyentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "chasse",
+        "chasses",
+        "chasse",
+        "chassons",
+        "chassez",
+        "chassent"
+      ],
+      "I": [
+        "chassais",
+        "chassais",
+        "chassait",
+        "chassions",
+        "chassiez",
+        "chassaient"
+      ],
+      "F": [
+        "chasserai",
+        "chasseras",
+        "chassera",
+        "chasserons",
+        "chasserez",
+        "chasseront"
+      ],
+      "C": [
+        "chasserais",
+        "chasserais",
+        "chasserait",
+        "chasserions",
+        "chasseriez",
+        "chasseraient"
+      ],
+      "S": [
+        "chasse",
+        "chasses",
+        "chasse",
+        "chassions",
+        "chassiez",
+        "chassent"
+      ],
+      "Y": [
+        "NA",
+        "chasse",
+        "NA",
+        "chassons",
+        "chassez",
+        "NA"
+      ],
+      "K": [
+        "chassé",
+        "chassés",
+        "chassée",
+        "chassées"
+      ]
+    }
+  },
+  {
+    "fr": "classer",
+    "es": "clasificar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "classe",
+        "classes",
+        "classe",
+        "classons",
+        "classez",
+        "classent"
+      ],
+      "I": [
+        "classais",
+        "classais",
+        "classait",
+        "classions",
+        "classiez",
+        "classaient"
+      ],
+      "F": [
+        "classerai",
+        "classeras",
+        "classera",
+        "classerons",
+        "classerez",
+        "classeront"
+      ],
+      "C": [
+        "classerais",
+        "classerais",
+        "classerait",
+        "classerions",
+        "classeriez",
+        "classeraient"
+      ],
+      "S": [
+        "classe",
+        "classes",
+        "classe",
+        "classions",
+        "classiez",
+        "classent"
+      ],
+      "Y": [
+        "NA",
+        "classe",
+        "NA",
+        "classons",
+        "classez",
+        "NA"
+      ],
+      "K": [
+        "classé",
+        "classés",
+        "classée",
+        "classées"
+      ]
+    }
+  },
+  {
+    "fr": "cocher",
+    "es": "marcar una casilla",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "coche",
+        "coches",
+        "coche",
+        "cochons",
+        "cochez",
+        "cochent"
+      ],
+      "I": [
+        "cochais",
+        "cochais",
+        "cochait",
+        "cochions",
+        "cochiez",
+        "cochaient"
+      ],
+      "F": [
+        "cocherai",
+        "cocheras",
+        "cochera",
+        "cocherons",
+        "cocherez",
+        "cocheront"
+      ],
+      "C": [
+        "cocherais",
+        "cocherais",
+        "cocherait",
+        "cocherions",
+        "cocheriez",
+        "cocheraient"
+      ],
+      "S": [
+        "coche",
+        "coches",
+        "coche",
+        "cochions",
+        "cochiez",
+        "cochent"
+      ],
+      "Y": [
+        "NA",
+        "coche",
+        "NA",
+        "cochons",
+        "cochez",
+        "NA"
+      ],
+      "K": [
+        "coché",
+        "cochés",
+        "cochée",
+        "cochées"
+      ]
+    }
+  },
+  {
+    "fr": "coiffer",
+    "es": "peinar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "coiffe",
+        "coiffes",
+        "coiffe",
+        "coiffons",
+        "coiffez",
+        "coiffent"
+      ],
+      "I": [
+        "coiffais",
+        "coiffais",
+        "coiffait",
+        "coiffions",
+        "coiffiez",
+        "coiffaient"
+      ],
+      "F": [
+        "coifferai",
+        "coifferas",
+        "coiffera",
+        "coifferons",
+        "coifferez",
+        "coifferont"
+      ],
+      "C": [
+        "coifferais",
+        "coifferais",
+        "coifferait",
+        "coifferions",
+        "coifferiez",
+        "coifferaient"
+      ],
+      "S": [
+        "coiffe",
+        "coiffes",
+        "coiffe",
+        "coiffions",
+        "coiffiez",
+        "coiffent"
+      ],
+      "Y": [
+        "NA",
+        "coiffe",
+        "NA",
+        "coiffons",
+        "coiffez",
+        "NA"
+      ],
+      "K": [
+        "coiffé",
+        "coiffés",
+        "coiffée",
+        "coiffées"
+      ]
+    }
+  },
+  {
+    "fr": "collecter",
+    "es": "recopilar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "collecte",
+        "collectes",
+        "collecte",
+        "collectons",
+        "collectez",
+        "collectent"
+      ],
+      "I": [
+        "collectais",
+        "collectais",
+        "collectait",
+        "collections",
+        "collectiez",
+        "collectaient"
+      ],
+      "F": [
+        "collecterai",
+        "collecteras",
+        "collectera",
+        "collecterons",
+        "collecterez",
+        "collecteront"
+      ],
+      "C": [
+        "collecterais",
+        "collecterais",
+        "collecterait",
+        "collecterions",
+        "collecteriez",
+        "collecteraient"
+      ],
+      "S": [
+        "collecte",
+        "collectes",
+        "collecte",
+        "collections",
+        "collectiez",
+        "collectent"
+      ],
+      "Y": [
+        "NA",
+        "collecte",
+        "NA",
+        "collectons",
+        "collectez",
+        "NA"
+      ],
+      "K": [
+        "collecté",
+        "collectés",
+        "collectée",
+        "collectées"
+      ]
+    }
+  },
+  {
+    "fr": "combiner",
+    "es": "combinar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "combine",
+        "combines",
+        "combine",
+        "combinons",
+        "combinez",
+        "combinent"
+      ],
+      "I": [
+        "combinais",
+        "combinais",
+        "combinait",
+        "combinions",
+        "combiniez",
+        "combinaient"
+      ],
+      "F": [
+        "combinerai",
+        "combineras",
+        "combinera",
+        "combinerons",
+        "combinerez",
+        "combineront"
+      ],
+      "C": [
+        "combinerais",
+        "combinerais",
+        "combinerait",
+        "combinerions",
+        "combineriez",
+        "combineraient"
+      ],
+      "S": [
+        "combine",
+        "combines",
+        "combine",
+        "combinions",
+        "combiniez",
+        "combinent"
+      ],
+      "Y": [
+        "NA",
+        "combine",
+        "NA",
+        "combinons",
+        "combinez",
+        "NA"
+      ],
+      "K": [
+        "combiné",
+        "combinés",
+        "combinée",
+        "combinées"
+      ]
+    }
+  },
+  {
+    "fr": "commenter",
+    "es": "comentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "commente",
+        "commentes",
+        "commente",
+        "commentons",
+        "commentez",
+        "commentent"
+      ],
+      "I": [
+        "commentais",
+        "commentais",
+        "commentait",
+        "commentions",
+        "commentiez",
+        "commentaient"
+      ],
+      "F": [
+        "commenterai",
+        "commenteras",
+        "commentera",
+        "commenterons",
+        "commenterez",
+        "commenteront"
+      ],
+      "C": [
+        "commenterais",
+        "commenterais",
+        "commenterait",
+        "commenterions",
+        "commenteriez",
+        "commenteraient"
+      ],
+      "S": [
+        "commente",
+        "commentes",
+        "commente",
+        "commentions",
+        "commentiez",
+        "commentent"
+      ],
+      "Y": [
+        "NA",
+        "commente",
+        "NA",
+        "commentons",
+        "commentez",
+        "NA"
+      ],
+      "K": [
+        "commenté",
+        "commentés",
+        "commentée",
+        "commentées"
+      ]
+    }
+  },
+  {
+    "fr": "communiquer",
+    "es": "comunicar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "communique",
+        "communiques",
+        "communique",
+        "communiquons",
+        "communiquez",
+        "communiquent"
+      ],
+      "I": [
+        "communiquais",
+        "communiquais",
+        "communiquait",
+        "communiquions",
+        "communiquiez",
+        "communiquaient"
+      ],
+      "F": [
+        "communiquerai",
+        "communiqueras",
+        "communiquera",
+        "communiquerons",
+        "communiquerez",
+        "communiqueront"
+      ],
+      "C": [
+        "communiquerais",
+        "communiquerais",
+        "communiquerait",
+        "communiquerions",
+        "communiqueriez",
+        "communiqueraient"
+      ],
+      "S": [
+        "communique",
+        "communiques",
+        "communique",
+        "communiquions",
+        "communiquiez",
+        "communiquent"
+      ],
+      "Y": [
+        "NA",
+        "communique",
+        "NA",
+        "communiquons",
+        "communiquez",
+        "NA"
+      ],
+      "K": [
+        "communiqué",
+        "communiqués",
+        "communiquée",
+        "communiquées"
+      ]
+    }
+  },
+  {
+    "fr": "compenser",
+    "es": "compensar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "compense",
+        "compenses",
+        "compense",
+        "compensons",
+        "compensez",
+        "compensent"
+      ],
+      "I": [
+        "compensais",
+        "compensais",
+        "compensait",
+        "compensions",
+        "compensiez",
+        "compensaient"
+      ],
+      "F": [
+        "compenserai",
+        "compenseras",
+        "compensera",
+        "compenserons",
+        "compenserez",
+        "compenseront"
+      ],
+      "C": [
+        "compenserais",
+        "compenserais",
+        "compenserait",
+        "compenserions",
+        "compenseriez",
+        "compenseraient"
+      ],
+      "S": [
+        "compense",
+        "compenses",
+        "compense",
+        "compensions",
+        "compensiez",
+        "compensent"
+      ],
+      "Y": [
+        "NA",
+        "compense",
+        "NA",
+        "compensons",
+        "compensez",
+        "NA"
+      ],
+      "K": [
+        "compensé",
+        "compensés",
+        "compensée",
+        "compensées"
+      ]
+    }
+  },
+  {
+    "fr": "compléter",
+    "es": "completar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "complète",
+        "complètes",
+        "complète",
+        "complétons",
+        "complétez",
+        "complètent"
+      ],
+      "I": [
+        "complétais",
+        "complétais",
+        "complétait",
+        "complétions",
+        "complétiez",
+        "complétaient"
+      ],
+      "F": [
+        "compléterai",
+        "compléteras",
+        "complétera",
+        "compléterons",
+        "compléterez",
+        "compléteront"
+      ],
+      "C": [
+        "compléterais",
+        "compléterais",
+        "compléterait",
+        "compléterions",
+        "compléteriez",
+        "compléteraient"
+      ],
+      "S": [
+        "complète",
+        "complètes",
+        "complète",
+        "complétions",
+        "complétiez",
+        "complètent"
+      ],
+      "Y": [
+        "NA",
+        "complète",
+        "NA",
+        "complétons",
+        "complétez",
+        "NA"
+      ],
+      "K": [
+        "complété",
+        "complétés",
+        "complétée",
+        "complétées"
+      ]
+    }
+  },
+  {
+    "fr": "compliquer",
+    "es": "complicar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "complique",
+        "compliques",
+        "complique",
+        "compliquons",
+        "compliquez",
+        "compliquent"
+      ],
+      "I": [
+        "compliquais",
+        "compliquais",
+        "compliquait",
+        "compliquions",
+        "compliquiez",
+        "compliquaient"
+      ],
+      "F": [
+        "compliquerai",
+        "compliqueras",
+        "compliquera",
+        "compliquerons",
+        "compliquerez",
+        "compliqueront"
+      ],
+      "C": [
+        "compliquerais",
+        "compliquerais",
+        "compliquerait",
+        "compliquerions",
+        "compliqueriez",
+        "compliqueraient"
+      ],
+      "S": [
+        "complique",
+        "compliques",
+        "complique",
+        "compliquions",
+        "compliquiez",
+        "compliquent"
+      ],
+      "Y": [
+        "NA",
+        "complique",
+        "NA",
+        "compliquons",
+        "compliquez",
+        "NA"
+      ],
+      "K": [
+        "compliqué",
+        "compliqués",
+        "compliquée",
+        "compliquées"
+      ]
+    }
+  },
+  {
+    "fr": "composer",
+    "es": "componer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "compose",
+        "composes",
+        "compose",
+        "composons",
+        "composez",
+        "composent"
+      ],
+      "I": [
+        "composais",
+        "composais",
+        "composait",
+        "composions",
+        "composiez",
+        "composaient"
+      ],
+      "F": [
+        "composerai",
+        "composeras",
+        "composera",
+        "composerons",
+        "composerez",
+        "composeront"
+      ],
+      "C": [
+        "composerais",
+        "composerais",
+        "composerait",
+        "composerions",
+        "composeriez",
+        "composeraient"
+      ],
+      "S": [
+        "compose",
+        "composes",
+        "compose",
+        "composions",
+        "composiez",
+        "composent"
+      ],
+      "Y": [
+        "NA",
+        "compose",
+        "NA",
+        "composons",
+        "composez",
+        "NA"
+      ],
+      "K": [
+        "composé",
+        "composés",
+        "composée",
+        "composées"
+      ]
+    }
+  },
+  {
+    "fr": "confier",
+    "es": "confiar (algo)",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "confie",
+        "confies",
+        "confie",
+        "confions",
+        "confiez",
+        "confient"
+      ],
+      "I": [
+        "confiais",
+        "confiais",
+        "confiait",
+        "confiions",
+        "confiiez",
+        "confiaient"
+      ],
+      "F": [
+        "confierai",
+        "confieras",
+        "confiera",
+        "confierons",
+        "confierez",
+        "confieront"
+      ],
+      "C": [
+        "confierais",
+        "confierais",
+        "confierait",
+        "confierions",
+        "confieriez",
+        "confieraient"
+      ],
+      "S": [
+        "confie",
+        "confies",
+        "confie",
+        "confiions",
+        "confiiez",
+        "confient"
+      ],
+      "Y": [
+        "NA",
+        "confie",
+        "NA",
+        "confions",
+        "confiez",
+        "NA"
+      ],
+      "K": [
+        "confié",
+        "confiés",
+        "confiée",
+        "confiées"
+      ]
+    }
+  },
+  {
+    "fr": "confirmer",
+    "es": "confirmar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "confirme",
+        "confirmes",
+        "confirme",
+        "confirmons",
+        "confirmez",
+        "confirment"
+      ],
+      "I": [
+        "confirmais",
+        "confirmais",
+        "confirmait",
+        "confirmions",
+        "confirmiez",
+        "confirmaient"
+      ],
+      "F": [
+        "confirmerai",
+        "confirmeras",
+        "confirmera",
+        "confirmerons",
+        "confirmerez",
+        "confirmeront"
+      ],
+      "C": [
+        "confirmerais",
+        "confirmerais",
+        "confirmerait",
+        "confirmerions",
+        "confirmeriez",
+        "confirmeraient"
+      ],
+      "S": [
+        "confirme",
+        "confirmes",
+        "confirme",
+        "confirmions",
+        "confirmiez",
+        "confirment"
+      ],
+      "Y": [
+        "NA",
+        "confirme",
+        "NA",
+        "confirmons",
+        "confirmez",
+        "NA"
+      ],
+      "K": [
+        "confirmé",
+        "confirmés",
+        "confirmée",
+        "confirmées"
+      ]
+    }
+  },
+  {
+    "fr": "connecter",
+    "es": "conectar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "connecte",
+        "connectes",
+        "connecte",
+        "connectons",
+        "connectez",
+        "connectent"
+      ],
+      "I": [
+        "connectais",
+        "connectais",
+        "connectait",
+        "connections",
+        "connectiez",
+        "connectaient"
+      ],
+      "F": [
+        "connecterai",
+        "connecteras",
+        "connectera",
+        "connecterons",
+        "connecterez",
+        "connecteront"
+      ],
+      "C": [
+        "connecterais",
+        "connecterais",
+        "connecterait",
+        "connecterions",
+        "connecteriez",
+        "connecteraient"
+      ],
+      "S": [
+        "connecte",
+        "connectes",
+        "connecte",
+        "connections",
+        "connectiez",
+        "connectent"
+      ],
+      "Y": [
+        "NA",
+        "connecte",
+        "NA",
+        "connectons",
+        "connectez",
+        "NA"
+      ],
+      "K": [
+        "connecté",
+        "connectés",
+        "connectée",
+        "connectées"
+      ]
+    }
+  },
+  {
+    "fr": "conserver",
+    "es": "conservar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "conserve",
+        "conserves",
+        "conserve",
+        "conservons",
+        "conservez",
+        "conservent"
+      ],
+      "I": [
+        "conservais",
+        "conservais",
+        "conservait",
+        "conservions",
+        "conserviez",
+        "conservaient"
+      ],
+      "F": [
+        "conserverai",
+        "conserveras",
+        "conservera",
+        "conserverons",
+        "conserverez",
+        "conserveront"
+      ],
+      "C": [
+        "conserverais",
+        "conserverais",
+        "conserverait",
+        "conserverions",
+        "conserveriez",
+        "conserveraient"
+      ],
+      "S": [
+        "conserve",
+        "conserves",
+        "conserve",
+        "conservions",
+        "conserviez",
+        "conservent"
+      ],
+      "Y": [
+        "NA",
+        "conserve",
+        "NA",
+        "conservons",
+        "conservez",
+        "NA"
+      ],
+      "K": [
+        "conservé",
+        "conservés",
+        "conservée",
+        "conservées"
+      ]
+    }
+  },
+  {
+    "fr": "consulter",
+    "es": "consultar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "consulte",
+        "consultes",
+        "consulte",
+        "consultons",
+        "consultez",
+        "consultent"
+      ],
+      "I": [
+        "consultais",
+        "consultais",
+        "consultait",
+        "consultions",
+        "consultiez",
+        "consultaient"
+      ],
+      "F": [
+        "consulterai",
+        "consulteras",
+        "consultera",
+        "consulterons",
+        "consulterez",
+        "consulteront"
+      ],
+      "C": [
+        "consulterais",
+        "consulterais",
+        "consulterait",
+        "consulterions",
+        "consulteriez",
+        "consulteraient"
+      ],
+      "S": [
+        "consulte",
+        "consultes",
+        "consulte",
+        "consultions",
+        "consultiez",
+        "consultent"
+      ],
+      "Y": [
+        "NA",
+        "consulte",
+        "NA",
+        "consultons",
+        "consultez",
+        "NA"
+      ],
+      "K": [
+        "consulté",
+        "consultés",
+        "consultée",
+        "consultées"
+      ]
+    }
+  },
+  {
+    "fr": "consommer",
+    "es": "consumir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "consomme",
+        "consommes",
+        "consomme",
+        "consommons",
+        "consommez",
+        "consomment"
+      ],
+      "I": [
+        "consommais",
+        "consommais",
+        "consommait",
+        "consommions",
+        "consommiez",
+        "consommaient"
+      ],
+      "F": [
+        "consommerai",
+        "consommeras",
+        "consommera",
+        "consommerons",
+        "consommerez",
+        "consommeront"
+      ],
+      "C": [
+        "consommerais",
+        "consommerais",
+        "consommerait",
+        "consommerions",
+        "consommeriez",
+        "consommeraient"
+      ],
+      "S": [
+        "consomme",
+        "consommes",
+        "consomme",
+        "consommions",
+        "consommiez",
+        "consomment"
+      ],
+      "Y": [
+        "NA",
+        "consomme",
+        "NA",
+        "consommons",
+        "consommez",
+        "NA"
+      ],
+      "K": [
+        "consommé",
+        "consommés",
+        "consommée",
+        "consommées"
+      ]
+    }
+  },
+  {
+    "fr": "contacter",
+    "es": "contactar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "contacte",
+        "contactes",
+        "contacte",
+        "contactons",
+        "contactez",
+        "contactent"
+      ],
+      "I": [
+        "contactais",
+        "contactais",
+        "contactait",
+        "contactions",
+        "contactiez",
+        "contactaient"
+      ],
+      "F": [
+        "contacterai",
+        "contacteras",
+        "contactera",
+        "contacterons",
+        "contacterez",
+        "contacteront"
+      ],
+      "C": [
+        "contacterais",
+        "contacterais",
+        "contacterait",
+        "contacterions",
+        "contacteriez",
+        "contacteraient"
+      ],
+      "S": [
+        "contacte",
+        "contactes",
+        "contacte",
+        "contactions",
+        "contactiez",
+        "contactent"
+      ],
+      "Y": [
+        "NA",
+        "contacte",
+        "NA",
+        "contactons",
+        "contactez",
+        "NA"
+      ],
+      "K": [
+        "contacté",
+        "contactés",
+        "contactée",
+        "contactées"
+      ]
+    }
+  },
+  {
+    "fr": "contrôler",
+    "es": "controlar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "contrôle",
+        "contrôles",
+        "contrôle",
+        "contrôlons",
+        "contrôlez",
+        "contrôlent"
+      ],
+      "I": [
+        "contrôlais",
+        "contrôlais",
+        "contrôlait",
+        "contrôlions",
+        "contrôliez",
+        "contrôlaient"
+      ],
+      "F": [
+        "contrôlerai",
+        "contrôleras",
+        "contrôlera",
+        "contrôlerons",
+        "contrôlerez",
+        "contrôleront"
+      ],
+      "C": [
+        "contrôlerais",
+        "contrôlerais",
+        "contrôlerait",
+        "contrôlerions",
+        "contrôleriez",
+        "contrôleraient"
+      ],
+      "S": [
+        "contrôle",
+        "contrôles",
+        "contrôle",
+        "contrôlions",
+        "contrôliez",
+        "contrôlent"
+      ],
+      "Y": [
+        "NA",
+        "contrôle",
+        "NA",
+        "contrôlons",
+        "contrôlez",
+        "NA"
+      ],
+      "K": [
+        "contrôlé",
+        "contrôlés",
+        "contrôlée",
+        "contrôlées"
+      ]
+    }
+  },
+  {
+    "fr": "coordonner",
+    "es": "coordinar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "coordonne",
+        "coordonnes",
+        "coordonne",
+        "coordonnons",
+        "coordonnez",
+        "coordonnent"
+      ],
+      "I": [
+        "coordonnais",
+        "coordonnais",
+        "coordonnait",
+        "coordonnions",
+        "coordonniez",
+        "coordonnaient"
+      ],
+      "F": [
+        "coordonnerai",
+        "coordonneras",
+        "coordonnera",
+        "coordonnerons",
+        "coordonnerez",
+        "coordonneront"
+      ],
+      "C": [
+        "coordonnerais",
+        "coordonnerais",
+        "coordonnerait",
+        "coordonnerions",
+        "coordonneriez",
+        "coordonneraient"
+      ],
+      "S": [
+        "coordonne",
+        "coordonnes",
+        "coordonne",
+        "coordonnions",
+        "coordonniez",
+        "coordonnent"
+      ],
+      "Y": [
+        "NA",
+        "coordonne",
+        "NA",
+        "coordonnons",
+        "coordonnez",
+        "NA"
+      ],
+      "K": [
+        "coordonné",
+        "coordonnés",
+        "coordonnée",
+        "coordonnées"
+      ]
+    }
+  },
+  {
+    "fr": "cultiver",
+    "es": "cultivar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "cultive",
+        "cultives",
+        "cultive",
+        "cultivons",
+        "cultivez",
+        "cultivent"
+      ],
+      "I": [
+        "cultivais",
+        "cultivais",
+        "cultivait",
+        "cultivions",
+        "cultiviez",
+        "cultivaient"
+      ],
+      "F": [
+        "cultiverai",
+        "cultiveras",
+        "cultivera",
+        "cultiverons",
+        "cultiverez",
+        "cultiveront"
+      ],
+      "C": [
+        "cultiverais",
+        "cultiverais",
+        "cultiverait",
+        "cultiverions",
+        "cultiveriez",
+        "cultiveraient"
+      ],
+      "S": [
+        "cultive",
+        "cultives",
+        "cultive",
+        "cultivions",
+        "cultiviez",
+        "cultivent"
+      ],
+      "Y": [
+        "NA",
+        "cultive",
+        "NA",
+        "cultivons",
+        "cultivez",
+        "NA"
+      ],
+      "K": [
+        "cultivé",
+        "cultivés",
+        "cultivée",
+        "cultivées"
+      ]
+    }
+  },
+  {
+    "fr": "dater",
+    "es": "fechar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "date",
+        "dates",
+        "date",
+        "datons",
+        "datez",
+        "datent"
+      ],
+      "I": [
+        "datais",
+        "datais",
+        "datait",
+        "dations",
+        "datiez",
+        "dataient"
+      ],
+      "F": [
+        "daterai",
+        "dateras",
+        "datera",
+        "daterons",
+        "daterez",
+        "dateront"
+      ],
+      "C": [
+        "daterais",
+        "daterais",
+        "daterait",
+        "daterions",
+        "dateriez",
+        "dateraient"
+      ],
+      "S": [
+        "date",
+        "dates",
+        "date",
+        "dations",
+        "datiez",
+        "datent"
+      ],
+      "Y": [
+        "NA",
+        "date",
+        "NA",
+        "datons",
+        "datez",
+        "NA"
+      ],
+      "K": [
+        "daté",
+        "datés",
+        "datée",
+        "datées"
+      ]
+    }
+  },
+  {
+    "fr": "décaler",
+    "es": "desplazar / aplazar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "décale",
+        "décales",
+        "décale",
+        "décalons",
+        "décalez",
+        "décalent"
+      ],
+      "I": [
+        "décalais",
+        "décalais",
+        "décalait",
+        "décalions",
+        "décaliez",
+        "décalaient"
+      ],
+      "F": [
+        "décalerai",
+        "décaleras",
+        "décalera",
+        "décalerons",
+        "décalerez",
+        "décaleront"
+      ],
+      "C": [
+        "décalerais",
+        "décalerais",
+        "décalerait",
+        "décalerions",
+        "décaleriez",
+        "décaleraient"
+      ],
+      "S": [
+        "décale",
+        "décales",
+        "décale",
+        "décalions",
+        "décaliez",
+        "décalent"
+      ],
+      "Y": [
+        "NA",
+        "décale",
+        "NA",
+        "décalons",
+        "décalez",
+        "NA"
+      ],
+      "K": [
+        "décalé",
+        "décalés",
+        "décalée",
+        "décalées"
+      ]
+    }
+  },
+  {
+    "fr": "déclarer",
+    "es": "declarar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "déclare",
+        "déclares",
+        "déclare",
+        "déclarons",
+        "déclarez",
+        "déclarent"
+      ],
+      "I": [
+        "déclarais",
+        "déclarais",
+        "déclarait",
+        "déclarions",
+        "déclariez",
+        "déclaraient"
+      ],
+      "F": [
+        "déclarerai",
+        "déclareras",
+        "déclarera",
+        "déclarerons",
+        "déclarerez",
+        "déclareront"
+      ],
+      "C": [
+        "déclarerais",
+        "déclarerais",
+        "déclarerait",
+        "déclarerions",
+        "déclareriez",
+        "déclareraient"
+      ],
+      "S": [
+        "déclare",
+        "déclares",
+        "déclare",
+        "déclarions",
+        "déclariez",
+        "déclarent"
+      ],
+      "Y": [
+        "NA",
+        "déclare",
+        "NA",
+        "déclarons",
+        "déclarez",
+        "NA"
+      ],
+      "K": [
+        "déclaré",
+        "déclarés",
+        "déclarée",
+        "déclarées"
+      ]
+    }
+  },
+  {
+    "fr": "décoller",
+    "es": "despegar (algo / avión)",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "décolle",
+        "décolles",
+        "décolle",
+        "décollons",
+        "décollez",
+        "décollent"
+      ],
+      "I": [
+        "décollais",
+        "décollais",
+        "décollait",
+        "décollions",
+        "décolliez",
+        "décollaient"
+      ],
+      "F": [
+        "décollerai",
+        "décolleras",
+        "décollera",
+        "décollerons",
+        "décollerez",
+        "décolleront"
+      ],
+      "C": [
+        "décollerais",
+        "décollerais",
+        "décollerait",
+        "décollerions",
+        "décolleriez",
+        "décolleraient"
+      ],
+      "S": [
+        "décolle",
+        "décolles",
+        "décolle",
+        "décollions",
+        "décolliez",
+        "décollent"
+      ],
+      "Y": [
+        "NA",
+        "décolle",
+        "NA",
+        "décollons",
+        "décollez",
+        "NA"
+      ],
+      "K": [
+        "décollé",
+        "décollés",
+        "décollée",
+        "décollées"
+      ]
+    }
+  },
+  {
+    "fr": "décorer",
+    "es": "decorar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "décore",
+        "décores",
+        "décore",
+        "décorons",
+        "décorez",
+        "décorent"
+      ],
+      "I": [
+        "décorais",
+        "décorais",
+        "décorait",
+        "décorions",
+        "décoriez",
+        "décoraient"
+      ],
+      "F": [
+        "décorerai",
+        "décoreras",
+        "décorera",
+        "décorerons",
+        "décorerez",
+        "décoreront"
+      ],
+      "C": [
+        "décorerais",
+        "décorerais",
+        "décorerait",
+        "décorerions",
+        "décoreriez",
+        "décoreraient"
+      ],
+      "S": [
+        "décore",
+        "décores",
+        "décore",
+        "décorions",
+        "décoriez",
+        "décorent"
+      ],
+      "Y": [
+        "NA",
+        "décore",
+        "NA",
+        "décorons",
+        "décorez",
+        "NA"
+      ],
+      "K": [
+        "décoré",
+        "décorés",
+        "décorée",
+        "décorées"
+      ]
+    }
+  },
+  {
+    "fr": "découper",
+    "es": "recortar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "découpe",
+        "découpes",
+        "découpe",
+        "découpons",
+        "découpez",
+        "découpent"
+      ],
+      "I": [
+        "découpais",
+        "découpais",
+        "découpait",
+        "découpions",
+        "découpiez",
+        "découpaient"
+      ],
+      "F": [
+        "découperai",
+        "découperas",
+        "découpera",
+        "découperons",
+        "découperez",
+        "découperont"
+      ],
+      "C": [
+        "découperais",
+        "découperais",
+        "découperait",
+        "découperions",
+        "découperiez",
+        "découperaient"
+      ],
+      "S": [
+        "découpe",
+        "découpes",
+        "découpe",
+        "découpions",
+        "découpiez",
+        "découpent"
+      ],
+      "Y": [
+        "NA",
+        "découpe",
+        "NA",
+        "découpons",
+        "découpez",
+        "NA"
+      ],
+      "K": [
+        "découpé",
+        "découpés",
+        "découpée",
+        "découpées"
+      ]
+    }
+  },
+  {
+    "fr": "dédier",
+    "es": "dedicar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dédie",
+        "dédies",
+        "dédie",
+        "dédions",
+        "dédiez",
+        "dédient"
+      ],
+      "I": [
+        "dédiais",
+        "dédiais",
+        "dédiait",
+        "dédiions",
+        "dédiiez",
+        "dédiaient"
+      ],
+      "F": [
+        "dédierai",
+        "dédieras",
+        "dédiera",
+        "dédierons",
+        "dédierez",
+        "dédieront"
+      ],
+      "C": [
+        "dédierais",
+        "dédierais",
+        "dédierait",
+        "dédierions",
+        "dédieriez",
+        "dédieraient"
+      ],
+      "S": [
+        "dédie",
+        "dédies",
+        "dédie",
+        "dédiions",
+        "dédiiez",
+        "dédient"
+      ],
+      "Y": [
+        "NA",
+        "dédie",
+        "NA",
+        "dédions",
+        "dédiez",
+        "NA"
+      ],
+      "K": [
+        "dédié",
+        "dédiés",
+        "dédiée",
+        "dédiées"
+      ]
+    }
+  },
+  {
+    "fr": "défiler",
+    "es": "desfilar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "défile",
+        "défiles",
+        "défile",
+        "défilons",
+        "défilez",
+        "défilent"
+      ],
+      "I": [
+        "défilais",
+        "défilais",
+        "défilait",
+        "défilions",
+        "défiliez",
+        "défilaient"
+      ],
+      "F": [
+        "défilerai",
+        "défileras",
+        "défilera",
+        "défilerons",
+        "défilerez",
+        "défileront"
+      ],
+      "C": [
+        "défilerais",
+        "défilerais",
+        "défilerait",
+        "défilerions",
+        "défileriez",
+        "défileraient"
+      ],
+      "S": [
+        "défile",
+        "défiles",
+        "défile",
+        "défilions",
+        "défiliez",
+        "défilent"
+      ],
+      "Y": [
+        "NA",
+        "défile",
+        "NA",
+        "défilons",
+        "défilez",
+        "NA"
+      ],
+      "K": [
+        "défilé",
+        "défilés",
+        "défilée",
+        "défilées"
+      ]
+    }
+  },
+  {
+    "fr": "dégager",
+    "es": "despejar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dégage",
+        "dégages",
+        "dégage",
+        "dégageons",
+        "dégagez",
+        "dégagent"
+      ],
+      "I": [
+        "dégageais",
+        "dégageais",
+        "dégageait",
+        "dégagions",
+        "dégagiez",
+        "dégageaient"
+      ],
+      "F": [
+        "dégagerai",
+        "dégageras",
+        "dégagera",
+        "dégagerons",
+        "dégagerez",
+        "dégageront"
+      ],
+      "C": [
+        "dégagerais",
+        "dégagerais",
+        "dégagerait",
+        "dégagerions",
+        "dégageriez",
+        "dégageraient"
+      ],
+      "S": [
+        "dégage",
+        "dégages",
+        "dégage",
+        "dégagions",
+        "dégagiez",
+        "dégagent"
+      ],
+      "Y": [
+        "NA",
+        "dégage",
+        "NA",
+        "dégageons",
+        "dégagez",
+        "NA"
+      ],
+      "K": [
+        "dégagé",
+        "dégagés",
+        "dégagée",
+        "dégagées"
+      ]
+    }
+  },
+  {
+    "fr": "déjeuner",
+    "es": "almorzar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "déjeune",
+        "déjeunes",
+        "déjeune",
+        "déjeunons",
+        "déjeunez",
+        "déjeunent"
+      ],
+      "I": [
+        "déjeunais",
+        "déjeunais",
+        "déjeunait",
+        "déjeunions",
+        "déjeuniez",
+        "déjeunaient"
+      ],
+      "F": [
+        "déjeunerai",
+        "déjeuneras",
+        "déjeunera",
+        "déjeunerons",
+        "déjeunerez",
+        "déjeuneront"
+      ],
+      "C": [
+        "déjeunerais",
+        "déjeunerais",
+        "déjeunerait",
+        "déjeunerions",
+        "déjeuneriez",
+        "déjeuneraient"
+      ],
+      "S": [
+        "déjeune",
+        "déjeunes",
+        "déjeune",
+        "déjeunions",
+        "déjeuniez",
+        "déjeunent"
+      ],
+      "Y": [
+        "NA",
+        "déjeune",
+        "NA",
+        "déjeunons",
+        "déjeunez",
+        "NA"
+      ],
+      "K": [
+        "déjeuné",
+        "déjeunés",
+        "déjeunée",
+        "déjeunées"
+      ]
+    }
+  },
+  {
+    "fr": "délivrer",
+    "es": "expedir / liberar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "délivre",
+        "délivres",
+        "délivre",
+        "délivrons",
+        "délivrez",
+        "délivrent"
+      ],
+      "I": [
+        "délivrais",
+        "délivrais",
+        "délivrait",
+        "délivrions",
+        "délivriez",
+        "délivraient"
+      ],
+      "F": [
+        "délivrerai",
+        "délivreras",
+        "délivrera",
+        "délivrerons",
+        "délivrerez",
+        "délivreront"
+      ],
+      "C": [
+        "délivrerais",
+        "délivrerais",
+        "délivrerait",
+        "délivrerions",
+        "délivreriez",
+        "délivreraient"
+      ],
+      "S": [
+        "délivre",
+        "délivres",
+        "délivre",
+        "délivrions",
+        "délivriez",
+        "délivrent"
+      ],
+      "Y": [
+        "NA",
+        "délivre",
+        "NA",
+        "délivrons",
+        "délivrez",
+        "NA"
+      ],
+      "K": [
+        "délivré",
+        "délivrés",
+        "délivrée",
+        "délivrées"
+      ]
+    }
+  },
+  {
+    "fr": "dénoncer",
+    "es": "denunciar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dénonce",
+        "dénonces",
+        "dénonce",
+        "dénonçons",
+        "dénoncez",
+        "dénoncent"
+      ],
+      "I": [
+        "dénonçais",
+        "dénonçais",
+        "dénonçait",
+        "dénoncions",
+        "dénonciez",
+        "dénonçaient"
+      ],
+      "F": [
+        "dénoncerai",
+        "dénonceras",
+        "dénoncera",
+        "dénoncerons",
+        "dénoncerez",
+        "dénonceront"
+      ],
+      "C": [
+        "dénoncerais",
+        "dénoncerais",
+        "dénoncerait",
+        "dénoncerions",
+        "dénonceriez",
+        "dénonceraient"
+      ],
+      "S": [
+        "dénonce",
+        "dénonces",
+        "dénonce",
+        "dénoncions",
+        "dénonciez",
+        "dénoncent"
+      ],
+      "Y": [
+        "NA",
+        "dénonce",
+        "NA",
+        "dénonçons",
+        "dénoncez",
+        "NA"
+      ],
+      "K": [
+        "dénoncé",
+        "dénoncés",
+        "dénoncée",
+        "dénoncées"
+      ]
+    }
+  },
+  {
+    "fr": "déposer",
+    "es": "depositar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dépose",
+        "déposes",
+        "dépose",
+        "déposons",
+        "déposez",
+        "déposent"
+      ],
+      "I": [
+        "déposais",
+        "déposais",
+        "déposait",
+        "déposions",
+        "déposiez",
+        "déposaient"
+      ],
+      "F": [
+        "déposerai",
+        "déposeras",
+        "déposera",
+        "déposerons",
+        "déposerez",
+        "déposeront"
+      ],
+      "C": [
+        "déposerais",
+        "déposerais",
+        "déposerait",
+        "déposerions",
+        "déposeriez",
+        "déposeraient"
+      ],
+      "S": [
+        "dépose",
+        "déposes",
+        "dépose",
+        "déposions",
+        "déposiez",
+        "déposent"
+      ],
+      "Y": [
+        "NA",
+        "dépose",
+        "NA",
+        "déposons",
+        "déposez",
+        "NA"
+      ],
+      "K": [
+        "déposé",
+        "déposés",
+        "déposée",
+        "déposées"
+      ]
+    }
+  },
+  {
+    "fr": "désigner",
+    "es": "designar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "désigne",
+        "désignes",
+        "désigne",
+        "désignons",
+        "désignez",
+        "désignent"
+      ],
+      "I": [
+        "désignais",
+        "désignais",
+        "désignait",
+        "désignions",
+        "désigniez",
+        "désignaient"
+      ],
+      "F": [
+        "désignerai",
+        "désigneras",
+        "désignera",
+        "désignerons",
+        "désignerez",
+        "désigneront"
+      ],
+      "C": [
+        "désignerais",
+        "désignerais",
+        "désignerait",
+        "désignerions",
+        "désigneriez",
+        "désigneraient"
+      ],
+      "S": [
+        "désigne",
+        "désignes",
+        "désigne",
+        "désignions",
+        "désigniez",
+        "désignent"
+      ],
+      "Y": [
+        "NA",
+        "désigne",
+        "NA",
+        "désignons",
+        "désignez",
+        "NA"
+      ],
+      "K": [
+        "désigné",
+        "désignés",
+        "désignée",
+        "désignées"
+      ]
+    }
+  },
+  {
+    "fr": "désirer",
+    "es": "desear",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "désire",
+        "désires",
+        "désire",
+        "désirons",
+        "désirez",
+        "désirent"
+      ],
+      "I": [
+        "désirais",
+        "désirais",
+        "désirait",
+        "désirions",
+        "désiriez",
+        "désiraient"
+      ],
+      "F": [
+        "désirerai",
+        "désireras",
+        "désirera",
+        "désirerons",
+        "désirerez",
+        "désireront"
+      ],
+      "C": [
+        "désirerais",
+        "désirerais",
+        "désirerait",
+        "désirerions",
+        "désireriez",
+        "désireraient"
+      ],
+      "S": [
+        "désire",
+        "désires",
+        "désire",
+        "désirions",
+        "désiriez",
+        "désirent"
+      ],
+      "Y": [
+        "NA",
+        "désire",
+        "NA",
+        "désirons",
+        "désirez",
+        "NA"
+      ],
+      "K": [
+        "désiré",
+        "désirés",
+        "désirée",
+        "désirées"
+      ]
+    }
+  },
+  {
+    "fr": "desserrer",
+    "es": "aflojar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "desserre",
+        "desserres",
+        "desserre",
+        "desserrons",
+        "desserrez",
+        "desserrent"
+      ],
+      "I": [
+        "desserrais",
+        "desserrais",
+        "desserrait",
+        "desserrions",
+        "desserriez",
+        "desserraient"
+      ],
+      "F": [
+        "desserrerai",
+        "desserreras",
+        "desserrera",
+        "desserrerons",
+        "desserrerez",
+        "desserreront"
+      ],
+      "C": [
+        "desserrerais",
+        "desserrerais",
+        "desserrerait",
+        "desserrerions",
+        "desserreriez",
+        "desserreraient"
+      ],
+      "S": [
+        "desserre",
+        "desserres",
+        "desserre",
+        "desserrions",
+        "desserriez",
+        "desserrent"
+      ],
+      "Y": [
+        "NA",
+        "desserre",
+        "NA",
+        "desserrons",
+        "desserrez",
+        "NA"
+      ],
+      "K": [
+        "desserré",
+        "desserrés",
+        "desserrée",
+        "desserrées"
+      ]
+    }
+  },
+  {
+    "fr": "détacher",
+    "es": "desatar / separar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "détache",
+        "détaches",
+        "détache",
+        "détachons",
+        "détachez",
+        "détachent"
+      ],
+      "I": [
+        "détachais",
+        "détachais",
+        "détachait",
+        "détachions",
+        "détachiez",
+        "détachaient"
+      ],
+      "F": [
+        "détacherai",
+        "détacheras",
+        "détachera",
+        "détacherons",
+        "détacherez",
+        "détacheront"
+      ],
+      "C": [
+        "détacherais",
+        "détacherais",
+        "détacherait",
+        "détacherions",
+        "détacheriez",
+        "détacheraient"
+      ],
+      "S": [
+        "détache",
+        "détaches",
+        "détache",
+        "détachions",
+        "détachiez",
+        "détachent"
+      ],
+      "Y": [
+        "NA",
+        "détache",
+        "NA",
+        "détachons",
+        "détachez",
+        "NA"
+      ],
+      "K": [
+        "détaché",
+        "détachés",
+        "détachée",
+        "détachées"
+      ]
+    }
+  },
+  {
+    "fr": "détecter",
+    "es": "detectar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "détecte",
+        "détectes",
+        "détecte",
+        "détectons",
+        "détectez",
+        "détectent"
+      ],
+      "I": [
+        "détectais",
+        "détectais",
+        "détectait",
+        "détections",
+        "détectiez",
+        "détectaient"
+      ],
+      "F": [
+        "détecterai",
+        "détecteras",
+        "détectera",
+        "détecterons",
+        "détecterez",
+        "détecteront"
+      ],
+      "C": [
+        "détecterais",
+        "détecterais",
+        "détecterait",
+        "détecterions",
+        "détecteriez",
+        "détecteraient"
+      ],
+      "S": [
+        "détecte",
+        "détectes",
+        "détecte",
+        "détections",
+        "détectiez",
+        "détectent"
+      ],
+      "Y": [
+        "NA",
+        "détecte",
+        "NA",
+        "détectons",
+        "détectez",
+        "NA"
+      ],
+      "K": [
+        "détecté",
+        "détectés",
+        "détectée",
+        "détectées"
+      ]
+    }
+  },
+  {
+    "fr": "déterminer",
+    "es": "determinar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "détermine",
+        "détermines",
+        "détermine",
+        "déterminons",
+        "déterminez",
+        "déterminent"
+      ],
+      "I": [
+        "déterminais",
+        "déterminais",
+        "déterminait",
+        "déterminions",
+        "déterminiez",
+        "déterminaient"
+      ],
+      "F": [
+        "déterminerai",
+        "détermineras",
+        "déterminera",
+        "déterminerons",
+        "déterminerez",
+        "détermineront"
+      ],
+      "C": [
+        "déterminerais",
+        "déterminerais",
+        "déterminerait",
+        "déterminerions",
+        "détermineriez",
+        "détermineraient"
+      ],
+      "S": [
+        "détermine",
+        "détermines",
+        "détermine",
+        "déterminions",
+        "déterminiez",
+        "déterminent"
+      ],
+      "Y": [
+        "NA",
+        "détermine",
+        "NA",
+        "déterminons",
+        "déterminez",
+        "NA"
+      ],
+      "K": [
+        "déterminé",
+        "déterminés",
+        "déterminée",
+        "déterminées"
+      ]
+    }
+  },
+  {
+    "fr": "dîner",
+    "es": "cenar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "dîne",
+        "dînes",
+        "dîne",
+        "dînons",
+        "dînez",
+        "dînent"
+      ],
+      "I": [
+        "dînais",
+        "dînais",
+        "dînait",
+        "dînions",
+        "dîniez",
+        "dînaient"
+      ],
+      "F": [
+        "dînerai",
+        "dîneras",
+        "dînera",
+        "dînerons",
+        "dînerez",
+        "dîneront"
+      ],
+      "C": [
+        "dînerais",
+        "dînerais",
+        "dînerait",
+        "dînerions",
+        "dîneriez",
+        "dîneraient"
+      ],
+      "S": [
+        "dîne",
+        "dînes",
+        "dîne",
+        "dînions",
+        "dîniez",
+        "dînent"
+      ],
+      "Y": [
+        "NA",
+        "dîne",
+        "NA",
+        "dînons",
+        "dînez",
+        "NA"
+      ],
+      "K": [
+        "dîné",
+        "dînés",
+        "dînée",
+        "dînées"
+      ]
+    }
+  },
+  {
+    "fr": "diriger",
+    "es": "dirigir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dirige",
+        "diriges",
+        "dirige",
+        "dirigeons",
+        "dirigez",
+        "dirigent"
+      ],
+      "I": [
+        "dirigeais",
+        "dirigeais",
+        "dirigeait",
+        "dirigions",
+        "dirigiez",
+        "dirigeaient"
+      ],
+      "F": [
+        "dirigerai",
+        "dirigeras",
+        "dirigera",
+        "dirigerons",
+        "dirigerez",
+        "dirigeront"
+      ],
+      "C": [
+        "dirigerais",
+        "dirigerais",
+        "dirigerait",
+        "dirigerions",
+        "dirigeriez",
+        "dirigeraient"
+      ],
+      "S": [
+        "dirige",
+        "diriges",
+        "dirige",
+        "dirigions",
+        "dirigiez",
+        "dirigent"
+      ],
+      "Y": [
+        "NA",
+        "dirige",
+        "NA",
+        "dirigeons",
+        "dirigez",
+        "NA"
+      ],
+      "K": [
+        "dirigé",
+        "dirigés",
+        "dirigée",
+        "dirigées"
+      ]
+    }
+  },
+  {
+    "fr": "distribuer",
+    "es": "distribuir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "distribue",
+        "distribues",
+        "distribue",
+        "distribuons",
+        "distribuez",
+        "distribuent"
+      ],
+      "I": [
+        "distribuais",
+        "distribuais",
+        "distribuait",
+        "distribuions",
+        "distribuiez",
+        "distribuaient"
+      ],
+      "F": [
+        "distribuerai",
+        "distribueras",
+        "distribuera",
+        "distribuerons",
+        "distribuerez",
+        "distribueront"
+      ],
+      "C": [
+        "distribuerais",
+        "distribuerais",
+        "distribuerait",
+        "distribuerions",
+        "distribueriez",
+        "distribueraient"
+      ],
+      "S": [
+        "distribue",
+        "distribues",
+        "distribue",
+        "distribuions",
+        "distribuiez",
+        "distribuent"
+      ],
+      "Y": [
+        "NA",
+        "distribue",
+        "NA",
+        "distribuons",
+        "distribuez",
+        "NA"
+      ],
+      "K": [
+        "distribué",
+        "distribués",
+        "distribuée",
+        "distribuées"
+      ]
+    }
+  },
+  {
+    "fr": "dominer",
+    "es": "dominar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "domine",
+        "domines",
+        "domine",
+        "dominons",
+        "dominez",
+        "dominent"
+      ],
+      "I": [
+        "dominais",
+        "dominais",
+        "dominait",
+        "dominions",
+        "dominiez",
+        "dominaient"
+      ],
+      "F": [
+        "dominerai",
+        "domineras",
+        "dominera",
+        "dominerons",
+        "dominerez",
+        "domineront"
+      ],
+      "C": [
+        "dominerais",
+        "dominerais",
+        "dominerait",
+        "dominerions",
+        "domineriez",
+        "domineraient"
+      ],
+      "S": [
+        "domine",
+        "domines",
+        "domine",
+        "dominions",
+        "dominiez",
+        "dominent"
+      ],
+      "Y": [
+        "NA",
+        "domine",
+        "NA",
+        "dominons",
+        "dominez",
+        "NA"
+      ],
+      "K": [
+        "dominé",
+        "dominés",
+        "dominée",
+        "dominées"
+      ]
+    }
+  },
+  {
+    "fr": "douter",
+    "es": "dudar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "doute",
+        "doutes",
+        "doute",
+        "doutons",
+        "doutez",
+        "doutent"
+      ],
+      "I": [
+        "doutais",
+        "doutais",
+        "doutait",
+        "doutions",
+        "doutiez",
+        "doutaient"
+      ],
+      "F": [
+        "douterai",
+        "douteras",
+        "doutera",
+        "douterons",
+        "douterez",
+        "douteront"
+      ],
+      "C": [
+        "douterais",
+        "douterais",
+        "douterait",
+        "douterions",
+        "douteriez",
+        "douteraient"
+      ],
+      "S": [
+        "doute",
+        "doutes",
+        "doute",
+        "doutions",
+        "doutiez",
+        "doutent"
+      ],
+      "Y": [
+        "NA",
+        "doute",
+        "NA",
+        "doutons",
+        "doutez",
+        "NA"
+      ],
+      "K": [
+        "douté",
+        "doutés",
+        "doutée",
+        "doutées"
+      ]
+    }
+  },
+  {
+    "fr": "dresser",
+    "es": "adiestrar / erigir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "dresse",
+        "dresses",
+        "dresse",
+        "dressons",
+        "dressez",
+        "dressent"
+      ],
+      "I": [
+        "dressais",
+        "dressais",
+        "dressait",
+        "dressions",
+        "dressiez",
+        "dressaient"
+      ],
+      "F": [
+        "dresserai",
+        "dresseras",
+        "dressera",
+        "dresserons",
+        "dresserez",
+        "dresseront"
+      ],
+      "C": [
+        "dresserais",
+        "dresserais",
+        "dresserait",
+        "dresserions",
+        "dresseriez",
+        "dresseraient"
+      ],
+      "S": [
+        "dresse",
+        "dresses",
+        "dresse",
+        "dressions",
+        "dressiez",
+        "dressent"
+      ],
+      "Y": [
+        "NA",
+        "dresse",
+        "NA",
+        "dressons",
+        "dressez",
+        "NA"
+      ],
+      "K": [
+        "dressé",
+        "dressés",
+        "dressée",
+        "dressées"
+      ]
+    }
+  },
+  {
+    "fr": "échanger",
+    "es": "intercambiar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "échange",
+        "échanges",
+        "échange",
+        "échangeons",
+        "échangez",
+        "échangent"
+      ],
+      "I": [
+        "échangeais",
+        "échangeais",
+        "échangeait",
+        "échangions",
+        "échangiez",
+        "échangeaient"
+      ],
+      "F": [
+        "échangerai",
+        "échangeras",
+        "échangera",
+        "échangerons",
+        "échangerez",
+        "échangeront"
+      ],
+      "C": [
+        "échangerais",
+        "échangerais",
+        "échangerait",
+        "échangerions",
+        "échangeriez",
+        "échangeraient"
+      ],
+      "S": [
+        "échange",
+        "échanges",
+        "échange",
+        "échangions",
+        "échangiez",
+        "échangent"
+      ],
+      "Y": [
+        "NA",
+        "échange",
+        "NA",
+        "échangeons",
+        "échangez",
+        "NA"
+      ],
+      "K": [
+        "échangé",
+        "échangés",
+        "échangée",
+        "échangées"
+      ]
+    }
+  },
+  {
+    "fr": "éclater",
+    "es": "estallar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "éclate",
+        "éclates",
+        "éclate",
+        "éclatons",
+        "éclatez",
+        "éclatent"
+      ],
+      "I": [
+        "éclatais",
+        "éclatais",
+        "éclatait",
+        "éclations",
+        "éclatiez",
+        "éclataient"
+      ],
+      "F": [
+        "éclaterai",
+        "éclateras",
+        "éclatera",
+        "éclaterons",
+        "éclaterez",
+        "éclateront"
+      ],
+      "C": [
+        "éclaterais",
+        "éclaterais",
+        "éclaterait",
+        "éclaterions",
+        "éclateriez",
+        "éclateraient"
+      ],
+      "S": [
+        "éclate",
+        "éclates",
+        "éclate",
+        "éclations",
+        "éclatiez",
+        "éclatent"
+      ],
+      "Y": [
+        "NA",
+        "éclate",
+        "NA",
+        "éclatons",
+        "éclatez",
+        "NA"
+      ],
+      "K": [
+        "éclaté",
+        "éclatés",
+        "éclatée",
+        "éclatées"
+      ]
+    }
+  },
+  {
+    "fr": "éliminer",
+    "es": "eliminar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "élimine",
+        "élimines",
+        "élimine",
+        "éliminons",
+        "éliminez",
+        "éliminent"
+      ],
+      "I": [
+        "éliminais",
+        "éliminais",
+        "éliminait",
+        "éliminions",
+        "éliminiez",
+        "éliminaient"
+      ],
+      "F": [
+        "éliminerai",
+        "élimineras",
+        "éliminera",
+        "éliminerons",
+        "éliminerez",
+        "élimineront"
+      ],
+      "C": [
+        "éliminerais",
+        "éliminerais",
+        "éliminerait",
+        "éliminerions",
+        "élimineriez",
+        "élimineraient"
+      ],
+      "S": [
+        "élimine",
+        "élimines",
+        "élimine",
+        "éliminions",
+        "éliminiez",
+        "éliminent"
+      ],
+      "Y": [
+        "NA",
+        "élimine",
+        "NA",
+        "éliminons",
+        "éliminez",
+        "NA"
+      ],
+      "K": [
+        "éliminé",
+        "éliminés",
+        "éliminée",
+        "éliminées"
+      ]
+    }
+  },
+  {
+    "fr": "emballer",
+    "es": "empaquetar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "emballe",
+        "emballes",
+        "emballe",
+        "emballons",
+        "emballez",
+        "emballent"
+      ],
+      "I": [
+        "emballais",
+        "emballais",
+        "emballait",
+        "emballions",
+        "emballiez",
+        "emballaient"
+      ],
+      "F": [
+        "emballerai",
+        "emballeras",
+        "emballera",
+        "emballerons",
+        "emballerez",
+        "emballeront"
+      ],
+      "C": [
+        "emballerais",
+        "emballerais",
+        "emballerait",
+        "emballerions",
+        "emballeriez",
+        "emballeraient"
+      ],
+      "S": [
+        "emballe",
+        "emballes",
+        "emballe",
+        "emballions",
+        "emballiez",
+        "emballent"
+      ],
+      "Y": [
+        "NA",
+        "emballe",
+        "NA",
+        "emballons",
+        "emballez",
+        "NA"
+      ],
+      "K": [
+        "emballé",
+        "emballés",
+        "emballée",
+        "emballées"
+      ]
+    }
+  },
+  {
+    "fr": "embrasser",
+    "es": "besar / abrazar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "embrasse",
+        "embrasses",
+        "embrasse",
+        "embrassons",
+        "embrassez",
+        "embrassent"
+      ],
+      "I": [
+        "embrassais",
+        "embrassais",
+        "embrassait",
+        "embrassions",
+        "embrassiez",
+        "embrassaient"
+      ],
+      "F": [
+        "embrasserai",
+        "embrasseras",
+        "embrassera",
+        "embrasserons",
+        "embrasserez",
+        "embrasseront"
+      ],
+      "C": [
+        "embrasserais",
+        "embrasserais",
+        "embrasserait",
+        "embrasserions",
+        "embrasseriez",
+        "embrasseraient"
+      ],
+      "S": [
+        "embrasse",
+        "embrasses",
+        "embrasse",
+        "embrassions",
+        "embrassiez",
+        "embrassent"
+      ],
+      "Y": [
+        "NA",
+        "embrasse",
+        "NA",
+        "embrassons",
+        "embrassez",
+        "NA"
+      ],
+      "K": [
+        "embrassé",
+        "embrassés",
+        "embrassée",
+        "embrassées"
+      ]
+    }
+  },
+  {
+    "fr": "encadrer",
+    "es": "supervisar / enmarcar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "encadre",
+        "encadres",
+        "encadre",
+        "encadrons",
+        "encadrez",
+        "encadrent"
+      ],
+      "I": [
+        "encadrais",
+        "encadrais",
+        "encadrait",
+        "encadrions",
+        "encadriez",
+        "encadraient"
+      ],
+      "F": [
+        "encadrerai",
+        "encadreras",
+        "encadrera",
+        "encadrerons",
+        "encadrerez",
+        "encadreront"
+      ],
+      "C": [
+        "encadrerais",
+        "encadrerais",
+        "encadrerait",
+        "encadrerions",
+        "encadreriez",
+        "encadreraient"
+      ],
+      "S": [
+        "encadre",
+        "encadres",
+        "encadre",
+        "encadrions",
+        "encadriez",
+        "encadrent"
+      ],
+      "Y": [
+        "NA",
+        "encadre",
+        "NA",
+        "encadrons",
+        "encadrez",
+        "NA"
+      ],
+      "K": [
+        "encadré",
+        "encadrés",
+        "encadrée",
+        "encadrées"
+      ]
+    }
+  },
+  {
+    "fr": "encourager",
+    "es": "animar / alentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "encourage",
+        "encourages",
+        "encourage",
+        "encourageons",
+        "encouragez",
+        "encouragent"
+      ],
+      "I": [
+        "encourageais",
+        "encourageais",
+        "encourageait",
+        "encouragions",
+        "encouragiez",
+        "encourageaient"
+      ],
+      "F": [
+        "encouragerai",
+        "encourageras",
+        "encouragera",
+        "encouragerons",
+        "encouragerez",
+        "encourageront"
+      ],
+      "C": [
+        "encouragerais",
+        "encouragerais",
+        "encouragerait",
+        "encouragerions",
+        "encourageriez",
+        "encourageraient"
+      ],
+      "S": [
+        "encourage",
+        "encourages",
+        "encourage",
+        "encouragions",
+        "encouragiez",
+        "encouragent"
+      ],
+      "Y": [
+        "NA",
+        "encourage",
+        "NA",
+        "encourageons",
+        "encouragez",
+        "NA"
+      ],
+      "K": [
+        "encouragé",
+        "encouragés",
+        "encouragée",
+        "encouragées"
+      ]
+    }
+  },
+  {
+    "fr": "endommager",
+    "es": "dañar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "endommage",
+        "endommages",
+        "endommage",
+        "endommageons",
+        "endommagez",
+        "endommagent"
+      ],
+      "I": [
+        "endommageais",
+        "endommageais",
+        "endommageait",
+        "endommagions",
+        "endommagiez",
+        "endommageaient"
+      ],
+      "F": [
+        "endommagerai",
+        "endommageras",
+        "endommagera",
+        "endommagerons",
+        "endommagerez",
+        "endommageront"
+      ],
+      "C": [
+        "endommagerais",
+        "endommagerais",
+        "endommagerait",
+        "endommagerions",
+        "endommageriez",
+        "endommageraient"
+      ],
+      "S": [
+        "endommage",
+        "endommages",
+        "endommage",
+        "endommagions",
+        "endommagiez",
+        "endommagent"
+      ],
+      "Y": [
+        "NA",
+        "endommage",
+        "NA",
+        "endommageons",
+        "endommagez",
+        "NA"
+      ],
+      "K": [
+        "endommagé",
+        "endommagés",
+        "endommagée",
+        "endommagées"
+      ]
+    }
+  },
+  {
+    "fr": "entourer",
+    "es": "rodear",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "entoure",
+        "entoures",
+        "entoure",
+        "entourons",
+        "entourez",
+        "entourent"
+      ],
+      "I": [
+        "entourais",
+        "entourais",
+        "entourait",
+        "entourions",
+        "entouriez",
+        "entouraient"
+      ],
+      "F": [
+        "entourerai",
+        "entoureras",
+        "entourera",
+        "entourerons",
+        "entourerez",
+        "entoureront"
+      ],
+      "C": [
+        "entourerais",
+        "entourerais",
+        "entourerait",
+        "entourerions",
+        "entoureriez",
+        "entoureraient"
+      ],
+      "S": [
+        "entoure",
+        "entoures",
+        "entoure",
+        "entourions",
+        "entouriez",
+        "entourent"
+      ],
+      "Y": [
+        "NA",
+        "entoure",
+        "NA",
+        "entourons",
+        "entourez",
+        "NA"
+      ],
+      "K": [
+        "entouré",
+        "entourés",
+        "entourée",
+        "entourées"
+      ]
+    }
+  },
+  {
+    "fr": "entraîner",
+    "es": "entrenar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "entraîne",
+        "entraînes",
+        "entraîne",
+        "entraînons",
+        "entraînez",
+        "entraînent"
+      ],
+      "I": [
+        "entraînais",
+        "entraînais",
+        "entraînait",
+        "entraînions",
+        "entraîniez",
+        "entraînaient"
+      ],
+      "F": [
+        "entraînerai",
+        "entraîneras",
+        "entraînera",
+        "entraînerons",
+        "entraînerez",
+        "entraîneront"
+      ],
+      "C": [
+        "entraînerais",
+        "entraînerais",
+        "entraînerait",
+        "entraînerions",
+        "entraîneriez",
+        "entraîneraient"
+      ],
+      "S": [
+        "entraîne",
+        "entraînes",
+        "entraîne",
+        "entraînions",
+        "entraîniez",
+        "entraînent"
+      ],
+      "Y": [
+        "NA",
+        "entraîne",
+        "NA",
+        "entraînons",
+        "entraînez",
+        "NA"
+      ],
+      "K": [
+        "entraîné",
+        "entraînés",
+        "entraînée",
+        "entraînées"
+      ]
+    }
+  },
+  {
+    "fr": "entreposer",
+    "es": "almacenar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "entrepose",
+        "entreposes",
+        "entrepose",
+        "entreposons",
+        "entreposez",
+        "entreposent"
+      ],
+      "I": [
+        "entreposais",
+        "entreposais",
+        "entreposait",
+        "entreposions",
+        "entreposiez",
+        "entreposaient"
+      ],
+      "F": [
+        "entreposerai",
+        "entreposeras",
+        "entreposera",
+        "entreposerons",
+        "entreposerez",
+        "entreposeront"
+      ],
+      "C": [
+        "entreposerais",
+        "entreposerais",
+        "entreposerait",
+        "entreposerions",
+        "entreposeriez",
+        "entreposeraient"
+      ],
+      "S": [
+        "entrepose",
+        "entreposes",
+        "entrepose",
+        "entreposions",
+        "entreposiez",
+        "entreposent"
+      ],
+      "Y": [
+        "NA",
+        "entrepose",
+        "NA",
+        "entreposons",
+        "entreposez",
+        "NA"
+      ],
+      "K": [
+        "entreposé",
+        "entreposés",
+        "entreposée",
+        "entreposées"
+      ]
+    }
+  },
+  {
+    "fr": "épuiser",
+    "es": "agotar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "épuise",
+        "épuises",
+        "épuise",
+        "épuisons",
+        "épuisez",
+        "épuisent"
+      ],
+      "I": [
+        "épuisais",
+        "épuisais",
+        "épuisait",
+        "épuisions",
+        "épuisiez",
+        "épuisaient"
+      ],
+      "F": [
+        "épuiserai",
+        "épuiseras",
+        "épuisera",
+        "épuiserons",
+        "épuiserez",
+        "épuiseront"
+      ],
+      "C": [
+        "épuiserais",
+        "épuiserais",
+        "épuiserait",
+        "épuiserions",
+        "épuiseriez",
+        "épuiseraient"
+      ],
+      "S": [
+        "épuise",
+        "épuises",
+        "épuise",
+        "épuisions",
+        "épuisiez",
+        "épuisent"
+      ],
+      "Y": [
+        "NA",
+        "épuise",
+        "NA",
+        "épuisons",
+        "épuisez",
+        "NA"
+      ],
+      "K": [
+        "épuisé",
+        "épuisés",
+        "épuisée",
+        "épuisées"
+      ]
+    }
+  },
+  {
+    "fr": "équiper",
+    "es": "equipar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "équipe",
+        "équipes",
+        "équipe",
+        "équipons",
+        "équipez",
+        "équipent"
+      ],
+      "I": [
+        "équipais",
+        "équipais",
+        "équipait",
+        "équipions",
+        "équipiez",
+        "équipaient"
+      ],
+      "F": [
+        "équiperai",
+        "équiperas",
+        "équipera",
+        "équiperons",
+        "équiperez",
+        "équiperont"
+      ],
+      "C": [
+        "équiperais",
+        "équiperais",
+        "équiperait",
+        "équiperions",
+        "équiperiez",
+        "équiperaient"
+      ],
+      "S": [
+        "équipe",
+        "équipes",
+        "équipe",
+        "équipions",
+        "équipiez",
+        "équipent"
+      ],
+      "Y": [
+        "NA",
+        "équipe",
+        "NA",
+        "équipons",
+        "équipez",
+        "NA"
+      ],
+      "K": [
+        "équipé",
+        "équipés",
+        "équipée",
+        "équipées"
+      ]
+    }
+  },
+  {
+    "fr": "équilibrer",
+    "es": "equilibrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "équilibre",
+        "équilibres",
+        "équilibre",
+        "équilibrons",
+        "équilibrez",
+        "équilibrent"
+      ],
+      "I": [
+        "équilibrais",
+        "équilibrais",
+        "équilibrait",
+        "équilibrions",
+        "équilibriez",
+        "équilibraient"
+      ],
+      "F": [
+        "équilibrerai",
+        "équilibreras",
+        "équilibrera",
+        "équilibrerons",
+        "équilibrerez",
+        "équilibreront"
+      ],
+      "C": [
+        "équilibrerais",
+        "équilibrerais",
+        "équilibrerait",
+        "équilibrerions",
+        "équilibreriez",
+        "équilibreraient"
+      ],
+      "S": [
+        "équilibre",
+        "équilibres",
+        "équilibre",
+        "équilibrions",
+        "équilibriez",
+        "équilibrent"
+      ],
+      "Y": [
+        "NA",
+        "équilibre",
+        "NA",
+        "équilibrons",
+        "équilibrez",
+        "NA"
+      ],
+      "K": [
+        "équilibré",
+        "équilibrés",
+        "équilibrée",
+        "équilibrées"
+      ]
+    }
+  },
+  {
+    "fr": "étaler",
+    "es": "extender / exhibir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "étale",
+        "étales",
+        "étale",
+        "étalons",
+        "étalez",
+        "étalent"
+      ],
+      "I": [
+        "étalais",
+        "étalais",
+        "étalait",
+        "étalions",
+        "étaliez",
+        "étalaient"
+      ],
+      "F": [
+        "étalerai",
+        "étaleras",
+        "étalera",
+        "étalerons",
+        "étalerez",
+        "étaleront"
+      ],
+      "C": [
+        "étalerais",
+        "étalerais",
+        "étalerait",
+        "étalerions",
+        "étaleriez",
+        "étaleraient"
+      ],
+      "S": [
+        "étale",
+        "étales",
+        "étale",
+        "étalions",
+        "étaliez",
+        "étalent"
+      ],
+      "Y": [
+        "NA",
+        "étale",
+        "NA",
+        "étalons",
+        "étalez",
+        "NA"
+      ],
+      "K": [
+        "étalé",
+        "étalés",
+        "étalée",
+        "étalées"
+      ]
+    }
+  },
+  {
+    "fr": "étonner",
+    "es": "sorprender",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "étonne",
+        "étonnes",
+        "étonne",
+        "étonnons",
+        "étonnez",
+        "étonnent"
+      ],
+      "I": [
+        "étonnais",
+        "étonnais",
+        "étonnait",
+        "étonnions",
+        "étonniez",
+        "étonnaient"
+      ],
+      "F": [
+        "étonnerai",
+        "étonneras",
+        "étonnera",
+        "étonnerons",
+        "étonnerez",
+        "étonneront"
+      ],
+      "C": [
+        "étonnerais",
+        "étonnerais",
+        "étonnerait",
+        "étonnerions",
+        "étonneriez",
+        "étonneraient"
+      ],
+      "S": [
+        "étonne",
+        "étonnes",
+        "étonne",
+        "étonnions",
+        "étonniez",
+        "étonnent"
+      ],
+      "Y": [
+        "NA",
+        "étonne",
+        "NA",
+        "étonnons",
+        "étonnez",
+        "NA"
+      ],
+      "K": [
+        "étonné",
+        "étonnés",
+        "étonnée",
+        "étonnées"
+      ]
+    }
+  },
+  {
+    "fr": "étouffer",
+    "es": "asfixiar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "étouffe",
+        "étouffes",
+        "étouffe",
+        "étouffons",
+        "étouffez",
+        "étouffent"
+      ],
+      "I": [
+        "étouffais",
+        "étouffais",
+        "étouffait",
+        "étouffions",
+        "étouffiez",
+        "étouffaient"
+      ],
+      "F": [
+        "étoufferai",
+        "étoufferas",
+        "étouffera",
+        "étoufferons",
+        "étoufferez",
+        "étoufferont"
+      ],
+      "C": [
+        "étoufferais",
+        "étoufferais",
+        "étoufferait",
+        "étoufferions",
+        "étoufferiez",
+        "étoufferaient"
+      ],
+      "S": [
+        "étouffe",
+        "étouffes",
+        "étouffe",
+        "étouffions",
+        "étouffiez",
+        "étouffent"
+      ],
+      "Y": [
+        "NA",
+        "étouffe",
+        "NA",
+        "étouffons",
+        "étouffez",
+        "NA"
+      ],
+      "K": [
+        "étouffé",
+        "étouffés",
+        "étouffée",
+        "étouffées"
+      ]
+    }
+  },
+  {
+    "fr": "examiner",
+    "es": "examinar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "examine",
+        "examines",
+        "examine",
+        "examinons",
+        "examinez",
+        "examinent"
+      ],
+      "I": [
+        "examinais",
+        "examinais",
+        "examinait",
+        "examinions",
+        "examiniez",
+        "examinaient"
+      ],
+      "F": [
+        "examinerai",
+        "examineras",
+        "examinera",
+        "examinerons",
+        "examinerez",
+        "examineront"
+      ],
+      "C": [
+        "examinerais",
+        "examinerais",
+        "examinerait",
+        "examinerions",
+        "examineriez",
+        "examineraient"
+      ],
+      "S": [
+        "examine",
+        "examines",
+        "examine",
+        "examinions",
+        "examiniez",
+        "examinent"
+      ],
+      "Y": [
+        "NA",
+        "examine",
+        "NA",
+        "examinons",
+        "examinez",
+        "NA"
+      ],
+      "K": [
+        "examiné",
+        "examinés",
+        "examinée",
+        "examinées"
+      ]
+    }
+  },
+  {
+    "fr": "excuser",
+    "es": "disculpar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "excuse",
+        "excuses",
+        "excuse",
+        "excusons",
+        "excusez",
+        "excusent"
+      ],
+      "I": [
+        "excusais",
+        "excusais",
+        "excusait",
+        "excusions",
+        "excusiez",
+        "excusaient"
+      ],
+      "F": [
+        "excuserai",
+        "excuseras",
+        "excusera",
+        "excuserons",
+        "excuserez",
+        "excuseront"
+      ],
+      "C": [
+        "excuserais",
+        "excuserais",
+        "excuserait",
+        "excuserions",
+        "excuseriez",
+        "excuseraient"
+      ],
+      "S": [
+        "excuse",
+        "excuses",
+        "excuse",
+        "excusions",
+        "excusiez",
+        "excusent"
+      ],
+      "Y": [
+        "NA",
+        "excuse",
+        "NA",
+        "excusons",
+        "excusez",
+        "NA"
+      ],
+      "K": [
+        "excusé",
+        "excusés",
+        "excusée",
+        "excusées"
+      ]
+    }
+  },
+  {
+    "fr": "exercer",
+    "es": "ejercer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "exerce",
+        "exerces",
+        "exerce",
+        "exerçons",
+        "exercez",
+        "exercent"
+      ],
+      "I": [
+        "exerçais",
+        "exerçais",
+        "exerçait",
+        "exercions",
+        "exerciez",
+        "exerçaient"
+      ],
+      "F": [
+        "exercerai",
+        "exerceras",
+        "exercera",
+        "exercerons",
+        "exercerez",
+        "exerceront"
+      ],
+      "C": [
+        "exercerais",
+        "exercerais",
+        "exercerait",
+        "exercerions",
+        "exerceriez",
+        "exerceraient"
+      ],
+      "S": [
+        "exerce",
+        "exerces",
+        "exerce",
+        "exercions",
+        "exerciez",
+        "exercent"
+      ],
+      "Y": [
+        "NA",
+        "exerce",
+        "NA",
+        "exerçons",
+        "exercez",
+        "NA"
+      ],
+      "K": [
+        "exercé",
+        "exercés",
+        "exercée",
+        "exercées"
+      ]
+    }
+  },
+  {
+    "fr": "exploiter",
+    "es": "explotar / aprovechar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "exploite",
+        "exploites",
+        "exploite",
+        "exploitons",
+        "exploitez",
+        "exploitent"
+      ],
+      "I": [
+        "exploitais",
+        "exploitais",
+        "exploitait",
+        "exploitions",
+        "exploitiez",
+        "exploitaient"
+      ],
+      "F": [
+        "exploiterai",
+        "exploiteras",
+        "exploitera",
+        "exploiterons",
+        "exploiterez",
+        "exploiteront"
+      ],
+      "C": [
+        "exploiterais",
+        "exploiterais",
+        "exploiterait",
+        "exploiterions",
+        "exploiteriez",
+        "exploiteraient"
+      ],
+      "S": [
+        "exploite",
+        "exploites",
+        "exploite",
+        "exploitions",
+        "exploitiez",
+        "exploitent"
+      ],
+      "Y": [
+        "NA",
+        "exploite",
+        "NA",
+        "exploitons",
+        "exploitez",
+        "NA"
+      ],
+      "K": [
+        "exploité",
+        "exploités",
+        "exploitée",
+        "exploitées"
+      ]
+    }
+  },
+  {
+    "fr": "explorer",
+    "es": "explorar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "explore",
+        "explores",
+        "explore",
+        "explorons",
+        "explorez",
+        "explorent"
+      ],
+      "I": [
+        "explorais",
+        "explorais",
+        "explorait",
+        "explorions",
+        "exploriez",
+        "exploraient"
+      ],
+      "F": [
+        "explorerai",
+        "exploreras",
+        "explorera",
+        "explorerons",
+        "explorerez",
+        "exploreront"
+      ],
+      "C": [
+        "explorerais",
+        "explorerais",
+        "explorerait",
+        "explorerions",
+        "exploreriez",
+        "exploreraient"
+      ],
+      "S": [
+        "explore",
+        "explores",
+        "explore",
+        "explorions",
+        "exploriez",
+        "explorent"
+      ],
+      "Y": [
+        "NA",
+        "explore",
+        "NA",
+        "explorons",
+        "explorez",
+        "NA"
+      ],
+      "K": [
+        "exploré",
+        "explorés",
+        "explorée",
+        "explorées"
+      ]
+    }
+  },
+  {
+    "fr": "exporter",
+    "es": "exportar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "exporte",
+        "exportes",
+        "exporte",
+        "exportons",
+        "exportez",
+        "exportent"
+      ],
+      "I": [
+        "exportais",
+        "exportais",
+        "exportait",
+        "exportions",
+        "exportiez",
+        "exportaient"
+      ],
+      "F": [
+        "exporterai",
+        "exporteras",
+        "exportera",
+        "exporterons",
+        "exporterez",
+        "exporteront"
+      ],
+      "C": [
+        "exporterais",
+        "exporterais",
+        "exporterait",
+        "exporterions",
+        "exporteriez",
+        "exporteraient"
+      ],
+      "S": [
+        "exporte",
+        "exportes",
+        "exporte",
+        "exportions",
+        "exportiez",
+        "exportent"
+      ],
+      "Y": [
+        "NA",
+        "exporte",
+        "NA",
+        "exportons",
+        "exportez",
+        "NA"
+      ],
+      "K": [
+        "exporté",
+        "exportés",
+        "exportée",
+        "exportées"
+      ]
+    }
+  },
+  {
+    "fr": "exposer",
+    "es": "exponer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "expose",
+        "exposes",
+        "expose",
+        "exposons",
+        "exposez",
+        "exposent"
+      ],
+      "I": [
+        "exposais",
+        "exposais",
+        "exposait",
+        "exposions",
+        "exposiez",
+        "exposaient"
+      ],
+      "F": [
+        "exposerai",
+        "exposeras",
+        "exposera",
+        "exposerons",
+        "exposerez",
+        "exposeront"
+      ],
+      "C": [
+        "exposerais",
+        "exposerais",
+        "exposerait",
+        "exposerions",
+        "exposeriez",
+        "exposeraient"
+      ],
+      "S": [
+        "expose",
+        "exposes",
+        "expose",
+        "exposions",
+        "exposiez",
+        "exposent"
+      ],
+      "Y": [
+        "NA",
+        "expose",
+        "NA",
+        "exposons",
+        "exposez",
+        "NA"
+      ],
+      "K": [
+        "exposé",
+        "exposés",
+        "exposée",
+        "exposées"
+      ]
+    }
+  },
+  {
+    "fr": "fabriquer",
+    "es": "fabricar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "fabrique",
+        "fabriques",
+        "fabrique",
+        "fabriquons",
+        "fabriquez",
+        "fabriquent"
+      ],
+      "I": [
+        "fabriquais",
+        "fabriquais",
+        "fabriquait",
+        "fabriquions",
+        "fabriquiez",
+        "fabriquaient"
+      ],
+      "F": [
+        "fabriquerai",
+        "fabriqueras",
+        "fabriquera",
+        "fabriquerons",
+        "fabriquerez",
+        "fabriqueront"
+      ],
+      "C": [
+        "fabriquerais",
+        "fabriquerais",
+        "fabriquerait",
+        "fabriquerions",
+        "fabriqueriez",
+        "fabriqueraient"
+      ],
+      "S": [
+        "fabrique",
+        "fabriques",
+        "fabrique",
+        "fabriquions",
+        "fabriquiez",
+        "fabriquent"
+      ],
+      "Y": [
+        "NA",
+        "fabrique",
+        "NA",
+        "fabriquons",
+        "fabriquez",
+        "NA"
+      ],
+      "K": [
+        "fabriqué",
+        "fabriqués",
+        "fabriquée",
+        "fabriquées"
+      ]
+    }
+  },
+  {
+    "fr": "faciliter",
+    "es": "facilitar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "facilite",
+        "facilites",
+        "facilite",
+        "facilitons",
+        "facilitez",
+        "facilitent"
+      ],
+      "I": [
+        "facilitais",
+        "facilitais",
+        "facilitait",
+        "facilitions",
+        "facilitiez",
+        "facilitaient"
+      ],
+      "F": [
+        "faciliterai",
+        "faciliteras",
+        "facilitera",
+        "faciliterons",
+        "faciliterez",
+        "faciliteront"
+      ],
+      "C": [
+        "faciliterais",
+        "faciliterais",
+        "faciliterait",
+        "faciliterions",
+        "faciliteriez",
+        "faciliteraient"
+      ],
+      "S": [
+        "facilite",
+        "facilites",
+        "facilite",
+        "facilitions",
+        "facilitiez",
+        "facilitent"
+      ],
+      "Y": [
+        "NA",
+        "facilite",
+        "NA",
+        "facilitons",
+        "facilitez",
+        "NA"
+      ],
+      "K": [
+        "facilité",
+        "facilités",
+        "facilitée",
+        "facilitées"
+      ]
+    }
+  },
+  {
+    "fr": "féliciter",
+    "es": "felicitar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "félicite",
+        "félicites",
+        "félicite",
+        "félicitons",
+        "félicitez",
+        "félicitent"
+      ],
+      "I": [
+        "félicitais",
+        "félicitais",
+        "félicitait",
+        "félicitions",
+        "félicitiez",
+        "félicitaient"
+      ],
+      "F": [
+        "féliciterai",
+        "féliciteras",
+        "félicitera",
+        "féliciterons",
+        "féliciterez",
+        "féliciteront"
+      ],
+      "C": [
+        "féliciterais",
+        "féliciterais",
+        "féliciterait",
+        "féliciterions",
+        "féliciteriez",
+        "féliciteraient"
+      ],
+      "S": [
+        "félicite",
+        "félicites",
+        "félicite",
+        "félicitions",
+        "félicitiez",
+        "félicitent"
+      ],
+      "Y": [
+        "NA",
+        "félicite",
+        "NA",
+        "félicitons",
+        "félicitez",
+        "NA"
+      ],
+      "K": [
+        "félicité",
+        "félicités",
+        "félicitée",
+        "félicitées"
+      ]
+    }
+  },
+  {
+    "fr": "filmer",
+    "es": "filmar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "filme",
+        "filmes",
+        "filme",
+        "filmons",
+        "filmez",
+        "filment"
+      ],
+      "I": [
+        "filmais",
+        "filmais",
+        "filmait",
+        "filmions",
+        "filmiez",
+        "filmaient"
+      ],
+      "F": [
+        "filmerai",
+        "filmeras",
+        "filmera",
+        "filmerons",
+        "filmerez",
+        "filmeront"
+      ],
+      "C": [
+        "filmerais",
+        "filmerais",
+        "filmerait",
+        "filmerions",
+        "filmeriez",
+        "filmeraient"
+      ],
+      "S": [
+        "filme",
+        "filmes",
+        "filme",
+        "filmions",
+        "filmiez",
+        "filment"
+      ],
+      "Y": [
+        "NA",
+        "filme",
+        "NA",
+        "filmons",
+        "filmez",
+        "NA"
+      ],
+      "K": [
+        "filmé",
+        "filmés",
+        "filmée",
+        "filmées"
+      ]
+    }
+  },
+  {
+    "fr": "fixer",
+    "es": "fijar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "fixe",
+        "fixes",
+        "fixe",
+        "fixons",
+        "fixez",
+        "fixent"
+      ],
+      "I": [
+        "fixais",
+        "fixais",
+        "fixait",
+        "fixions",
+        "fixiez",
+        "fixaient"
+      ],
+      "F": [
+        "fixerai",
+        "fixeras",
+        "fixera",
+        "fixerons",
+        "fixerez",
+        "fixeront"
+      ],
+      "C": [
+        "fixerais",
+        "fixerais",
+        "fixerait",
+        "fixerions",
+        "fixeriez",
+        "fixeraient"
+      ],
+      "S": [
+        "fixe",
+        "fixes",
+        "fixe",
+        "fixions",
+        "fixiez",
+        "fixent"
+      ],
+      "Y": [
+        "NA",
+        "fixe",
+        "NA",
+        "fixons",
+        "fixez",
+        "NA"
+      ],
+      "K": [
+        "fixé",
+        "fixés",
+        "fixée",
+        "fixées"
+      ]
+    }
+  },
+  {
+    "fr": "flotter",
+    "es": "flotar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "flotte",
+        "flottes",
+        "flotte",
+        "flottons",
+        "flottez",
+        "flottent"
+      ],
+      "I": [
+        "flottais",
+        "flottais",
+        "flottait",
+        "flottions",
+        "flottiez",
+        "flottaient"
+      ],
+      "F": [
+        "flotterai",
+        "flotteras",
+        "flottera",
+        "flotterons",
+        "flotterez",
+        "flotteront"
+      ],
+      "C": [
+        "flotterais",
+        "flotterais",
+        "flotterait",
+        "flotterions",
+        "flotteriez",
+        "flotteraient"
+      ],
+      "S": [
+        "flotte",
+        "flottes",
+        "flotte",
+        "flottions",
+        "flottiez",
+        "flottent"
+      ],
+      "Y": [
+        "NA",
+        "flotte",
+        "NA",
+        "flottons",
+        "flottez",
+        "NA"
+      ],
+      "K": [
+        "flotté",
+        "flottés",
+        "flottée",
+        "flottées"
+      ]
+    }
+  },
+  {
+    "fr": "fouiller",
+    "es": "registrar / rebuscar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "fouille",
+        "fouilles",
+        "fouille",
+        "fouillons",
+        "fouillez",
+        "fouillent"
+      ],
+      "I": [
+        "fouillais",
+        "fouillais",
+        "fouillait",
+        "fouillions",
+        "fouilliez",
+        "fouillaient"
+      ],
+      "F": [
+        "fouillerai",
+        "fouilleras",
+        "fouillera",
+        "fouillerons",
+        "fouillerez",
+        "fouilleront"
+      ],
+      "C": [
+        "fouillerais",
+        "fouillerais",
+        "fouillerait",
+        "fouillerions",
+        "fouilleriez",
+        "fouilleraient"
+      ],
+      "S": [
+        "fouille",
+        "fouilles",
+        "fouille",
+        "fouillions",
+        "fouilliez",
+        "fouillent"
+      ],
+      "Y": [
+        "NA",
+        "fouille",
+        "NA",
+        "fouillons",
+        "fouillez",
+        "NA"
+      ],
+      "K": [
+        "fouillé",
+        "fouillés",
+        "fouillée",
+        "fouillées"
+      ]
+    }
+  },
+  {
+    "fr": "freiner",
+    "es": "frenar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "freine",
+        "freines",
+        "freine",
+        "freinons",
+        "freinez",
+        "freinent"
+      ],
+      "I": [
+        "freinais",
+        "freinais",
+        "freinait",
+        "freinions",
+        "freiniez",
+        "freinaient"
+      ],
+      "F": [
+        "freinerai",
+        "freineras",
+        "freinera",
+        "freinerons",
+        "freinerez",
+        "freineront"
+      ],
+      "C": [
+        "freinerais",
+        "freinerais",
+        "freinerait",
+        "freinerions",
+        "freineriez",
+        "freineraient"
+      ],
+      "S": [
+        "freine",
+        "freines",
+        "freine",
+        "freinions",
+        "freiniez",
+        "freinent"
+      ],
+      "Y": [
+        "NA",
+        "freine",
+        "NA",
+        "freinons",
+        "freinez",
+        "NA"
+      ],
+      "K": [
+        "freiné",
+        "freinés",
+        "freinée",
+        "freinées"
+      ]
+    }
+  },
+  {
+    "fr": "fréquenter",
+    "es": "frecuentar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "fréquente",
+        "fréquentes",
+        "fréquente",
+        "fréquentons",
+        "fréquentez",
+        "fréquentent"
+      ],
+      "I": [
+        "fréquentais",
+        "fréquentais",
+        "fréquentait",
+        "fréquentions",
+        "fréquentiez",
+        "fréquentaient"
+      ],
+      "F": [
+        "fréquenterai",
+        "fréquenteras",
+        "fréquentera",
+        "fréquenterons",
+        "fréquenterez",
+        "fréquenteront"
+      ],
+      "C": [
+        "fréquenterais",
+        "fréquenterais",
+        "fréquenterait",
+        "fréquenterions",
+        "fréquenteriez",
+        "fréquenteraient"
+      ],
+      "S": [
+        "fréquente",
+        "fréquentes",
+        "fréquente",
+        "fréquentions",
+        "fréquentiez",
+        "fréquentent"
+      ],
+      "Y": [
+        "NA",
+        "fréquente",
+        "NA",
+        "fréquentons",
+        "fréquentez",
+        "NA"
+      ],
+      "K": [
+        "fréquenté",
+        "fréquentés",
+        "fréquentée",
+        "fréquentées"
+      ]
+    }
+  },
+  {
+    "fr": "frotter",
+    "es": "frotar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "frotte",
+        "frottes",
+        "frotte",
+        "frottons",
+        "frottez",
+        "frottent"
+      ],
+      "I": [
+        "frottais",
+        "frottais",
+        "frottait",
+        "frottions",
+        "frottiez",
+        "frottaient"
+      ],
+      "F": [
+        "frotterai",
+        "frotteras",
+        "frottera",
+        "frotterons",
+        "frotterez",
+        "frotteront"
+      ],
+      "C": [
+        "frotterais",
+        "frotterais",
+        "frotterait",
+        "frotterions",
+        "frotteriez",
+        "frotteraient"
+      ],
+      "S": [
+        "frotte",
+        "frottes",
+        "frotte",
+        "frottions",
+        "frottiez",
+        "frottent"
+      ],
+      "Y": [
+        "NA",
+        "frotte",
+        "NA",
+        "frottons",
+        "frottez",
+        "NA"
+      ],
+      "K": [
+        "frotté",
+        "frottés",
+        "frottée",
+        "frottées"
+      ]
+    }
+  },
+  {
+    "fr": "gaspiller",
+    "es": "desperdiciar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "gaspille",
+        "gaspilles",
+        "gaspille",
+        "gaspillons",
+        "gaspillez",
+        "gaspillent"
+      ],
+      "I": [
+        "gaspillais",
+        "gaspillais",
+        "gaspillait",
+        "gaspillions",
+        "gaspilliez",
+        "gaspillaient"
+      ],
+      "F": [
+        "gaspillerai",
+        "gaspilleras",
+        "gaspillera",
+        "gaspillerons",
+        "gaspillerez",
+        "gaspilleront"
+      ],
+      "C": [
+        "gaspillerais",
+        "gaspillerais",
+        "gaspillerait",
+        "gaspillerions",
+        "gaspilleriez",
+        "gaspilleraient"
+      ],
+      "S": [
+        "gaspille",
+        "gaspilles",
+        "gaspille",
+        "gaspillions",
+        "gaspilliez",
+        "gaspillent"
+      ],
+      "Y": [
+        "NA",
+        "gaspille",
+        "NA",
+        "gaspillons",
+        "gaspillez",
+        "NA"
+      ],
+      "K": [
+        "gaspillé",
+        "gaspillés",
+        "gaspillée",
+        "gaspillées"
+      ]
+    }
+  },
+  {
+    "fr": "glisser",
+    "es": "deslizar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "glisse",
+        "glisses",
+        "glisse",
+        "glissons",
+        "glissez",
+        "glissent"
+      ],
+      "I": [
+        "glissais",
+        "glissais",
+        "glissait",
+        "glissions",
+        "glissiez",
+        "glissaient"
+      ],
+      "F": [
+        "glisserai",
+        "glisseras",
+        "glissera",
+        "glisserons",
+        "glisserez",
+        "glisseront"
+      ],
+      "C": [
+        "glisserais",
+        "glisserais",
+        "glisserait",
+        "glisserions",
+        "glisseriez",
+        "glisseraient"
+      ],
+      "S": [
+        "glisse",
+        "glisses",
+        "glisse",
+        "glissions",
+        "glissiez",
+        "glissent"
+      ],
+      "Y": [
+        "NA",
+        "glisse",
+        "NA",
+        "glissons",
+        "glissez",
+        "NA"
+      ],
+      "K": [
+        "glissé",
+        "glissés",
+        "glissée",
+        "glissées"
+      ]
+    }
+  },
+  {
+    "fr": "gonfler",
+    "es": "inflar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "gonfle",
+        "gonfles",
+        "gonfle",
+        "gonflons",
+        "gonflez",
+        "gonflent"
+      ],
+      "I": [
+        "gonflais",
+        "gonflais",
+        "gonflait",
+        "gonflions",
+        "gonfliez",
+        "gonflaient"
+      ],
+      "F": [
+        "gonflerai",
+        "gonfleras",
+        "gonflera",
+        "gonflerons",
+        "gonflerez",
+        "gonfleront"
+      ],
+      "C": [
+        "gonflerais",
+        "gonflerais",
+        "gonflerait",
+        "gonflerions",
+        "gonfleriez",
+        "gonfleraient"
+      ],
+      "S": [
+        "gonfle",
+        "gonfles",
+        "gonfle",
+        "gonflions",
+        "gonfliez",
+        "gonflent"
+      ],
+      "Y": [
+        "NA",
+        "gonfle",
+        "NA",
+        "gonflons",
+        "gonflez",
+        "NA"
+      ],
+      "K": [
+        "gonflé",
+        "gonflés",
+        "gonflée",
+        "gonflées"
+      ]
+    }
+  },
+  {
+    "fr": "grimper",
+    "es": "trepar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "grimpe",
+        "grimpes",
+        "grimpe",
+        "grimpons",
+        "grimpez",
+        "grimpent"
+      ],
+      "I": [
+        "grimpais",
+        "grimpais",
+        "grimpait",
+        "grimpions",
+        "grimpiez",
+        "grimpaient"
+      ],
+      "F": [
+        "grimperai",
+        "grimperas",
+        "grimpera",
+        "grimperons",
+        "grimperez",
+        "grimperont"
+      ],
+      "C": [
+        "grimperais",
+        "grimperais",
+        "grimperait",
+        "grimperions",
+        "grimperiez",
+        "grimperaient"
+      ],
+      "S": [
+        "grimpe",
+        "grimpes",
+        "grimpe",
+        "grimpions",
+        "grimpiez",
+        "grimpent"
+      ],
+      "Y": [
+        "NA",
+        "grimpe",
+        "NA",
+        "grimpons",
+        "grimpez",
+        "NA"
+      ],
+      "K": [
+        "grimpé",
+        "grimpés",
+        "grimpée",
+        "grimpées"
+      ]
+    }
+  },
+  {
+    "fr": "identifier",
+    "es": "identificar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "identifie",
+        "identifies",
+        "identifie",
+        "identifions",
+        "identifiez",
+        "identifient"
+      ],
+      "I": [
+        "identifiais",
+        "identifiais",
+        "identifiait",
+        "identifiions",
+        "identifiiez",
+        "identifiaient"
+      ],
+      "F": [
+        "identifierai",
+        "identifieras",
+        "identifiera",
+        "identifierons",
+        "identifierez",
+        "identifieront"
+      ],
+      "C": [
+        "identifierais",
+        "identifierais",
+        "identifierait",
+        "identifierions",
+        "identifieriez",
+        "identifieraient"
+      ],
+      "S": [
+        "identifie",
+        "identifies",
+        "identifie",
+        "identifiions",
+        "identifiiez",
+        "identifient"
+      ],
+      "Y": [
+        "NA",
+        "identifie",
+        "NA",
+        "identifions",
+        "identifiez",
+        "NA"
+      ],
+      "K": [
+        "identifié",
+        "identifiés",
+        "identifiée",
+        "identifiées"
+      ]
+    }
+  },
+  {
+    "fr": "ignorer",
+    "es": "ignorar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "ignore",
+        "ignores",
+        "ignore",
+        "ignorons",
+        "ignorez",
+        "ignorent"
+      ],
+      "I": [
+        "ignorais",
+        "ignorais",
+        "ignorait",
+        "ignorions",
+        "ignoriez",
+        "ignoraient"
+      ],
+      "F": [
+        "ignorerai",
+        "ignoreras",
+        "ignorera",
+        "ignorerons",
+        "ignorerez",
+        "ignoreront"
+      ],
+      "C": [
+        "ignorerais",
+        "ignorerais",
+        "ignorerait",
+        "ignorerions",
+        "ignoreriez",
+        "ignoreraient"
+      ],
+      "S": [
+        "ignore",
+        "ignores",
+        "ignore",
+        "ignorions",
+        "ignoriez",
+        "ignorent"
+      ],
+      "Y": [
+        "NA",
+        "ignore",
+        "NA",
+        "ignorons",
+        "ignorez",
+        "NA"
+      ],
+      "K": [
+        "ignoré",
+        "ignorés",
+        "ignorée",
+        "ignorées"
+      ]
+    }
+  },
+  {
+    "fr": "illustrer",
+    "es": "ilustrar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "illustre",
+        "illustres",
+        "illustre",
+        "illustrons",
+        "illustrez",
+        "illustrent"
+      ],
+      "I": [
+        "illustrais",
+        "illustrais",
+        "illustrait",
+        "illustrions",
+        "illustriez",
+        "illustraient"
+      ],
+      "F": [
+        "illustrerai",
+        "illustreras",
+        "illustrera",
+        "illustrerons",
+        "illustrerez",
+        "illustreront"
+      ],
+      "C": [
+        "illustrerais",
+        "illustrerais",
+        "illustrerait",
+        "illustrerions",
+        "illustreriez",
+        "illustreraient"
+      ],
+      "S": [
+        "illustre",
+        "illustres",
+        "illustre",
+        "illustrions",
+        "illustriez",
+        "illustrent"
+      ],
+      "Y": [
+        "NA",
+        "illustre",
+        "NA",
+        "illustrons",
+        "illustrez",
+        "NA"
+      ],
+      "K": [
+        "illustré",
+        "illustrés",
+        "illustrée",
+        "illustrées"
+      ]
+    }
+  },
+  {
+    "fr": "imiter",
+    "es": "imitar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "imite",
+        "imites",
+        "imite",
+        "imitons",
+        "imitez",
+        "imitent"
+      ],
+      "I": [
+        "imitais",
+        "imitais",
+        "imitait",
+        "imitions",
+        "imitiez",
+        "imitaient"
+      ],
+      "F": [
+        "imiterai",
+        "imiteras",
+        "imitera",
+        "imiterons",
+        "imiterez",
+        "imiteront"
+      ],
+      "C": [
+        "imiterais",
+        "imiterais",
+        "imiterait",
+        "imiterions",
+        "imiteriez",
+        "imiteraient"
+      ],
+      "S": [
+        "imite",
+        "imites",
+        "imite",
+        "imitions",
+        "imitiez",
+        "imitent"
+      ],
+      "Y": [
+        "NA",
+        "imite",
+        "NA",
+        "imitons",
+        "imitez",
+        "NA"
+      ],
+      "K": [
+        "imité",
+        "imités",
+        "imitée",
+        "imitées"
+      ]
+    }
+  },
+  {
+    "fr": "importer",
+    "es": "importar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "importe",
+        "importes",
+        "importe",
+        "importons",
+        "importez",
+        "importent"
+      ],
+      "I": [
+        "importais",
+        "importais",
+        "importait",
+        "importions",
+        "importiez",
+        "importaient"
+      ],
+      "F": [
+        "importerai",
+        "importeras",
+        "importera",
+        "importerons",
+        "importerez",
+        "importeront"
+      ],
+      "C": [
+        "importerais",
+        "importerais",
+        "importerait",
+        "importerions",
+        "importeriez",
+        "importeraient"
+      ],
+      "S": [
+        "importe",
+        "importes",
+        "importe",
+        "importions",
+        "importiez",
+        "importent"
+      ],
+      "Y": [
+        "NA",
+        "importe",
+        "NA",
+        "importons",
+        "importez",
+        "NA"
+      ],
+      "K": [
+        "importé",
+        "importés",
+        "importée",
+        "importées"
+      ]
+    }
+  },
+  {
+    "fr": "imposer",
+    "es": "imponer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "impose",
+        "imposes",
+        "impose",
+        "imposons",
+        "imposez",
+        "imposent"
+      ],
+      "I": [
+        "imposais",
+        "imposais",
+        "imposait",
+        "imposions",
+        "imposiez",
+        "imposaient"
+      ],
+      "F": [
+        "imposerai",
+        "imposeras",
+        "imposera",
+        "imposerons",
+        "imposerez",
+        "imposeront"
+      ],
+      "C": [
+        "imposerais",
+        "imposerais",
+        "imposerait",
+        "imposerions",
+        "imposeriez",
+        "imposeraient"
+      ],
+      "S": [
+        "impose",
+        "imposes",
+        "impose",
+        "imposions",
+        "imposiez",
+        "imposent"
+      ],
+      "Y": [
+        "NA",
+        "impose",
+        "NA",
+        "imposons",
+        "imposez",
+        "NA"
+      ],
+      "K": [
+        "imposé",
+        "imposés",
+        "imposée",
+        "imposées"
+      ]
+    }
+  },
+  {
+    "fr": "impressionner",
+    "es": "impresionar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "impressionne",
+        "impressionnes",
+        "impressionne",
+        "impressionnons",
+        "impressionnez",
+        "impressionnent"
+      ],
+      "I": [
+        "impressionnais",
+        "impressionnais",
+        "impressionnait",
+        "impressionnions",
+        "impressionniez",
+        "impressionnaient"
+      ],
+      "F": [
+        "impressionnerai",
+        "impressionneras",
+        "impressionnera",
+        "impressionnerons",
+        "impressionnerez",
+        "impressionneront"
+      ],
+      "C": [
+        "impressionnerais",
+        "impressionnerais",
+        "impressionnerait",
+        "impressionnerions",
+        "impressionneriez",
+        "impressionneraient"
+      ],
+      "S": [
+        "impressionne",
+        "impressionnes",
+        "impressionne",
+        "impressionnions",
+        "impressionniez",
+        "impressionnent"
+      ],
+      "Y": [
+        "NA",
+        "impressionne",
+        "NA",
+        "impressionnons",
+        "impressionnez",
+        "NA"
+      ],
+      "K": [
+        "impressionné",
+        "impressionnés",
+        "impressionnée",
+        "impressionnées"
+      ]
+    }
+  },
+  {
+    "fr": "influencer",
+    "es": "influir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "influence",
+        "influences",
+        "influence",
+        "influençons",
+        "influencez",
+        "influencent"
+      ],
+      "I": [
+        "influençais",
+        "influençais",
+        "influençait",
+        "influencions",
+        "influenciez",
+        "influençaient"
+      ],
+      "F": [
+        "influencerai",
+        "influenceras",
+        "influencera",
+        "influencerons",
+        "influencerez",
+        "influenceront"
+      ],
+      "C": [
+        "influencerais",
+        "influencerais",
+        "influencerait",
+        "influencerions",
+        "influenceriez",
+        "influenceraient"
+      ],
+      "S": [
+        "influence",
+        "influences",
+        "influence",
+        "influencions",
+        "influenciez",
+        "influencent"
+      ],
+      "Y": [
+        "NA",
+        "influence",
+        "NA",
+        "influençons",
+        "influencez",
+        "NA"
+      ],
+      "K": [
+        "influencé",
+        "influencés",
+        "influencée",
+        "influencées"
+      ]
+    }
+  },
+  {
+    "fr": "insister",
+    "es": "insistir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "insiste",
+        "insistes",
+        "insiste",
+        "insistons",
+        "insistez",
+        "insistent"
+      ],
+      "I": [
+        "insistais",
+        "insistais",
+        "insistait",
+        "insistions",
+        "insistiez",
+        "insistaient"
+      ],
+      "F": [
+        "insisterai",
+        "insisteras",
+        "insistera",
+        "insisterons",
+        "insisterez",
+        "insisteront"
+      ],
+      "C": [
+        "insisterais",
+        "insisterais",
+        "insisterait",
+        "insisterions",
+        "insisteriez",
+        "insisteraient"
+      ],
+      "S": [
+        "insiste",
+        "insistes",
+        "insiste",
+        "insistions",
+        "insistiez",
+        "insistent"
+      ],
+      "Y": [
+        "NA",
+        "insiste",
+        "NA",
+        "insistons",
+        "insistez",
+        "NA"
+      ],
+      "K": [
+        "insisté",
+        "insistés",
+        "insistée",
+        "insistées"
+      ]
+    }
+  },
+  {
+    "fr": "inspirer",
+    "es": "inspirar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "inspire",
+        "inspires",
+        "inspire",
+        "inspirons",
+        "inspirez",
+        "inspirent"
+      ],
+      "I": [
+        "inspirais",
+        "inspirais",
+        "inspirait",
+        "inspirions",
+        "inspiriez",
+        "inspiraient"
+      ],
+      "F": [
+        "inspirerai",
+        "inspireras",
+        "inspirera",
+        "inspirerons",
+        "inspirerez",
+        "inspireront"
+      ],
+      "C": [
+        "inspirerais",
+        "inspirerais",
+        "inspirerait",
+        "inspirerions",
+        "inspireriez",
+        "inspireraient"
+      ],
+      "S": [
+        "inspire",
+        "inspires",
+        "inspire",
+        "inspirions",
+        "inspiriez",
+        "inspirent"
+      ],
+      "Y": [
+        "NA",
+        "inspire",
+        "NA",
+        "inspirons",
+        "inspirez",
+        "NA"
+      ],
+      "K": [
+        "inspiré",
+        "inspirés",
+        "inspirée",
+        "inspirées"
+      ]
+    }
+  },
+  {
+    "fr": "interroger",
+    "es": "interrogar / preguntar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "interroge",
+        "interroges",
+        "interroge",
+        "interrogeons",
+        "interrogez",
+        "interrogent"
+      ],
+      "I": [
+        "interrogeais",
+        "interrogeais",
+        "interrogeait",
+        "interrogions",
+        "interrogiez",
+        "interrogeaient"
+      ],
+      "F": [
+        "interrogerai",
+        "interrogeras",
+        "interrogera",
+        "interrogerons",
+        "interrogerez",
+        "interrogeront"
+      ],
+      "C": [
+        "interrogerais",
+        "interrogerais",
+        "interrogerait",
+        "interrogerions",
+        "interrogeriez",
+        "interrogeraient"
+      ],
+      "S": [
+        "interroge",
+        "interroges",
+        "interroge",
+        "interrogions",
+        "interrogiez",
+        "interrogent"
+      ],
+      "Y": [
+        "NA",
+        "interroge",
+        "NA",
+        "interrogeons",
+        "interrogez",
+        "NA"
+      ],
+      "K": [
+        "interrogé",
+        "interrogés",
+        "interrogée",
+        "interrogées"
+      ]
+    }
+  },
+  {
+    "fr": "interpréter",
+    "es": "interpretar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "interprète",
+        "interprètes",
+        "interprète",
+        "interprétons",
+        "interprétez",
+        "interprètent"
+      ],
+      "I": [
+        "interprétais",
+        "interprétais",
+        "interprétait",
+        "interprétions",
+        "interprétiez",
+        "interprétaient"
+      ],
+      "F": [
+        "interpréterai",
+        "interpréteras",
+        "interprétera",
+        "interpréterons",
+        "interpréterez",
+        "interpréteront"
+      ],
+      "C": [
+        "interpréterais",
+        "interpréterais",
+        "interpréterait",
+        "interpréterions",
+        "interpréteriez",
+        "interpréteraient"
+      ],
+      "S": [
+        "interprète",
+        "interprètes",
+        "interprète",
+        "interprétions",
+        "interprétiez",
+        "interprètent"
+      ],
+      "Y": [
+        "NA",
+        "interprète",
+        "NA",
+        "interprétons",
+        "interprétez",
+        "NA"
+      ],
+      "K": [
+        "interprété",
+        "interprétés",
+        "interprétée",
+        "interprétées"
+      ]
+    }
+  },
+  {
+    "fr": "isoler",
+    "es": "aislar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "isole",
+        "isoles",
+        "isole",
+        "isolons",
+        "isolez",
+        "isolent"
+      ],
+      "I": [
+        "isolais",
+        "isolais",
+        "isolait",
+        "isolions",
+        "isoliez",
+        "isolaient"
+      ],
+      "F": [
+        "isolerai",
+        "isoleras",
+        "isolera",
+        "isolerons",
+        "isolerez",
+        "isoleront"
+      ],
+      "C": [
+        "isolerais",
+        "isolerais",
+        "isolerait",
+        "isolerions",
+        "isoleriez",
+        "isoleraient"
+      ],
+      "S": [
+        "isole",
+        "isoles",
+        "isole",
+        "isolions",
+        "isoliez",
+        "isolent"
+      ],
+      "Y": [
+        "NA",
+        "isole",
+        "NA",
+        "isolons",
+        "isolez",
+        "NA"
+      ],
+      "K": [
+        "isolé",
+        "isolés",
+        "isolée",
+        "isolées"
+      ]
+    }
+  },
+  {
+    "fr": "juger",
+    "es": "juzgar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "juge",
+        "juges",
+        "juge",
+        "jugeons",
+        "jugez",
+        "jugent"
+      ],
+      "I": [
+        "jugeais",
+        "jugeais",
+        "jugeait",
+        "jugions",
+        "jugiez",
+        "jugeaient"
+      ],
+      "F": [
+        "jugerai",
+        "jugeras",
+        "jugera",
+        "jugerons",
+        "jugerez",
+        "jugeront"
+      ],
+      "C": [
+        "jugerais",
+        "jugerais",
+        "jugerait",
+        "jugerions",
+        "jugeriez",
+        "jugeraient"
+      ],
+      "S": [
+        "juge",
+        "juges",
+        "juge",
+        "jugions",
+        "jugiez",
+        "jugent"
+      ],
+      "Y": [
+        "NA",
+        "juge",
+        "NA",
+        "jugeons",
+        "jugez",
+        "NA"
+      ],
+      "K": [
+        "jugé",
+        "jugés",
+        "jugée",
+        "jugées"
+      ]
+    }
+  },
+  {
+    "fr": "limiter",
+    "es": "limitar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "limite",
+        "limites",
+        "limite",
+        "limitons",
+        "limitez",
+        "limitent"
+      ],
+      "I": [
+        "limitais",
+        "limitais",
+        "limitait",
+        "limitions",
+        "limitiez",
+        "limitaient"
+      ],
+      "F": [
+        "limiterai",
+        "limiteras",
+        "limitera",
+        "limiterons",
+        "limiterez",
+        "limiteront"
+      ],
+      "C": [
+        "limiterais",
+        "limiterais",
+        "limiterait",
+        "limiterions",
+        "limiteriez",
+        "limiteraient"
+      ],
+      "S": [
+        "limite",
+        "limites",
+        "limite",
+        "limitions",
+        "limitiez",
+        "limitent"
+      ],
+      "Y": [
+        "NA",
+        "limite",
+        "NA",
+        "limitons",
+        "limitez",
+        "NA"
+      ],
+      "K": [
+        "limité",
+        "limités",
+        "limitée",
+        "limitées"
+      ]
+    }
+  },
+  {
+    "fr": "livrer",
+    "es": "entregar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "livre",
+        "livres",
+        "livre",
+        "livrons",
+        "livrez",
+        "livrent"
+      ],
+      "I": [
+        "livrais",
+        "livrais",
+        "livrait",
+        "livrions",
+        "livriez",
+        "livraient"
+      ],
+      "F": [
+        "livrerai",
+        "livreras",
+        "livrera",
+        "livrerons",
+        "livrerez",
+        "livreront"
+      ],
+      "C": [
+        "livrerais",
+        "livrerais",
+        "livrerait",
+        "livrerions",
+        "livreriez",
+        "livreraient"
+      ],
+      "S": [
+        "livre",
+        "livres",
+        "livre",
+        "livrions",
+        "livriez",
+        "livrent"
+      ],
+      "Y": [
+        "NA",
+        "livre",
+        "NA",
+        "livrons",
+        "livrez",
+        "NA"
+      ],
+      "K": [
+        "livré",
+        "livrés",
+        "livrée",
+        "livrées"
+      ]
+    }
+  },
+  {
+    "fr": "loger",
+    "es": "alojar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "loge",
+        "loges",
+        "loge",
+        "logeons",
+        "logez",
+        "logent"
+      ],
+      "I": [
+        "logeais",
+        "logeais",
+        "logeait",
+        "logions",
+        "logiez",
+        "logeaient"
+      ],
+      "F": [
+        "logerai",
+        "logeras",
+        "logera",
+        "logerons",
+        "logerez",
+        "logeront"
+      ],
+      "C": [
+        "logerais",
+        "logerais",
+        "logerait",
+        "logerions",
+        "logeriez",
+        "logeraient"
+      ],
+      "S": [
+        "loge",
+        "loges",
+        "loge",
+        "logions",
+        "logiez",
+        "logent"
+      ],
+      "Y": [
+        "NA",
+        "loge",
+        "NA",
+        "logeons",
+        "logez",
+        "NA"
+      ],
+      "K": [
+        "logé",
+        "logés",
+        "logée",
+        "logées"
+      ]
+    }
+  },
+  {
+    "fr": "lutter",
+    "es": "luchar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "lutte",
+        "luttes",
+        "lutte",
+        "luttons",
+        "luttez",
+        "luttent"
+      ],
+      "I": [
+        "luttais",
+        "luttais",
+        "luttait",
+        "luttions",
+        "luttiez",
+        "luttaient"
+      ],
+      "F": [
+        "lutterai",
+        "lutteras",
+        "luttera",
+        "lutterons",
+        "lutterez",
+        "lutteront"
+      ],
+      "C": [
+        "lutterais",
+        "lutterais",
+        "lutterait",
+        "lutterions",
+        "lutteriez",
+        "lutteraient"
+      ],
+      "S": [
+        "lutte",
+        "luttes",
+        "lutte",
+        "luttions",
+        "luttiez",
+        "luttent"
+      ],
+      "Y": [
+        "NA",
+        "lutte",
+        "NA",
+        "luttons",
+        "luttez",
+        "NA"
+      ],
+      "K": [
+        "lutté",
+        "luttés",
+        "luttée",
+        "luttées"
+      ]
+    }
+  },
+  {
+    "fr": "maîtriser",
+    "es": "dominar (una habilidad)",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "maîtrise",
+        "maîtrises",
+        "maîtrise",
+        "maîtrisons",
+        "maîtrisez",
+        "maîtrisent"
+      ],
+      "I": [
+        "maîtrisais",
+        "maîtrisais",
+        "maîtrisait",
+        "maîtrisions",
+        "maîtrisiez",
+        "maîtrisaient"
+      ],
+      "F": [
+        "maîtriserai",
+        "maîtriseras",
+        "maîtrisera",
+        "maîtriserons",
+        "maîtriserez",
+        "maîtriseront"
+      ],
+      "C": [
+        "maîtriserais",
+        "maîtriserais",
+        "maîtriserait",
+        "maîtriserions",
+        "maîtriseriez",
+        "maîtriseraient"
+      ],
+      "S": [
+        "maîtrise",
+        "maîtrises",
+        "maîtrise",
+        "maîtrisions",
+        "maîtrisiez",
+        "maîtrisent"
+      ],
+      "Y": [
+        "NA",
+        "maîtrise",
+        "NA",
+        "maîtrisons",
+        "maîtrisez",
+        "NA"
+      ],
+      "K": [
+        "maîtrisé",
+        "maîtrisés",
+        "maîtrisée",
+        "maîtrisées"
+      ]
+    }
+  },
+  {
+    "fr": "manifester",
+    "es": "manifestar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "manifeste",
+        "manifestes",
+        "manifeste",
+        "manifestons",
+        "manifestez",
+        "manifestent"
+      ],
+      "I": [
+        "manifestais",
+        "manifestais",
+        "manifestait",
+        "manifestions",
+        "manifestiez",
+        "manifestaient"
+      ],
+      "F": [
+        "manifesterai",
+        "manifesteras",
+        "manifestera",
+        "manifesterons",
+        "manifesterez",
+        "manifesteront"
+      ],
+      "C": [
+        "manifesterais",
+        "manifesterais",
+        "manifesterait",
+        "manifesterions",
+        "manifesteriez",
+        "manifesteraient"
+      ],
+      "S": [
+        "manifeste",
+        "manifestes",
+        "manifeste",
+        "manifestions",
+        "manifestiez",
+        "manifestent"
+      ],
+      "Y": [
+        "NA",
+        "manifeste",
+        "NA",
+        "manifestons",
+        "manifestez",
+        "NA"
+      ],
+      "K": [
+        "manifesté",
+        "manifestés",
+        "manifestée",
+        "manifestées"
+      ]
+    }
+  },
+  {
+    "fr": "manipuler",
+    "es": "manipular",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "manipule",
+        "manipules",
+        "manipule",
+        "manipulons",
+        "manipulez",
+        "manipulent"
+      ],
+      "I": [
+        "manipulais",
+        "manipulais",
+        "manipulait",
+        "manipulions",
+        "manipuliez",
+        "manipulaient"
+      ],
+      "F": [
+        "manipulerai",
+        "manipuleras",
+        "manipulera",
+        "manipulerons",
+        "manipulerez",
+        "manipuleront"
+      ],
+      "C": [
+        "manipulerais",
+        "manipulerais",
+        "manipulerait",
+        "manipulerions",
+        "manipuleriez",
+        "manipuleraient"
+      ],
+      "S": [
+        "manipule",
+        "manipules",
+        "manipule",
+        "manipulions",
+        "manipuliez",
+        "manipulent"
+      ],
+      "Y": [
+        "NA",
+        "manipule",
+        "NA",
+        "manipulons",
+        "manipulez",
+        "NA"
+      ],
+      "K": [
+        "manipulé",
+        "manipulés",
+        "manipulée",
+        "manipulées"
+      ]
+    }
+  },
+  {
+    "fr": "marquer",
+    "es": "marcar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "marque",
+        "marques",
+        "marque",
+        "marquons",
+        "marquez",
+        "marquent"
+      ],
+      "I": [
+        "marquais",
+        "marquais",
+        "marquait",
+        "marquions",
+        "marquiez",
+        "marquaient"
+      ],
+      "F": [
+        "marquerai",
+        "marqueras",
+        "marquera",
+        "marquerons",
+        "marquerez",
+        "marqueront"
+      ],
+      "C": [
+        "marquerais",
+        "marquerais",
+        "marquerait",
+        "marquerions",
+        "marqueriez",
+        "marqueraient"
+      ],
+      "S": [
+        "marque",
+        "marques",
+        "marque",
+        "marquions",
+        "marquiez",
+        "marquent"
+      ],
+      "Y": [
+        "NA",
+        "marque",
+        "NA",
+        "marquons",
+        "marquez",
+        "NA"
+      ],
+      "K": [
+        "marqué",
+        "marqués",
+        "marquée",
+        "marquées"
+      ]
+    }
+  },
+  {
+    "fr": "mémoriser",
+    "es": "memorizar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "mémorise",
+        "mémorises",
+        "mémorise",
+        "mémorisons",
+        "mémorisez",
+        "mémorisent"
+      ],
+      "I": [
+        "mémorisais",
+        "mémorisais",
+        "mémorisait",
+        "mémorisions",
+        "mémorisiez",
+        "mémorisaient"
+      ],
+      "F": [
+        "mémoriserai",
+        "mémoriseras",
+        "mémorisera",
+        "mémoriserons",
+        "mémoriserez",
+        "mémoriseront"
+      ],
+      "C": [
+        "mémoriserais",
+        "mémoriserais",
+        "mémoriserait",
+        "mémoriserions",
+        "mémoriseriez",
+        "mémoriseraient"
+      ],
+      "S": [
+        "mémorise",
+        "mémorises",
+        "mémorise",
+        "mémorisions",
+        "mémorisiez",
+        "mémorisent"
+      ],
+      "Y": [
+        "NA",
+        "mémorise",
+        "NA",
+        "mémorisons",
+        "mémorisez",
+        "NA"
+      ],
+      "K": [
+        "mémorisé",
+        "mémorisés",
+        "mémorisée",
+        "mémorisées"
+      ]
+    }
+  },
+  {
+    "fr": "menacer",
+    "es": "amenazar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "menace",
+        "menaces",
+        "menace",
+        "menaçons",
+        "menacez",
+        "menacent"
+      ],
+      "I": [
+        "menaçais",
+        "menaçais",
+        "menaçait",
+        "menacions",
+        "menaciez",
+        "menaçaient"
+      ],
+      "F": [
+        "menacerai",
+        "menaceras",
+        "menacera",
+        "menacerons",
+        "menacerez",
+        "menaceront"
+      ],
+      "C": [
+        "menacerais",
+        "menacerais",
+        "menacerait",
+        "menacerions",
+        "menaceriez",
+        "menaceraient"
+      ],
+      "S": [
+        "menace",
+        "menaces",
+        "menace",
+        "menacions",
+        "menaciez",
+        "menacent"
+      ],
+      "Y": [
+        "NA",
+        "menace",
+        "NA",
+        "menaçons",
+        "menacez",
+        "NA"
+      ],
+      "K": [
+        "menacé",
+        "menacés",
+        "menacée",
+        "menacées"
+      ]
+    }
+  },
+  {
+    "fr": "mépriser",
+    "es": "despreciar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "méprise",
+        "méprises",
+        "méprise",
+        "méprisons",
+        "méprisez",
+        "méprisent"
+      ],
+      "I": [
+        "méprisais",
+        "méprisais",
+        "méprisait",
+        "méprisions",
+        "méprisiez",
+        "méprisaient"
+      ],
+      "F": [
+        "mépriserai",
+        "mépriseras",
+        "méprisera",
+        "mépriserons",
+        "mépriserez",
+        "mépriseront"
+      ],
+      "C": [
+        "mépriserais",
+        "mépriserais",
+        "mépriserait",
+        "mépriserions",
+        "mépriseriez",
+        "mépriseraient"
+      ],
+      "S": [
+        "méprise",
+        "méprises",
+        "méprise",
+        "méprisions",
+        "méprisiez",
+        "méprisent"
+      ],
+      "Y": [
+        "NA",
+        "méprise",
+        "NA",
+        "méprisons",
+        "méprisez",
+        "NA"
+      ],
+      "K": [
+        "méprisé",
+        "méprisés",
+        "méprisée",
+        "méprisées"
       ]
     }
   }

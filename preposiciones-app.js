@@ -16,7 +16,7 @@
   const query=normalize($('p-search').value,false);filtered=rules.filter(r=>($('p-group').value==='all'||r.group===$('p-group').value)&&($('p-level').value==='all'||r.level===$('p-level').value)&&normalize(`${r.title} ${r.formula} ${r.explanation} ${r.note}`,false).includes(query));page=0;render();
  }
  function render(){
-  $('p-cards').replaceChildren();$('p-count').textContent=`${filtered.length} / ${rules.length} preposiciones · ${filtered.reduce((n,r)=>n+r.exercises.length,0)} ejercicios`;$('p-start').disabled=!filtered.length;
+  window.PrepositionCards?.reset('p-cards');$('p-cards').replaceChildren();$('p-count').textContent=`${filtered.length} / ${rules.length} preposiciones · ${filtered.reduce((n,r)=>n+r.exercises.length,0)} ejercicios`;$('p-start').disabled=!filtered.length;
   for(const r of filtered.slice(page*8,page*8+8)){
    const card=document.createElement('article');card.className='p-card';const meta=document.createElement('p');meta.className='word-meta';meta.textContent=`${r.group} · ${r.level}`;
    const title=document.createElement('h3');title.textContent=r.title;const formula=document.createElement('p');formula.className='p-formula';formula.lang='fr';formula.textContent=r.formula;
@@ -24,7 +24,7 @@
    const examples=document.createElement('div');examples.className='p-examples';for(const q of r.exercises){const fr=document.createElement('p');fr.lang='fr';fr.textContent=full(q);const es=document.createElement('p');es.className='hint';es.textContent=q.es;examples.append(fr,es);}
    const practice=document.createElement('button');practice.type='button';practice.className='small';practice.textContent='Practicar esta regla →';practice.setAttribute('aria-label',`Practicar: ${r.title}`);practice.addEventListener('click',()=>start(r.exercises));
    const progress=document.createElement('p');progress.className='hint';progress.textContent=scores[r.id].total?`${scores[r.id].correct} / ${scores[r.id].total} aciertos`:'Aún sin practicar';
-   const audio=document.createElement('button');audio.type='button';audio.className='small';audio.textContent='♫ Escuchar ejemplos';audio.addEventListener('click',()=>{if(!('speechSynthesis' in window)){alert('Este navegador no admite pronunciación.');return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(r.exercises.map(full).join(' '));u.lang='fr-FR';u.rate=.85;speechSynthesis.speak(u);});card.append(meta,title,formula,text,note,examples,audio,practice,progress);$('p-cards').append(card);
+   const audio=document.createElement('button');audio.type='button';audio.className='small';audio.textContent='♫ Escuchar ejemplos';audio.addEventListener('click',()=>{if(!('speechSynthesis' in window)){alert('Este navegador no admite pronunciación.');return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(r.exercises.map(full).join(' '));u.lang='fr-FR';u.rate=.85;speechSynthesis.speak(u);});card.append(meta,title,formula,text,note,examples,audio,practice,progress);$('p-cards').append(card);window.PrepositionCards?.add('p-cards',card,r.title,r.explanation,r.group+' · '+r.level);
   }
   if(!filtered.length){const p=document.createElement('p');p.className='empty';p.textContent='No hay preposiciones con estos filtros. Prueba otra búsqueda o limpia los filtros.';$('p-cards').append(p);}
   const pages=Math.max(1,Math.ceil(filtered.length/8));$('p-page').textContent=`Página ${page+1} de ${pages}`;$('p-prev-page').disabled=page===0;$('p-next-page').disabled=page>=pages-1;
